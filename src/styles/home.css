@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+p {
+  font-weight: bold;
+  color: #63ca18;
+}
+
+.no-decoration {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.video-container {
+  width: 49%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction : column;
+  align-items: center; 
+  gap: 20px;
+}
+
+.Home {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    background-color: #0A0C18;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.star-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.Logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 10vw;
+    z-index: 10;
+    opacity: 2;
+    transform: translate(-50%, -50%);
+  }
+
+  .Vector {
+    width: 120vw;
+    height: auto;
+    z-index: 1;
+    animation: VectorA 1.5s ease-out infinite;
+  }
+
+  .page-container {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .nav-index {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .button-nav {
+    width: 25vw;
+    min-height: 10vh;
+    border: 6px solid #b57917;
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0C18;
+  }
+
+  .button-nav:hover {
+    background-color: #6e161b;
+  }
+
+  .LogoPage {
+    height: 14vh;
+    width: auto;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #b57917;
+    font-size: 2.5em;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .social-media-button {
+    cursor: pointer;
+  }
+
+  .social-media-button:hover {
+    color: #af3036;
+    transform: scale(1.4);
+  }
+
+  .nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .gold-bar {
+    width: 130px;
+    height: 50px;
+    background-color: #fdfba5;
+    border: 5px solid #b57917;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0A0C18;
+    text-align: center;
+  }
+  
+  .gold-bar::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    border-radius: 5px;
+  }
+
+  .gold-bar:hover {
+    transform: scale(1.1);
+  }
+
+  .home-icon {
+    width: 100px;
+    height: auto;
+  }
+
+  .home-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fdfba5;
+    font-size: 1.2em;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+
+  .home-icon-container:hover {
+    background-color: #37448390;
+  }
+
+  .video {
+    width: inherit;
+    z-index: 999;
+    top: 0;
+    left: 0;
+  }
+
+  .content-home {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .content-page {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 1.4em;
+  }
+
+  .content-page-armadura {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 1.4em;
+  }
+
+  .content-index-justify {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+    font-size: 1.3em;
+  }
+
+  .content-text-index {
+    width: 30%;
+    text-align: center;
+  }
+
+  .content-text-index-solo {
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .content-text-index-solo:hover {
+    transform: scale(1.1);
+    color: #b57917;
+  }
+
+  .content-home h3 {
+    color: #b57917;
+  }
+
+  .h3-home {
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-index {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 10px solid #b57917;
+    box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+  }
+
+  .img-index:hover {
+    animation: vibrate 1s ease-in;
+  }
+
+  @keyframes vibrate {
+    0% {transform: rotate(3deg);}
+    5% {transform: rotate(-3deg);}
+    10% {transform: rotate(3deg);}
+    15% {transform: rotate(-3deg);}
+    20% {transform: rotate(3deg);}
+    25% {transform: rotate(-3deg);}
+    30% {transform: rotate(3deg);}
+    35% {transform: rotate(-3deg);}
+    40% {transform: rotate(3deg);}
+    45% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    55% {transform: rotate(-3deg);}
+    60% {transform: rotate(3deg);}
+    65% {transform: rotate(-3deg);}
+    70% {transform: rotate(3deg);}
+    75% {transform: rotate(-3deg);}
+    80% {transform: rotate(3deg);}
+    85% {transform: rotate(-3deg);}
+    90% {transform: rotate(3deg);}
+    95% {transform: rotate(-3deg);}
+    100% {transform: rotate(3deg);}
+}
+
+  .line {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .copyright {
+    width: 100vw;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+  }
+
+  .justify-index-x {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @keyframes VectorA {
+    0% {
+      width: 800vw;
+    }
+    50% {
+      width: 100vw;
+    }
+    100% {
+      width: 800vw;
+    }
+  }
