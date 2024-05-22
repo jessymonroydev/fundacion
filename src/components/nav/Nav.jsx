@@ -24,7 +24,7 @@ export default function Nav() {
               <div className='gold-bar'>Folletos</div>
               <div className='gold-bar'>Periódicos</div>
               <div className='gold-bar'>Concursos</div>
-              <div className='gold-bar'>Investiganos</div>
+              <Link to={'/investiganos'}><div className='gold-bar'>Investiganos</div></Link>
               <div className='gold-bar'>Unete</div>
             </div>
           </div>
