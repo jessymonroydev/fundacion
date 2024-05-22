@@ -68,13 +68,13 @@ export default function LaArmadura() {
                         La Biblia es clara sobre el asunto: Todo cristiano, aunque está revestido de humanidad, está peleando por una heredad espiritual, el REINO DE DIOS. El Apóstol San Pablo dice en los siguientes versículos:
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 10:3-5:</strong> “Las armas de nuestra milicia no son carnales (humanas) <strong style={{color: '#3b5998'}}>sino poderosas en Dios</strong> para la destrucción de fortalezas, derribando argumentos y toda altivez que se levanta contra el conocimiento de DIOS, y <strong style={{color: '#3b5998'}}>llevando todo pensamiento a la obediencia a Cristo</strong>”
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 10:3-5:</strong> “Las armas de nuestra milicia no son carnales (humanas) <strong style={{color: '#04acfc'}}>sino poderosas en Dios</strong> para la destrucción de fortalezas, derribando argumentos y toda altivez que se levanta contra el conocimiento de DIOS, y <strong style={{color: '#04acfc'}}>llevando todo pensamiento a la obediencia a Cristo</strong>”
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Corintios 2: 13:</strong> Hablamos de estas cosas <strong style={{color: '#3b5998'}}>con palabras que el Espíritu de Dios nos ha enseñado</strong>, y no con palabras que hayamos aprendido por nuestra propia sabiduría. Así explicamos las cosas espirituales con términos espirituales.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Corintios 2: 13:</strong> Hablamos de estas cosas <strong style={{color: '#04acfc'}}>con palabras que el Espíritu de Dios nos ha enseñado</strong>, y no con palabras que hayamos aprendido por nuestra propia sabiduría. Así explicamos las cosas espirituales con términos espirituales.
                     </div>
                     <div>
-                        Esto quiere decir que cualquier argumento fuera de la palabra de Dios no tiene valides en la <strong style={{color: '#3b5998'}}>lucha espiritual</strong>.  El creyente tiene que llevar continuamente cierta armadura provista por DIOS. 
+                        Esto quiere decir que cualquier argumento fuera de la palabra de Dios no tiene valides en la <strong style={{color: '#04acfc'}}>lucha espiritual</strong>.  El creyente tiene que llevar continuamente cierta armadura provista por DIOS. 
                     </div>
                     <div>
                         El diablo hará todo lo que este a su alcance para esconder estas verdades, del mundo pecador y del pueblo de Dios, porque él sabe que cuando el creyente viste la armadura de Dios, estará en la capacidad de vencerlo. Es por eso que se opondrá. Y procurara robarle la armadura. El creyente tendrá que luchar, porque el diablo atacara. En esta guerra algunos caerán a causa de las pruebas y dificultades. <strong style={{color: 'red'}}>Satanás</strong> buscará que se dé por vencido y diga: “<strong style={{color: 'red'}}>No podré vencer</strong>» y caiga derrotado
@@ -101,13 +101,13 @@ export default function LaArmadura() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong>  El espíritu impuro que regresa <strong style={{color: '#63ca18'}}>Mateo 12:43-45 43»</strong><strong style={{color: 'red'}}> Cuando un espíritu impuro sale de un hombre</strong>, anda por lugares secos buscando descanso; y si no lo encuentra, piensa: 44 “Regresaré a mi casa, de donde salí.” Cuando regresa, encuentra a ese hombre como una casa desocupada, barrida y arreglada. 45 <strong style={{color: 'red'}}>Entonces va y reúne otros siete espíritus peores que él, y todos juntos se meten a vivir en aquel hombre</strong>, que al final queda peor que al principio. Eso mismo le va a suceder a esta gente malvada.
                     </div>
                     <div>
-                        Para que no pase esto el creyente debe de mostrar <strong style={{color: 'red'}}>al dominio</strong> su posición en CRISTO; debe manifestarle audiblemente que ya fue libre, que su dueño es JESUCRISTO y que ya no tiene que ver con su vida. Naturalmente que, <strong style={{color: '#3b5998'}}>si no se ha sometido a DIOS</strong>, si no está obedeciendo y permaneciendo unido a CRISTO como dice en JUAN 15, <strong style={{color: 'red'}}>Satanás con más demonios</strong> tomará nuevamente su posición.
+                        Para que no pase esto el creyente debe de mostrar <strong style={{color: 'red'}}>al dominio</strong> su posición en CRISTO; debe manifestarle audiblemente que ya fue libre, que su dueño es JESUCRISTO y que ya no tiene que ver con su vida. Naturalmente que, <strong style={{color: '#04acfc'}}>si no se ha sometido a DIOS</strong>, si no está obedeciendo y permaneciendo unido a CRISTO como dice en JUAN 15, <strong style={{color: 'red'}}>Satanás con más demonios</strong> tomará nuevamente su posición.
                     </div>
                     <div>
                         Es por eso que centrará todas sus fuerzas contra el cristiano en su guerra sin tregua. Si el creyente resiste bien los ataques contra su espíritu, <strong style={{color: 'red'}}>los demonios seguirán atacando su mente</strong>, su cuerpo, la familia o las circunstancia. Lo mejor que debe de hacer el creyente que quiere ser liberado es prepararse, porque de seguro que le vendrán los ataques.  Por esta razón Pablo oró así en:
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 26: 18:</strong> Te mando a ellos para que les abras los ojos y no caminen más en la oscuridad, sino en la luz; <strong style={{color: 'red'}}>para que no sigan bajo el poder de Satanás</strong>, <strong style={{color: '#3b5998'}}>sino que sigan a Dios</strong>; y para que crean en mí y reciban así el perdón de los pecados <strong style={{color: '#3b5998'}}>y una herencia en el pueblo santo de Dios</strong>.”
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 26: 18:</strong> Te mando a ellos para que les abras los ojos y no caminen más en la oscuridad, sino en la luz; <strong style={{color: 'red'}}>para que no sigan bajo el poder de Satanás</strong>, <strong style={{color: '#04acfc'}}>sino que sigan a Dios</strong>; y para que crean en mí y reciban así el perdón de los pecados <strong style={{color: '#04acfc'}}>y una herencia en el pueblo santo de Dios</strong>.”
                     </div>
                     <div style={{margin:'auto', textAlign:'center', fontSize: '1.3em', fontWeight: 'bold', color:'#fbbf62'}}>
                         El combate espiritual del Cristiano
@@ -137,7 +137,7 @@ export default function LaArmadura() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Corintios 6: 9-10:</strong> ¿No saben ustedes que los que cometen injusticias no tendrán parte en el reino de Dios? <strong style={{color: 'red'}}>No se dejen engañar</strong>, pues en el reino de Dios no tendrán parte los que se <strong style={{color: 'red'}}>entregan a la prostitución</strong>, ni los idólatras, ni los que cometen <strong style={{color: 'red'}}>adulterio, ni los afeminados, ni los homosexuales</strong>, ni los que roban, ni los avaros, ni los borrachos, ni los maldicientes, ni los ladrones. (Nota robar = corrupción)
                     </div>
                     <div>
-                        <strong style={{color: 'red'}}>2º Las drogas y el alcohol</strong> llegan con el tiempo a ser posesión demoníaca.  El desespero y la depresión por no consumir, cambian el carácter y comportamiento.  Se experimenta delirio de persecución, muchos pierden el empleo y para conseguir dinero, terminan robando y matando,  al final terminan en las calles, en los hospitales mentales o en la cárcel. <strong style={{color: '#3b5998'}}>Les comparto el folleto de la prevención</strong> para que ayuden a los adictos a las drogas y alcohol.
+                        <strong style={{color: 'red'}}>2º Las drogas y el alcohol</strong> llegan con el tiempo a ser posesión demoníaca.  El desespero y la depresión por no consumir, cambian el carácter y comportamiento.  Se experimenta delirio de persecución, muchos pierden el empleo y para conseguir dinero, terminan robando y matando,  al final terminan en las calles, en los hospitales mentales o en la cárcel. <strong style={{color: '#04acfc'}}>Les comparto el folleto de la prevención</strong> para que ayuden a los adictos a las drogas y alcohol.
                     </div>
                     <div>
                         <strong style={{color: 'red'}}>3º La Corrupción y Mentira</strong>. Se vuelve una costumbre y, como casi nadie paga cárcel se ve como algo normal y por esa razón lo siguen haciendo.  Esto se manifiesta más con grandes contrataciones; como no tiene a Dios, entre todos planean cómo estafar o robar para que nadie pague cárcel, lo hacen sin temor.  Esto se convierte en adición al dinero y nada los hace felices pero, el sólo hecho de hacer trampa en una declaración de renta, o en el pago del IVA es pecado delante de Dios.
@@ -146,7 +146,7 @@ export default function LaArmadura() {
                         Los que practican el pecado continuamente son tentados para que cada día pequen más.  Comienzan los problema: pleitos, peleas, divisiones y  llegan a la depresión, el insomnio, las enfermedades.  Cada cuatro segundos se suicida una persona porque ya no resiste tanta depresión aún teniéndolo todo.  El 80 % de las enfermedades son causadas por <strong style={{color: 'red'}}>demonios de depresión y angustia</strong>.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Juan 3: 9:</strong> Ninguno que sea hijo de Dios practica el pecado, <strong style={{color: '#3b5998'}}>porque tiene en sí mismo el germen de la vida de Dios; y no puede seguir pecando</strong> porque es hijo de Dios. 10 Se sabe quiénes son hijos de Dios y <strong style={{color: 'red'}}>quiénes son hijos del diablo</strong>, porque cualquiera que no hace el bien o no ama a su hermano, no es de Dios
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Juan 3: 9:</strong> Ninguno que sea hijo de Dios practica el pecado, <strong style={{color: '#04acfc'}}>porque tiene en sí mismo el germen de la vida de Dios; y no puede seguir pecando</strong> porque es hijo de Dios. 10 Se sabe quiénes son hijos de Dios y <strong style={{color: 'red'}}>quiénes son hijos del diablo</strong>, porque cualquiera que no hace el bien o no ama a su hermano, no es de Dios
                     </div>
                     <div>
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Lucas 10: 19:</strong> Yo les he dado poder a ustedes para caminar sobre serpientes y alacranes, y <strong style={{color: 'red'}}>para vencer toda la fuerza del enemigo</strong>, sin sufrir ningún daño.
@@ -155,19 +155,19 @@ export default function LaArmadura() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Marcos 16: 17:</strong> Y estas señales acompañarán a los que creen: <strong style={{color: 'red'}}>en mi nombre expulsarán demonios</strong>; hablarán nuevas lenguas;
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 7: 7:</strong> Así pues, queridos hermanos, éstas son las promesas que tenemos. Por eso debemos mantenernos limpios de todo lo que pueda mancharnos, tanto en el cuerpo como en el espíritu; y en el temor de Dios procuremos <strong style={{color: '#3b5998'}}>alcanzar una completa santidad</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 7: 7:</strong> Así pues, queridos hermanos, éstas son las promesas que tenemos. Por eso debemos mantenernos limpios de todo lo que pueda mancharnos, tanto en el cuerpo como en el espíritu; y en el temor de Dios procuremos <strong style={{color: '#04acfc'}}>alcanzar una completa santidad</strong>.
                     </div>
                     <div style={{margin:'auto', textAlign:'center', fontSize: '1.3em', fontWeight: 'bold', color:'#fbbf62'}}>
                         Exhortación a la vigilancia
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hebreos 12: 14:</strong> Procuren estar en paz con todos y llevar una vida santa; <strong style={{color: '#3b5998'}}>pues sin la santidad, nadie podrá ver al Señor</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hebreos 12: 14:</strong> Procuren estar en paz con todos y llevar una vida santa; <strong style={{color: '#04acfc'}}>pues sin la santidad, nadie podrá ver al Señor</strong>.
                     </div>
                     <div>
                         TODOS LOS PASOS PARA LIBERACIÓN,  EXPULSAR DEMONIOS Y SANAR ENFERMEDADES.
                     </div>
                     <div>
-                        <strong style={{color: '#63ca18'}}>Lucas 9:1: </strong><strong style={{color: '#3b5998'}}>Jesús envía a los discípulos a anunciar el reino de Dios</strong>, 9 Jesús reunió a sus doce discípulos, <strong style={{color: '#3b5998'}}>y les dio poder y autoridad para expulsar</strong> <strong style={{color: 'red'}}>toda clase de demonios</strong> y para curar enfermedades.
+                        <strong style={{color: '#63ca18'}}>Lucas 9:1: </strong><strong style={{color: '#04acfc'}}>Jesús envía a los discípulos a anunciar el reino de Dios</strong>, 9 Jesús reunió a sus doce discípulos, <strong style={{color: '#04acfc'}}>y les dio poder y autoridad para expulsar</strong> <strong style={{color: 'red'}}>toda clase de demonios</strong> y para curar enfermedades.
                     </div>
                     <div>
                         <strong style={{color: '#63ca18'}}>Santiago 4:7:</strong> Sométanse, pues, a Dios. <strong style={{color: 'red'}}>Resistan al diablo</strong>, y éste huirá de ustedes.
@@ -176,10 +176,10 @@ export default function LaArmadura() {
                         Paso Nº 1. Quien hace la oración de liberación debe tener identidad, vivir en santidad y ser humilde.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 5: 17:</strong> Por lo tanto, <strong style={{color: '#3b5998'}}>el que está unido a Cristo</strong> es una nueva persona. Las cosas viejas pasaron; se convirtieron en algo nuevo. (esto solo se experimenta con el nuevo nacimiento, Debemos permanecer unidos al más poderoso que <strong style={{color: 'red'}}>satanás</strong>, el que lo venció en la cruz: <strong style={{color: '#3b5998'}}>JESUCRISTO</strong>) (la identidad nos da la Autoridad de Cristo)
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 2 Corintios 5: 17:</strong> Por lo tanto, <strong style={{color: '#04acfc'}}>el que está unido a Cristo</strong> es una nueva persona. Las cosas viejas pasaron; se convirtieron en algo nuevo. (esto solo se experimenta con el nuevo nacimiento, Debemos permanecer unidos al más poderoso que <strong style={{color: 'red'}}>satanás</strong>, el que lo venció en la cruz: <strong style={{color: '#04acfc'}}>JESUCRISTO</strong>) (la identidad nos da la Autoridad de Cristo)
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Juan 4: 4:</strong> Hijitos, <strong style={{color: '#3b5998'}}>ustedes son de Dios</strong> y han vencido a esos mentirosos, porque el que está en ustedes es más poderoso <strong style={{color: 'red'}}>que el que está en el mundo</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> 1 Juan 4: 4:</strong> Hijitos, <strong style={{color: '#04acfc'}}>ustedes son de Dios</strong> y han vencido a esos mentirosos, porque el que está en ustedes es más poderoso <strong style={{color: 'red'}}>que el que está en el mundo</strong>.
                     </div>
                     <div>
                         La santidad nos da unción, autoridad y respaldo para que los demonios sean atados y echados fuera en El Nombre de JESUS.
@@ -191,7 +191,7 @@ export default function LaArmadura() {
                         A la posesión demoniaca se le debe tratar de acuerdo a su nombre.  Si es lujuria, echar el espíritu de lujuria, si es odio, se dice fuera espíritu de odio en El Nombre de Jesús.  Cuando una persona quiere ser liberada tiene que escoger o dignidad o liberación y si su dignidad es más importante es porque el problema es el orgullo, si una persona se está ahogando en rio tiene que gritar para que la salven, si no grita se ahoga; lo mismo puede pasar en el momento de echarle fuera los demonios, si no se los sacan se condena.
                     </div>
                     <div>
-                        Paso Nº 3.  El «liberado» debe confesar su fe en JESUCRISTO y hacer la oración de fe para que su Espíritu Santo tome control de su vida. (Estudiar <strong style={{color: '#3b5998'}}>Cómo Nacer de Nuevo</strong> y hacer la oración de fe).
+                        Paso Nº 3.  El «liberado» debe confesar su fe en JESUCRISTO y hacer la oración de fe para que su Espíritu Santo tome control de su vida. (Estudiar <strong style={{color: '#04acfc'}}>Cómo Nacer de Nuevo</strong> y hacer la oración de fe).
                     </div>
                     <div>
                         Paso Nº 4.  El «liberado» debe confesar audiblemente todo pecado que haya cometido y los que hayan cometido los Padres y Abuelos pidiendo perdón por ellos.
@@ -215,7 +215,7 @@ export default function LaArmadura() {
                         MODELO PARA EJERCER DOMINIO ESPIRITUAL DE PARTE DEL CRISTIANO SOBRE SATANAS Y SUS DEMONIOS
                     </div>
                     <div>
-                        Modelo Nº 1.  Oración y ayuno.  Con  los versículos a continuación JESUS nos enseñó que cuando oró y ayunó 40 días en el desierto quedó con el poder como hijo del hombre (o sea igual a nosotros), para sanar enfermos, <strong style={{color: 'red'}}>vencer y sacar demonios</strong>. (Dios Habla Hoy- Juan 14:12: Les aseguro que <strong style={{color: '#3b5998'}}>el que cree en mí hará también las obras que yo hago; y hará otras todavía más grandes, porque yo voy a donde está el Padre</strong>.)
+                        Modelo Nº 1.  Oración y ayuno.  Con  los versículos a continuación JESUS nos enseñó que cuando oró y ayunó 40 días en el desierto quedó con el poder como hijo del hombre (o sea igual a nosotros), para sanar enfermos, <strong style={{color: 'red'}}>vencer y sacar demonios</strong>. (Dios Habla Hoy- Juan 14:12: Les aseguro que <strong style={{color: '#04acfc'}}>el que cree en mí hará también las obras que yo hago; y hará otras todavía más grandes, porque yo voy a donde está el Padre</strong>.)
                     </div>
                     <div>
                         Yo solo ayunaba 3 veces por semana hasta las 3 pm y fui libre de muchos demonios.  Tuve experiencias de sanidad y le doy la gloria y honra a Dios. 
@@ -227,40 +227,40 @@ export default function LaArmadura() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Mateo 4</strong> Luego el Espíritu llevó a Jesús al desierto, para que <strong style={{color: 'red'}}>el diablo</strong> lo pusiera a prueba.
                     </div>
                     <div>
-                        <strong style={{color: '#3b5998'}}>2 Estuvo cuarenta días y cuarenta noches sin comer</strong>, y después sintió hambre. 3 <strong style={{color: 'red'}}>El diablo se acercó</strong> entonces a Jesús para ponerlo a prueba, y le dijo: —Si de veras eres Hijo de Dios, ordena que estas piedras se conviertan en panes.
+                        <strong style={{color: '#04acfc'}}>2 Estuvo cuarenta días y cuarenta noches sin comer</strong>, y después sintió hambre. 3 <strong style={{color: 'red'}}>El diablo se acercó</strong> entonces a Jesús para ponerlo a prueba, y le dijo: —Si de veras eres Hijo de Dios, ordena que estas piedras se conviertan en panes.
                     </div>
                     <div>
                         4 Pero Jesús le contestó:
                     </div>
                     <div>
-                        —La Escritura dice: “No sólo de pan vivirá el hombre, sino también de toda palabra <strong style={{color: '#3b5998'}}>que salga de los labios de Dios</strong>.” ( Nota de la Biblia que debemos memorizar )
+                        —La Escritura dice: “No sólo de pan vivirá el hombre, sino también de toda palabra <strong style={{color: '#04acfc'}}>que salga de los labios de Dios</strong>.” ( Nota de la Biblia que debemos memorizar )
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 13: 2:</strong> Mientras ministraban al Señor y ayunaban, <strong style={{color: '#3b5998'}}>el Espíritu Santo dijo</strong>: Apartadme a Bernabé y a Saulo para la obra a la que los he llamado.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 13: 2:</strong> Mientras ministraban al Señor y ayunaban, <strong style={{color: '#04acfc'}}>el Espíritu Santo dijo</strong>: Apartadme a Bernabé y a Saulo para la obra a la que los he llamado.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Marcos 9: 29:</strong> Y Jesús les contestó: —<strong style={{color: 'red'}}>A esta clase de demonios</strong> solamente se la puede <strong style={{color: '#3b5998'}}>expulsar por medio de la oración y ayuno</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Marcos 9: 29:</strong> Y Jesús les contestó: —<strong style={{color: 'red'}}>A esta clase de demonios</strong> solamente se la puede <strong style={{color: '#04acfc'}}>expulsar por medio de la oración y ayuno</strong>.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Salmos 35: 13:</strong> pues cuando ellos se enfermaban yo me afligía por ellos, me ponía ropas ásperas y <strong style={{color: '#3b5998'}}>ayunaba</strong>, y en mi interior no dejaba de orar.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Salmos 35: 13:</strong> pues cuando ellos se enfermaban yo me afligía por ellos, me ponía ropas ásperas y <strong style={{color: '#04acfc'}}>ayunaba</strong>, y en mi interior no dejaba de orar.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Daniel 9: 3:</strong> Y dirigí mis oraciones y súplicas a Dios el Señor, <strong style={{color: '#3b5998'}}>ayunando</strong> y vistiéndome con ropas ásperas, y sentándome en ceniza.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Daniel 9: 3:</strong> Y dirigí mis oraciones y súplicas a Dios el Señor, <strong style={{color: '#04acfc'}}>ayunando</strong> y vistiéndome con ropas ásperas, y sentándome en ceniza.
                     </div>
                     <div>
                         Modelo Nº 2. <strong style={{color: 'red'}}>Espíritu inmundo</strong> te ordeno en el nombre de JESUCRISTO que salgas
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 16: 18:</strong> Esto hizo durante muchos días, hasta que Pablo, ya molesto, terminó por volverse y decirle al espíritu que la poseía: —<strong style={{color: '#3b5998'}}>En el nombre de Jesucristo, te ordeno que salgas de ella</strong>. En aquel mismo momento <strong style={{color: 'red'}}>el espíritu la dejó</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Hechos 16: 18:</strong> Esto hizo durante muchos días, hasta que Pablo, ya molesto, terminó por volverse y decirle al espíritu que la poseía: —<strong style={{color: '#04acfc'}}>En el nombre de Jesucristo, te ordeno que salgas de ella</strong>. En aquel mismo momento <strong style={{color: 'red'}}>el espíritu la dejó</strong>.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Marcos 9: 25:</strong> Al ver Jesús que se estaba reuniendo mucha gente, <strong style={{color: 'red'}}>reprendió al espíritu impuro</strong>, diciendo: —<strong style={{color: '#3b5998'}}>Espíritu mudo y sordo, yo te ordeno que salgas de este muchacho y que no vuelvas a entrar en él</strong>.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Marcos 9: 25:</strong> Al ver Jesús que se estaba reuniendo mucha gente, <strong style={{color: 'red'}}>reprendió al espíritu impuro</strong>, diciendo: —<strong style={{color: '#04acfc'}}>Espíritu mudo y sordo, yo te ordeno que salgas de este muchacho y que no vuelvas a entrar en él</strong>.
                     </div>
                     <div>
-                        Modelo Nº 3. Espíritu inmundo te ordenamos que salgas de esta persona, porque <strong style={{color: '#3b5998'}}>la sangre de CRISTO lo limpia</strong> en este momento de toda drogadicción y pecado, en el nombre de JESUCRISTO sal fuera (Nota cuando termine la oración la persona debe de toser o soplar para ser liberada)
+                        Modelo Nº 3. Espíritu inmundo te ordenamos que salgas de esta persona, porque <strong style={{color: '#04acfc'}}>la sangre de CRISTO lo limpia</strong> en este momento de toda drogadicción y pecado, en el nombre de JESUCRISTO sal fuera (Nota cuando termine la oración la persona debe de toser o soplar para ser liberada)
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Apocalipsis 12: 1:</strong> Nuestros hermanos <strong style={{color: '#3b5998'}}>lo han vencido con la sangre derramada del Cordero</strong> y con el mensaje que ellos proclamaron; no tuvieron miedo de perder la vida, sino que estuvieron dispuestos a morir.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Apocalipsis 12: 1:</strong> Nuestros hermanos <strong style={{color: '#04acfc'}}>lo han vencido con la sangre derramada del Cordero</strong> y con el mensaje que ellos proclamaron; no tuvieron miedo de perder la vida, sino que estuvieron dispuestos a morir.
                     </div>
                     <div>
                         En el nombre de JESUCRISTO, en este nuevo día tomo autoridad sobre todo reino de tinieblas. Tomo autoridad específica y personalmente sobre satanás, sobre todos los príncipes de demonios que le acompañan en su reino, sobre todos los hombres fuertes y gobernadores demoniacos, sobre todas las potestades y capitanes y demás demonios en general, los ato en el Nombre de JESUCRISTO, impidiéndoles hacerme daño a mí, a mi familia, a mi salud, a mis finanzas y … (añada los problemas que se apliquen a usted o por el que este orando). 
@@ -272,10 +272,10 @@ export default function LaArmadura() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy </strong><strong style={{color: '#63ca18'}}>Juan 17: 15:</strong> No te pido que los saques del mundo, <strong style={{color: 'red'}}>sino que los protejas del mal</strong>.
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios nos libró de la muerte por medio de Cristo. Dios Habla Hoy</strong> <strong style={{color: '#63ca18'}}>Efesios 2:</strong> Antes ustedes estaban muertos a causa de las maldades y pecados 2 en que vivían, pues seguían los criterios de este mundo <strong style={{color: 'red'}}>y hacían la voluntad de aquel espíritu que domina en el aire y que anima a los que desobedecen a Dios</strong>. 3 De esa manera vivíamos también todos nosotros en otro tiempo, siguiendo nuestros malos deseos y cumpliendo los caprichos de nuestra naturaleza pecadora y de nuestros pensamientos. A causa de eso, <strong style={{color: 'red'}}>merecíamos con toda razón el terrible castigo</strong> de Dios, igual que los demás. 4 Pero Dios es tan misericordioso y nos amó con un amor tan grande, 5 <strong style={{color: '#3b5998'}}>que nos dio vida juntamente con Cristo</strong><strong style={{color: 'red'}}> cuando todavía estábamos muertos a causa de nuestros pecados</strong>. Por la bondad de Dios han recibido ustedes la salvación. 6 Y en unión con Cristo Jesús nos resucitó, <strong style={{color: '#3b5998'}}>y nos hizo sentar con él en el cielo</strong>. 7 Hizo esto para demostrar en los tiempos futuros su generosidad y su bondad para con nosotros en Cristo Jesús. 
+                        <strong style={{color: '#fbbf62'}}>Dios nos libró de la muerte por medio de Cristo. Dios Habla Hoy</strong> <strong style={{color: '#63ca18'}}>Efesios 2:</strong> Antes ustedes estaban muertos a causa de las maldades y pecados 2 en que vivían, pues seguían los criterios de este mundo <strong style={{color: 'red'}}>y hacían la voluntad de aquel espíritu que domina en el aire y que anima a los que desobedecen a Dios</strong>. 3 De esa manera vivíamos también todos nosotros en otro tiempo, siguiendo nuestros malos deseos y cumpliendo los caprichos de nuestra naturaleza pecadora y de nuestros pensamientos. A causa de eso, <strong style={{color: 'red'}}>merecíamos con toda razón el terrible castigo</strong> de Dios, igual que los demás. 4 Pero Dios es tan misericordioso y nos amó con un amor tan grande, 5 <strong style={{color: '#04acfc'}}>que nos dio vida juntamente con Cristo</strong><strong style={{color: 'red'}}> cuando todavía estábamos muertos a causa de nuestros pecados</strong>. Por la bondad de Dios han recibido ustedes la salvación. 6 Y en unión con Cristo Jesús nos resucitó, <strong style={{color: '#04acfc'}}>y nos hizo sentar con él en el cielo</strong>. 7 Hizo esto para demostrar en los tiempos futuros su generosidad y su bondad para con nosotros en Cristo Jesús. 
                     </div>
                     <div>
-                        Aprende más con en el folleto alojado en esta página “<strong style={{color: '#3b5998'}}>La Armadura de DIOS</strong>”
+                        Aprende más con en el folleto alojado en esta página “<strong style={{color: '#04acfc'}}>La Armadura de DIOS</strong>”
                     </div>
                     <div>
                         Lo puedes imprimir para venderlo o regalarlo y así harás:
@@ -284,10 +284,10 @@ export default function LaArmadura() {
                         Riquezas en el cielo  
                     </div>
                     <div>
-                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Mateo 6: 19:</strong> no amontonen riquezas aquí en la tierra, <strong style={{color: 'red'}}>donde la polilla destruye y las cosas se echan a perder, y donde los ladrones entran a robar</strong>. 20 Más bien amontonen <strong style={{color: '#3b5998'}}>riquezas en el cielo</strong>, donde la polilla no destruye ni las cosas se echan a perder ni los ladrones entran a robar. 21 Pues donde esté tu riqueza, allí estará también tu corazón por la eternidad.
+                        <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong><strong style={{color: '#63ca18'}}> Mateo 6: 19:</strong> no amontonen riquezas aquí en la tierra, <strong style={{color: 'red'}}>donde la polilla destruye y las cosas se echan a perder, y donde los ladrones entran a robar</strong>. 20 Más bien amontonen <strong style={{color: '#04acfc'}}>riquezas en el cielo</strong>, donde la polilla no destruye ni las cosas se echan a perder ni los ladrones entran a robar. 21 Pues donde esté tu riqueza, allí estará también tu corazón por la eternidad.
                     </div>
                     <div>
-                        Les deseo muchas bendiciones; una de mis canciones la compuse porque DIOS me libró de la muerte varias veces siendo un vil pecador, la titulé: “<strong style={{color: '#3b5998'}}>Vive para siempre</strong>” están en mi canal en YOUTUBE como “Cesar Méndez El Bautista”
+                        Les deseo muchas bendiciones; una de mis canciones la compuse porque DIOS me libró de la muerte varias veces siendo un vil pecador, la titulé: “<strong style={{color: '#04acfc'}}>Vive para siempre</strong>” están en mi canal en YOUTUBE como “Cesar Méndez El Bautista”
                     </div>
                     <div>
                         También están alojadas en esta página en concurso  Recuerda anotar en tu Celular fundacionvolveranacer.org y volveranacerradio.com para que los compartas por whatsapp.

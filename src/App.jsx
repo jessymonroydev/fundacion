@@ -21,6 +21,7 @@ import VideosNacerDeNuevo from './page/VideosNacerDeNuevo'
 import VideosReinoDeLosCielos from './page/VideosReinoDeLosCielos'
 import VideosSatanasEsReal from './page/VideosSatanasEsReal'
 import VideosLaArmadura from './page/VideosLaArmadura'
+import Investiganos from './page/Investiganos'
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
         <Route path='/videos-satanas-es-real' element={<VideosSatanasEsReal />} />
         <Route path='/el-infierno' element={<ElInfierno />} />
         <Route path='/videos-el-infierno' element={<VideosElInfierno />} />
+        <Route path='/investiganos' element={<Investiganos />} />
       </Routes>
     </BrowserRouter>
   )
