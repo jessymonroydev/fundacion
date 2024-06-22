@@ -1,0 +1,80 @@
+a {
+    color: inherit;
+}
+    .nav-index {
+        width: 100vw;
+        margin: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: gold;
+        font-size: 1.6em;
+    }
+    
+    .social-media-button {
+        cursor: pointer;
+    }
+    
+    .social-media-button:hover {
+        color: #af3036;
+        transform: scale(1.4);
+    }
+    
+    .burguer {
+        width: 35px;
+        height: 35px;
+    }
+    
+    
+    .LogoPage {
+        height: 5vh;
+        width: auto;
+        cursor: pointer;
+        margin: 20px;
+    }
+
+    .primal-nav {
+        position: fixed;
+        width: 100vw;
+        background-color: #0A0C18;
+        z-index: 9999;
+    }
+
+    .menu-button-primal {
+        position: relative;
+        width: 80%;
+        border: 1px solid gold;
+        border-radius: 30px;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .menu-button-primal:hover {
+        background-color: gold;
+        color: #0A0C18;
+    }
+
+    .menu-button-conocenos {
+        width: 70%;
+        background-color: #181d3a;
+        padding: 7px;
+        border-radius: 30px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .menu-button-conocenos:hover {
+        background-color: white;
+        color: #0A0C18;
+    }

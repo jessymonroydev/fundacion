@@ -1,0 +1,43 @@
+.switch {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-switch {
+    width: 130px;
+    height: 50px;
+    background-color: #fdfba5;
+    border: 5px solid #b57917;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0A0C18;
+    text-align: center;
+}
+
+.button-switch.elegido {
+    transform: scale(1.1);
+    background-color: #b57917;
+    color: white;
+}
+  
+.button-switch::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    border-radius: 5px;
+}
+
+.button-switch:hover {
+    transform: scale(1.05);
+}

@@ -17,7 +17,10 @@ export default function Footer() {
           </div>
           <div className='width-footer'>
             <h3>Contáctenos</h3>
-            <div>Carrera 79 Nº 49A – 105 INT 301 – Tel: 585 8500 Cel: 301 4117699.  Medellín – Colombia</div>
+            <div>Carrera 79 Nº 49A – 105 INT 301  </div>
+            <div>Tel: 585 8500</div>
+            <div> Cel: 301 4117699</div>
+            <div>Medellín – Colombia</div>
           </div>
           </div>
           <div className='copyright'>© Copyright 2021 Todos los derechos reservados</div>

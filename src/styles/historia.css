@@ -1,0 +1,65 @@
+.armadura-table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid gold;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.armadura-table tr{
+    border: 1px solid gold;
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.armadura-table td{
+    display: flex;
+    align-items: left;
+}
+
+.armadura-row {
+    border: 1px solid gold;
+}
+
+.img-2023 {
+    width: 20vw !important;
+    height: auto;
+    margin-top: 1vw;
+    margin-right: 1vw;
+}
+
+.his-año-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.img-2007 {
+    width: 17vw;
+    height: auto;
+    margin-top: 2vw;
+}
+
+.img-20071 {
+    width: 100%;
+}
+
+
+@media (min-width:1200) {
+
+}
+
+@media (max-width:1199) {
+    
+}
+
+@media (max-width:800) {
+    
+}
+
+@media (max-width:600 ) {
+    
+}

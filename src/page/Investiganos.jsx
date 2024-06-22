@@ -10,8 +10,8 @@ export default function Investiganos() {
     return(
         <div className="Home">
             <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <PrimalNav />
+            <div className="page-container">                
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
@@ -48,6 +48,36 @@ export default function Investiganos() {
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="10o-CERTIFICADO-INGRESOS-CARGOS-ESAL-2023.pdf" target="_blank" rel="noopener noreferrer">
                             CERTIFICADO INGRESOS CARGOS ESAL 2023
                         </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="1° PERSONERIA JURIDICA ICBF.pdf" target="_blank" rel="noopener noreferrer">
+                            1° PERSONERIA JURIDICA ICBF 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="2° ESAL 2024.pdf" target="_blank" rel="noopener noreferrer">
+                            2° ESAL 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="3  ACTA 2024.pdf" target="_blank" rel="noopener noreferrer">
+                            3° ACTA 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="4 BALANCE.pdf" target="_blank" rel="noopener noreferrer">
+                            4° BALANCE 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="5 CERTIFICACION DE  RENTA.pdf" target="_blank" rel="noopener noreferrer">
+                            5° CERTIFICACION DE RENTA 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="6 CERTIFICADOS PENALES.pdf" target="_blank" rel="noopener noreferrer">
+                            6° CERTIFICADOS PENALES 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="7° ESTADO DE RESULTADOS.pdf" target="_blank" rel="noopener noreferrer">
+                            7° ESTADO DE RESULTADOS 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="8° informe de jestion.pdf" target="_blank" rel="noopener noreferrer">
+                            8° informe de gestion 2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="9° DECLARACION RENTA FUNDACION 2023 PRESENTADA (1).pdf" target="_blank" rel="noopener noreferrer">
+                            9° DECLARACION RENTA FUNDACION 2023 PRESENTADA  2024
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="10  CARGOS.pdf" target="_blank" rel="noopener noreferrer">
+                            10° CARGOS 2024
+                        </a>                         
                     </div>                                                                    
                 </div>
                 <Footer />

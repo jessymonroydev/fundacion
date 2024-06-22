@@ -22,6 +22,18 @@ import VideosReinoDeLosCielos from './page/VideosReinoDeLosCielos'
 import VideosSatanasEsReal from './page/VideosSatanasEsReal'
 import VideosLaArmadura from './page/VideosLaArmadura'
 import Investiganos from './page/Investiganos'
+import Historia from './page/subPage/Historia'
+import Proyectos from './page/subPage/Proyectos'
+import Contenido from './page/subPage/Contenido'
+import EscuelaDePadres from './page/subPage/EscuelaDePadres'
+import MadresTriunfadoras from './page/subPage/MadresTriunfadoras'
+import Enfoque from './page/subPage/Enfoque'
+import ComoEducar from './page/subPage/ComoEducar'
+import Folletos from './page/subPage/Folletos'
+import Periodicos from './page/subPage/Periodicos'
+import Concursos from './page/subPage/Concursos'
+import Unete from './page/subPage/Unete'
+
 
 export default function App() {
   return (
@@ -49,6 +61,17 @@ export default function App() {
         <Route path='/el-infierno' element={<ElInfierno />} />
         <Route path='/videos-el-infierno' element={<VideosElInfierno />} />
         <Route path='/investiganos' element={<Investiganos />} />
+        <Route path='/historia' element={<Historia />} />
+        <Route path='/proyectos' element={<Proyectos />} />
+        <Route path='/contenido' element={<Contenido />} />
+        <Route path='/escuela-para-padres' element={<EscuelaDePadres />} />
+        <Route path='/madres-triunfadoras' element={<MadresTriunfadoras />} />
+        <Route path='/enfoque' element={<Enfoque />} />
+        <Route path='/como-educar' element={<ComoEducar />} />
+        <Route path='/folletos' element={<Folletos />} />
+        <Route path='/periodicos' element={<Periodicos />} />
+        <Route path='/consursos' element={<Concursos />} />
+        <Route path='/unete' element={<Unete />} />
       </Routes>
     </BrowserRouter>
   )

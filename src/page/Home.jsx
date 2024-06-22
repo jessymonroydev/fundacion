@@ -17,19 +17,18 @@ import Nav from '../components/nav/Nav.jsx';
 import Star from '../subcomponent/Star.jsx';
 import PrimalNav from '../components/primalNav/PrimalNav.jsx';
 import Footer from '../components/footer/Footer.jsx';
+import Carrousel from '../components/carrousel/Carrousel.jsx';
 
 export default function Home() {
-
-
   return (
     <div className='Home'>
       <Star />
+      <PrimalNav />
       <div className='page-container'>
-        <PrimalNav />
-        <div className='nav-buttons'>
-          <div className='button-nav'>Reino de los cielos</div>
-          <div className='button-nav'>La creacion</div>
-          <div className='button-nav'>El castigo</div>
+        <div className='nav-buttons'>          
+          <div className='button-nav'><Carrousel carrousel={'reino'}/></div>
+          <div className='button-nav'><Carrousel carrousel={'creacion'}/></div>
+          <div className='button-nav'><Carrousel carrousel={'castigo'}/></div>
         </div>
         <div className='nav-buttons'>
           <div className='button-nav'>
