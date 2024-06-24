@@ -32,7 +32,10 @@ export default function Investiganos() {
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} href="5o-CERTIFICACION-RENTA-2022.pdf" target="_blank" rel="noopener noreferrer">
                             Certificación de Renta 2022
-                        </a> 
+                        </a>                                                                     
+                    </div>
+                    <div style={{margin: 'auto'}} >2023</div>
+                    <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} href="6o-CERTIFICADO-PENALES-ESAL-2023.pdf" target="_blank" rel="noopener noreferrer">
                             CERTIFICADOS PENALES-ESAL 2023
                         </a> 
@@ -48,10 +51,13 @@ export default function Investiganos() {
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="10o-CERTIFICADO-INGRESOS-CARGOS-ESAL-2023.pdf" target="_blank" rel="noopener noreferrer">
                             CERTIFICADO INGRESOS CARGOS ESAL 2023
                         </a> 
+                    </div>
+                    <div style={{margin: 'auto'}} >2024</div>
+                    <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="1° PERSONERIA JURIDICA ICBF.pdf" target="_blank" rel="noopener noreferrer">
                             1° PERSONERIA JURIDICA ICBF 2024
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="2° ESAL 2024.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="PRESENTACION DE LA ESAL 2024.pdf" target="_blank" rel="noopener noreferrer">
                             2° ESAL 2024
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="3  ACTA 2024.pdf" target="_blank" rel="noopener noreferrer">
@@ -77,7 +83,7 @@ export default function Investiganos() {
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="10  CARGOS.pdf" target="_blank" rel="noopener noreferrer">
                             10° CARGOS 2024
-                        </a>                         
+                        </a> 
                     </div>                                                                    
                 </div>
                 <Footer />
