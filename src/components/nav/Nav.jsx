@@ -154,12 +154,11 @@ const proyectos = (
         Jóvenes constructores de paz y amor - de 4° a 11° grado<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>          
       {subMenuVisibleTres && (
         <div className="desplegable-2" ref={subMenuRefTres}>
-          <Link className="button-navN"  to={'/folleto-una-ninez-con-el-proposito-de-dios'}>Folleto: una Niñez con el Propósito de Dios</Link><br />
-          <Link className="button-navN"  to={'/folleto-como-ayudar-a-sus-hijos'}>Folleto: Cómo Ayudar a tus Hijos</Link><br />
-          <Link className="button-navN"  to={'/videos-una-ninez-con-el-proposito-de-dios'}>Videos: una Niñez con el Propósito de Dios</Link><br />
-          <Link className="button-navN"  to={'/videos-de-pablito-el-pequeno-misionero'}>Videos: Pablito el Pequeño Misionero</Link><br />
-          <Link className="button-navN"  to={'/videos-el-superlibro'}>Videos: Super Libro</Link><br />
-          <Link className="button-navN"  to={'/videos-versiculos-para-memorizar'}>Videos: Versículos para Memorizar</Link>  
+          <Link className="button-navN"  to={'/aprende-sobre-jesus'}>Aprende sobre Jesús</Link><br />
+          <Link className="button-navN"  to={'/folleto-la-prevencion'}>Folleto: La Prevención</Link><br />
+          <Link className="button-navN"  to={'/folleto-la-armadura-de-dios'}>Folleto: La Armadura de Dios</Link><br />
+          <Link className="button-navN"  to={'/folleto-libretos'}>Folleto: Libretos (para pagar alfabetización)</Link><br />
+          <Link className="button-navN"  to={'/folleto-jesucristo'}>Folleto: Jesucristo</Link><br />          
           <div
             onMouseEnter={toggleSubMenuCuatro}
             className="sub-menu-container"

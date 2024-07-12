@@ -4,6 +4,7 @@ import Star from "../subcomponent/Star";
 import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
+import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 
 export default function LaArmadura() {
     return(
@@ -12,10 +13,12 @@ export default function LaArmadura() {
             <div className="page-container">    
                 <PrimalNav />            
                 <Nav />
-                <div style={{display:'flex', margin: 'auto', justifyContent: 'center', flexWrap: 'wrap', gap: '20px'}}>
-                    <iframe className="button-nav" width="200" height="220" src="https://www.youtube.com/embed/v09wFK269hE?si=R3MvphZGjXNv0N-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe className="button-nav" width="200" height="220" src="https://www.youtube.com/embed/uSIYtNIAjKI?si=CeOG0UEcpn1PQSqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe className="button-nav" width="200" height="220" src="https://www.youtube.com/embed/6AtfXkODi7U?si=aZ4xCj4b3RRq2Eig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div className="video-contenedor-articulos">
+                    <VideoSyntax url={'https://www.youtube.com/embed/v09wFK269hE?si=R3MvphZGjXNv0N-m'} />
+                    <VideoSyntax url={'https://www.youtube.com/embed/uSIYtNIAjKI?si=CeOG0UEcpn1PQSqH'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/6AtfXkODi7U?si=aZ4xCj4b3RRq2Eig'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/RK55zFKMH8k?si=h8WxnMCxpA1KBNK8'}/>
+                </div>
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
                         <LetrasGlobo texto={`LA ARMADURA DE DIOS`}/>
