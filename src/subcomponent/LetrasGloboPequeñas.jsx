@@ -37,7 +37,7 @@ export default function LetrasGloboPequeñas(props) {
 
   const reemplazarConImagenes = (texto) => {
     return (
-      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center',gap: '3px' }}>
+      <div style={{ display: 'inline-flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center',gap: '3px' }}>
         {texto.split(/\b/).map((palabra, index) => {
           if (/[\w\S]/.test(palabra)) {
             return agruparLetras(palabra, index);

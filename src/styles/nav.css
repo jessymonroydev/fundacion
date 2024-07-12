@@ -78,6 +78,7 @@
   }
 
   */
+
   @media (min-width: 1200px) {
     .nav {
         width: 100vw;
@@ -129,10 +130,7 @@
         background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
         border-radius: 5px;
       }
-    
-      .gold-bar:hover {
-        transform: scale(1.1);
-      }
+
     
       .home-icon {
         width: 10vw;
@@ -155,6 +153,70 @@
     
       .home-icon-container:hover {
         background-color: #37448390;
+      }
+
+      .desplegable {
+        position: absolute;
+        top: 140%;
+        left: 0;
+        background-color: #0A0C18;
+        color: white;
+        padding: 15px;
+        z-index: 12;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: max-content;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 217, 0, 0.233);;
+      }
+    
+      .desplegable-2 {
+        border: 2px solid rgba(255, 217, 0, 0.233);;
+        background-color: #0A0C18;
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        gap: -5vh;
+        position: absolute;
+        left: calc(100% + 15px);
+        top: 0;
+        border-radius: 20px;
+        padding: 15px;
+      }
+    
+      .block {
+        width: auto;
+      }
+    
+      .button-navN {
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding: 5px;
+        color: gold;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+      }
+    
+      .button-navN:hover {
+        background-color: gold;
+        color: #0A0C18;
+      }
+    
+      .sub-menu-container {
+        position: relative;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: flex;
+        align-items: center;
+        color: gold;
+        padding-right: 20px;
+        text-align: center;
+      }
+    
+      .sub-menu-container:hover {
+        background-color: rgba(255, 255, 255, 0.103);
       }
   }
 
@@ -235,6 +297,70 @@
     
       .home-icon-container:hover {
         background-color: #37448390;
+      }
+
+      .desplegable {
+        position: absolute;
+        top: 140%;
+        left: 0;
+        background-color: #0A0C18;
+        color: white;
+        padding: 15px;
+        z-index: 12;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: max-content;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 217, 0, 0.233);;
+      }
+    
+      .desplegable-2 {
+        border: 2px solid rgba(255, 217, 0, 0.233);;
+        background-color: #0A0C18;
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        gap: -5vh;
+        position: absolute;
+        left: calc(100% + 15px);
+        top: 0;
+        border-radius: 20px;
+        padding: 15px;
+      }
+    
+      .block {
+        width: auto;
+      }
+    
+      .button-navN {
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding: 5px;
+        color: gold;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+      }
+    
+      .button-navN:hover {
+        background-color: gold;
+        color: #0A0C18;
+      }
+    
+      .sub-menu-container {
+        position: relative;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: flex;
+        align-items: center;
+        color: gold;
+        padding-right: 20px;
+        text-align: center;
+      }
+    
+      .sub-menu-container:hover {
+        background-color: rgba(255, 255, 255, 0.103);
       }
   }
 
@@ -396,4 +522,64 @@
       .home-icon-container:hover {
         background-color: #37448390;
       }
+
+      .desplegable {
+        position: absolute;
+        top: 140%;
+        left: 0;
+        background-color: #0A0C18;
+        color: white;
+        padding: 15px;
+        z-index: 12;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: max-content;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 217, 0, 0.233);;
+      }
+    
+      .desplegable-2 {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        gap: -5vh;
+        left: calc(100% + 15px);
+      }
+    
+      .block {
+        width: auto;
+      }
+    
+      .button-navN {
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding: 5px;
+        color: gold;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+      }
+    
+      .button-navN:hover {
+        background-color: gold;
+        color: #0A0C18;
+      }
+    
+      .sub-menu-container {
+        position: relative;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: flex;
+        align-items: center;
+        color: gold;
+        padding-right: 20px;
+        text-align: center;
+      }
+    
+      .sub-menu-container:hover {
+        background-color: rgba(255, 255, 255, 0.103);
+      }
   }
+
+  

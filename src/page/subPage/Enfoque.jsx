@@ -8,13 +8,13 @@ import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 export default function ElMundo() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container">  
+                <PrimalNav />              
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`ATAQUE A LOS NIÑOS CON EL MUNDO Y SUS TENDENCIAS, SEGUN LA BIBLIA`}/>
+                        <LetrasGlobo texto={`ATAQUE A LOS NINOS CON EL MUNDO Y SUS TENDENCIAS, SEGUN LA BIBLIA`}/>
                     </div>                    
                 </div>
                 <div style={{display:'flex', margin: 'auto', justifyContent: 'center', flexWrap: 'wrap', gap: '20px'}}>

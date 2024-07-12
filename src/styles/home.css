@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
+.xxxx {
+  font-family: "Poetsen One", sans-serif;
+  color: #b57917;
+}
+
 p {
   font-weight: bold;
   color: #63ca18;
@@ -259,7 +264,7 @@ p {
   }
 
   .content-text-index-solo {
-    width: 40vw;
+    width: 65%;
     cursor: pointer;
   }
 
@@ -269,7 +274,7 @@ p {
   }
 
   .content-text-index {
-    width: 50%;
+    width: 25%;
     text-align: center;
   }
 

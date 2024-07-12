@@ -4,70 +4,42 @@ import Star from "../subcomponent/Star";
 import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
-import LetrasGloboPequeñas from '../subcomponent/LetrasGloboPequeñas.jsx';
+import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import '../styles/videos.css';
 
-export default function VideosSatanasEsReal() {
+export default function VideosSobreSatanas() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container">    
+                <PrimalNav />            
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`VIDEOS LA ARMADURA DE DIOS`}/>
-                    </div>   
-                    <div style={{display:'flex', flexWrap:'wrap'}}>
-                        <div className="video-container">
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Of44-k7kXes?si=pA_MMWkHHodisnTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/ujVJNiyUxsg?si=9QwVXFjGXLlsuo1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Una aventura gigante`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/jGn3DxyVFww?si=Q8GerDubaAA3BY0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/4KNxKmudA0A?si=ex9iB-Qv7Edu8zpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Heroes de la fe`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/SXq-ReksQLM?si=rXj6-xeDM-q1X2Fu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Luis misionero`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/03gfsFBR6YI?si=FO-9Nw_JivxYOar0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`El casco de Gracia y Salvación`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Towu4kYAO-Y?si=nwp0ZHI2-hYmP77N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Jesus sana un Ciego`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Vm5vKXB3K9I?si=5ffzONiNBCIjg57R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/5xGHKbZ2AkY?si=d9rMMsetwT65U7xh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios para niños`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/NTzBqlnCylw?si=6J129uIGNCNAEX-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Ponganse la armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/E9CWWqnFqhI?si=4ljoTpaWohqkQwWS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Hacedores de La Palabra`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/jNFSaSBbDzY?si=cvBl5Hglh-3EJPHB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>    
-                    </div>                 
+                        <LetrasGlobo texto={`Videos Sobre Satanas Es Real`}/>
+                    </div>                    
                 </div>
+                <div style={{width: '100%'}}>
+                    <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'Jesús se Enfrenta al Diablo Satanás Lucifer'} url={'https://www.youtube.com/embed/4UHFm13y7BY?si=5pd7P8N8VIvxqhAn'}/>
+                        <VideoSyntax text={'Sois de vuestro padre el diablo'} url={'https://www.youtube.com/embed/7hpuNX4ASDo?si=IREp0Ksy0fNLNJBk'}/>
+                        <VideoSyntax text={'Jesús advierte a Pedro y ofrece la oración intercesora'} url={'https://www.youtube.com/embed/WvouorejX0E?si=_0NS4MWAwxFbN2gD'}/>
+                        <VideoSyntax text={'Jesús echa fuera un demonio'} url={'https://www.youtube.com/embed/ye5eJUTmSZk?si=qW0xjDjtxFd09cbo'}/>                   
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Cuando 7 espíritus peores entran en un pecador'} url={'https://www.youtube.com/embed/5y6QR_HMq-0?si=2UWR9Nsul2Wc-MM1'}/>
+                        <VideoSyntax text={'JESÚS es tentado por Satanás en el desierto'} url={'https://www.youtube.com/embed/H1l4wDjJAro?si=shSk7fihkb33qzc9'}/>
+                        <VideoSyntax text={'Job'} url={'https://www.youtube.com/embed/wXSrKZBuiAg?si=FAxiV5YJWbEgVrLS'}/>
+                        <VideoSyntax text={'Jesús y la prueba en el desierto'} url={'https://www.youtube.com/embed/3efzKzwt_F8?si=jux5KrDNOvjt8W1R"'}/>
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'El endemoniado Gadareno'} url={'https://www.youtube.com/embed/i4hyMH8vEe0?si=1H2X_zpLBFQeoEcg'}/>
+                        <VideoSyntax text={'El Templo de Lucifer'} url={'https://www.youtube.com/embed/XVeZTaUQvlc?si=LcANQ6qHZPFUnJxG'}/>
+                        <VideoSyntax text={'De Quien Eres Hijo - César Méndez El Bautista'} url={'https://www.youtube.com/embed/_swV10hJDgQ?si=YN6aY7b0dR5Vo3XG'}/>                    
+                        <VideoSyntax text={'Descubre La Verdad Oculta del Halloween | César Méndez El Bautista'} url={'https://www.youtube.com/embed/rmMGNnMs_7U?si=bfrNP66P6GleCogZ'}/>
+                    </div>
+                </div>
+                <div className="video-contenedor-articulos"></div>
                 <Footer />
             </div>
         </div>

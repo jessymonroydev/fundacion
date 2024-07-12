@@ -4,87 +4,47 @@ import Star from "../subcomponent/Star";
 import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
-import LetrasGloboPequeñas from '../subcomponent/LetrasGloboPequeñas.jsx';
-import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
+import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import '../styles/videos.css';
 
 export default function VideosElAbuso() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container"> 
+                <PrimalNav />               
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`VIDEOS LA ARMADURA DE DIOS`}/>
-                    </div>   
-                    <div style={{display:'flex', flexWrap:'wrap'}}>
-                        <div className="video-container">                            
-                            <VideoSyntax url={'https://www.youtube.com/embed/A__DSCnzNQM?si=KirrtEeZ1WTWtPr-'} />
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/NebUvXi5HyQ?si=VJGxAoVVlHNCcH_6"} />
-                            <LetrasGloboPequeñas texto={`Una aventura gigante`}/>
-                        </div>
-                        <div className="video-container" >
-                            <VideoSyntax url={"https://www.youtube.com/embed/HKlXw1YPuYg?si=UOQb-4YbNbiWeCzr"} />
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/z9p793ZrUOY?si=G_6NGNu_wLzibp36"} />
-                            <LetrasGloboPequeñas texto={`Heroes de la fe`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/4f3gjGwt59Y?si=KRHNbZUYXUFfL67C"} />
-                            <LetrasGloboPequeñas texto={`Luis misionero`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/R_0Y_996oh4?si=mfcmqO3dRnHVKXkR"} />
-                            <LetrasGloboPequeñas texto={`El casco de Gracia y Salvación`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/vjHCjEdpuDg?si=MU12Hb2hcHud5_i8"} />
-                            <LetrasGloboPequeñas texto={`Jesus sana un Ciego`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/g5iFtAmVsO8?si=_K6w68gpCvok_4-t"} />
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/YIorkbdmz8U?si=hx_yMXuN79PStGl3"} />
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios para niños`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/BvHlnaQYsmc?si=ovEuItLKVjtSv1EJ"} />
-                            <LetrasGloboPequeñas texto={`Ponganse la armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/lMmcSK7R2m0?si=DC-J6_C7ZALsPId3"} />
-                            <LetrasGloboPequeñas texto={`Hacedores de La Palabra`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/S8XPAoGZrqM?si=l4t7Iepob6mclJ8L"} />
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/u-1JCXqQJ0k?si=dMiaeeT_S6fZ8LSW"} />
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/K01sh1OIR9g?si=U1nZqLX-AGaZlFP3"} />
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div> 
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/Ep6rw5kPTMQ?si=PyIxJgfe_TTE3fO3"} />
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div> 
-                        <div className="video-container" >                            
-                            <VideoSyntax url={"https://www.youtube.com/embed/S8XPAoGZrqM?si=l4t7Iepob6mclJ8L"} />
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>      
-                    </div>                 
+                        <LetrasGlobo texto={`Videos EL Abuso`}/>
+                    </div>                    
                 </div>
+                <div style={{width: '100%'}}>
+                    <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'Cómo prevenir el abuso sexual infantil'} url={'https://www.youtube.com/embed/A__DSCnzNQM?si=CUGMFzT7lYS1KfaA'}/>
+                        <VideoSyntax text={'10 cosas que no sabias de los pedófilos'} url={'https://www.youtube.com/embed/NebUvXi5HyQ?si=k7L0Iz2FJ8wbcfIk'}/>
+                        <VideoSyntax text={'Secuelas emocionales y psicológicas en víctimas de abuso sexual'} url={'https://www.youtube.com/embed/HKlXw1YPuYg?si=FHx5I_DOqX5nTmT2'}/>
+                        <VideoSyntax text={'¿Cómo afecta el abuso sexual a niñas y adolescentes?'} url={'https://www.youtube.com/embed/z9p793ZrUOY?si=WF1O6zybTiTDlE6t'}/>                   
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Maltrato Infantil: Educar Sin Violencia'} url={'https://www.youtube.com/embed/4f3gjGwt59Y?si=TuOS6CGFbSvbHnSR'}/>
+                        <VideoSyntax text={'Cómo detectar el abuso sexual en los niños'} url={'https://www.youtube.com/embed/R_0Y_996oh4?si=LY2dj5s1kVIdFMCG'}/>
+                        <VideoSyntax text={'8 programas infantiles no aptos para niños'} url={'https://www.youtube.com/embed/vjHCjEdpuDg?si=q4avXgBXA56Kqp4Z'}/>
+                        <VideoSyntax text={'Perfil psicológico en un caso de abuso sexua'} url={'https://www.youtube.com/embed/g5iFtAmVsO8?si=XgdzfBXUzyL15g12'}/>
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Pornografía infantil: El monstruo digital del armario'} url={'https://www.youtube.com/embed/YIorkbdmz8U?si=L8U__ObyWXiRJPMB'}/>
+                        <VideoSyntax text={'El orgullo gay para niños en el 2021 fue invasivo'} url={'https://www.youtube.com/embed/BvHlnaQYsmc?si=iP55rNvQ8sPbUuGs'}/>
+                        <VideoSyntax text={'Whatsapp, el nuevo refugio de los pedófilos'} url={'https://www.youtube.com/embed/lMmcSK7R2m0?si=kjqW--mZHIxSL7RP'}/>                    
+                        <VideoSyntax text={'Colombia, 4to país del mundo donde más niños mueren violentamente'} url={'https://www.youtube.com/embed/S8XPAoGZrqM?si=2EU1Yaj1xilYZ4wb'}/>
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Las cifras sobre violencia contra niños en Colombia dan vergüenza'} url={'https://www.youtube.com/embed/u-1JCXqQJ0k?si=9m8MJYy-i0BAbtaY'}/>
+                        <VideoSyntax text={'Violencia contra menores en Colombia: Desoladoras cifras de B.F.'} url={'https://www.youtube.com/embed/K01sh1OIR9g?si=DMKJGCQ8uqq2yRa5'}/>
+                        <VideoSyntax text={'La confesión del cura del Instituto Provolo'} url={'https://www.youtube.com/embed/Ep6rw5kPTMQ?si=ycxOBcPb_v9ySoAx'}/>                    
+                    </div>
+                </div>
+                <div className="video-contenedor-articulos"></div>
                 <Footer />
             </div>
         </div>

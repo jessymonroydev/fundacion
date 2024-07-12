@@ -30,51 +30,50 @@ import Z from '../assets/letrasGlobo/Z.png';
 
 export default function LetrasGlobo(props) {
   const texto = props.texto;
-  
+
   const letras = {
     A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z
   };
 
   const reemplazarConImagenes = (texto) => {
     return (
-      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '5px',justifyContent: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '5px', justifyContent: 'center' }}>
         {texto.split(/\b/).map((palabra, index) => {
           if (/[\w\S]/.test(palabra)) {
             return agruparLetras(palabra, index);
           } else if (/\s/.test(palabra)) {
             return <div key={index} style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'transparent' }}></div>;
           } else {
-            return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '20px', height: '20px', color: 'white'}} key={index}><div style={{ fontSize: '3em' }}>{palabra}</div></div>;
+            return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '20px', height: '20px', color: 'white' }} key={index}><div style={{ fontSize: '3em' }}>{palabra}</div></div>;
           }
         })}
       </div>
     );
   };
-  
+
   const agruparLetras = (palabra, index) => {
     const letrasArray = palabra.split("");
     let grupos = [];
     let grupoActual = [];
-  
+
     letrasArray.forEach((caracter, index) => {
-      if (/[a-zA-Z]/.test(caracter)) {
-        grupoActual.push(<img className='letras-globo' key={index} src={letras[caracter.toUpperCase()]} alt={caracter} style={{ marginRight: '2px' }} />);
+      if (/[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]/.test(caracter)) { // Acepta letras en español y acentuadas
+        grupoActual.push(<img className='letras-globo' key={index} src={letras[caracter.toUpperCase()] || letras[caracter.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")]} alt={caracter} style={{ marginRight: '2px' }} />);
       } else {
         if (grupoActual.length > 0) {
           grupos.push(<div key={index} style={{ display: 'flex', marginRight: '2px' }}>{grupoActual}</div>);
           grupoActual = [];
         }
-        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', marginRight: '5px', justifyContent: 'center', position:'relative' }}><div style={{ fontSize: '1.5em', position:'absolute', top: '-4px' }}>{caracter}</div></div>);
+        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', marginRight: '5px', justifyContent: 'center', position: 'relative' }}><div style={{ fontSize: '1.5em', position: 'absolute', top: '-4px' }}>{caracter}</div></div>);
       }
     });
-  
+
     if (grupoActual.length > 0) {
       grupos.push(<div key={letrasArray.length} style={{ display: 'flex', marginRight: '2px' }}>{grupoActual}</div>);
     }
-  
+
     return grupos;
   };
-  
 
   return <div>{reemplazarConImagenes(texto)}</div>;
 }

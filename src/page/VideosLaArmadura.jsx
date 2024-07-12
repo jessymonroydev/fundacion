@@ -4,71 +4,42 @@ import Star from "../subcomponent/Star";
 import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
-import LetrasGloboPequeñas from '../subcomponent/LetrasGloboPequeñas.jsx';
-import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
+import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import '../styles/videos.css';
 
-export default function VideosLaArmadura() {
+export default function VideosLaArmaduraDeDios() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container">      
+                <PrimalNav />          
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`VIDEOS LA ARMADURA DE DIOS`}/>
-                    </div>   
-                    <div style={{display:'flex', flexWrap:'wrap'}}>
-                        <div className="video-container">
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/Of44-k7kXes?si=pA_MMWkHHodisnTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/ujVJNiyUxsg?si=9QwVXFjGXLlsuo1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Una aventura gigante`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/jGn3DxyVFww?si=Q8GerDubaAA3BY0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/4KNxKmudA0A?si=ex9iB-Qv7Edu8zpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Heroes de la fe`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/SXq-ReksQLM?si=rXj6-xeDM-q1X2Fu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Luis misionero`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/03gfsFBR6YI?si=FO-9Nw_JivxYOar0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`El casco de Gracia y Salvación`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/Towu4kYAO-Y?si=nwp0ZHI2-hYmP77N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Jesus sana un Ciego`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/Vm5vKXB3K9I?si=5ffzONiNBCIjg57R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/5xGHKbZ2AkY?si=d9rMMsetwT65U7xh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios para niños`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/NTzBqlnCylw?si=6J129uIGNCNAEX-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Ponganse la armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/E9CWWqnFqhI?si=4ljoTpaWohqkQwWS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Hacedores de La Palabra`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe className="button-nav" width="400" height="200" src="https://www.youtube.com/embed/jNFSaSBbDzY?si=cvBl5Hglh-3EJPHB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>    
-                    </div>                 
+                        <LetrasGlobo texto={`Videos La Armadura de Dios`}/>
+                    </div>                    
                 </div>
+                <div style={{width: '100%'}}>
+                    <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'La armadura de dios'} url={'https://www.youtube.com/embed/Of44-k7kXes?si=0Oo91putA4svps5g'}/>
+                        <VideoSyntax text={'Una aventura gigante'} url={'https://www.youtube.com/embed/ujVJNiyUxsg?si=fnN6zsG0M7g7FlYa'}/>
+                        <VideoSyntax text={'la Armadura de Dios'} url={'https://www.youtube.com/embed/jGn3DxyVFww?si=PDdx3BpuLBJtnwYu'}/>
+                        <VideoSyntax text={'Héroes de la fe'} url={'https://www.youtube.com/embed/4KNxKmudA0A?si=VKVKInHAmrJECA5s'}/>                   
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Luis misionero'} url={'https://www.youtube.com/embed/SXq-ReksQLM?si=_nUAi2drOyaNFUwY'}/>
+                        <VideoSyntax text={'El casco de Gracia y Salvación'} url={'https://www.youtube.com/embed/03gfsFBR6YI?si=YMvXed4DqK11t6uC'}/>
+                        <VideoSyntax text={'Jesús sana un Ciego'} url={'https://www.youtube.com/embed/Towu4kYAO-Y?si=1ev7iNydkuB5aqYr'}/>
+                        <VideoSyntax text={'La Armadura de Dios'} url={'https://www.youtube.com/embed/Vm5vKXB3K9I?si=yCKDbJsLAfua5x6L'}/>
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'La Armadura de Dios para niños'} url={'https://www.youtube.com/embed/5xGHKbZ2AkY?si=c_12pEyuIfZH_ddC'}/>
+                        <VideoSyntax text={'Pónganse la armadura de Dios'} url={'https://www.youtube.com/embed/NTzBqlnCylw?si=u0FM8WtE1auBa_gF'}/>
+                        <VideoSyntax text={'Hacedores de La Palabra'} url={'https://www.youtube.com/embed/E9CWWqnFqhI?si=bQKqEvsKHNU3uWUK'}/>                    
+                        <VideoSyntax text={'Somos linaje de Dios'} url={'https://www.youtube.com/embed/jNFSaSBbDzY?si=Str06wQJdB_3Dcg3"'}/>
+                    </div>
+                </div>
+                <div className="video-contenedor-articulos"></div>
                 <Footer />
             </div>
         </div>

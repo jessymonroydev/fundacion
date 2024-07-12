@@ -44,27 +44,21 @@ export default function Carrousel({carrousel}) {
                 >
                     <div>
                         <img className='imgC' src={Reino1} alt="Reino 1" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Reino2} alt="Reino 2" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Reino3} alt="Reino 3" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Reino4} alt="Reino 4" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Reino5} alt="Reino 5" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Reino6} alt="Reino 6" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'Reino de los cielos'} /></p>
                     </div>
                 </Carousel>
             );
@@ -78,28 +72,22 @@ export default function Carrousel({carrousel}) {
                     swipeable={false}
                 >
                     <div>
-                        <img className='imgC' src={Creacion1} alt="Creacion 1" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
+                        <img className='imgC' src={Creacion1} alt="Creacion 1" />                    
                     </div>
                     <div>
                         <img className='imgC' src={Creacion2} alt="creacion 2" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Creacion3} alt="creacion 3" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Creacion4} alt="creacion 4" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Creacion5} alt="creacion 5" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Creacion6} alt="creacion 6" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'La creacion'} /></p>
                     </div>
                 </Carousel>
             );
@@ -114,23 +102,18 @@ export default function Carrousel({carrousel}) {
                 >
                     <div>
                         <img className='imgC' src={Castigo1} alt="Castigo 1" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'El castigo'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Castigo2} alt="Castigo 2" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'El castigo'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Castigo3} alt="Castigo 3" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'El castigo'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Castigo4} alt="Castigo 4" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'El castigo'} /></p>
                     </div>
                     <div>
                         <img className='imgC' src={Castigo5} alt="Castigo 5" />
-                        <p className="legend"><LetrasGloboPequeñas texto = {'El castigo'} /></p>
                     </div>
                 </Carousel>
             );

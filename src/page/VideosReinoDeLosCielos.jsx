@@ -4,70 +4,40 @@ import Star from "../subcomponent/Star";
 import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
-import LetrasGloboPequeñas from '../subcomponent/LetrasGloboPequeñas.jsx';
+import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import '../styles/videos.css';
 
-export default function VideosReinoDeLosCielos() {
+export default function VideosElReinoDeLosCielos() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container"> 
+                <PrimalNav />               
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`VIDEOS LA ARMADURA DE DIOS`}/>
-                    </div>   
-                    <div style={{display:'flex', flexWrap:'wrap'}}>
-                        <div className="video-container">
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Of44-k7kXes?si=pA_MMWkHHodisnTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/ujVJNiyUxsg?si=9QwVXFjGXLlsuo1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Una aventura gigante`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/jGn3DxyVFww?si=Q8GerDubaAA3BY0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`LA ARMADURA DE DIOS`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/4KNxKmudA0A?si=ex9iB-Qv7Edu8zpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Heroes de la fe`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/SXq-ReksQLM?si=rXj6-xeDM-q1X2Fu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Luis misionero`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/03gfsFBR6YI?si=FO-9Nw_JivxYOar0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`El casco de Gracia y Salvación`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Towu4kYAO-Y?si=nwp0ZHI2-hYmP77N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Jesus sana un Ciego`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/Vm5vKXB3K9I?si=5ffzONiNBCIjg57R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/5xGHKbZ2AkY?si=d9rMMsetwT65U7xh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`La Armadura de Dios para niños`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/NTzBqlnCylw?si=6J129uIGNCNAEX-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Ponganse la armadura de Dios`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/E9CWWqnFqhI?si=4ljoTpaWohqkQwWS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Hacedores de La Palabra`}/>
-                        </div>
-                        <div className="video-container" >
-                            <iframe width="400" height="200" src="https://www.youtube.com/embed/jNFSaSBbDzY?si=cvBl5Hglh-3EJPHB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <LetrasGloboPequeñas texto={`Somos linaje de Dios`}/>
-                        </div>    
-                    </div>                 
+                        <LetrasGlobo texto={`Videos el Reino de los cielos`}/>
+                    </div>                    
                 </div>
+                <div style={{width: '100%'}}>
+                    <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'Buscad primero el Reino de Dios m y su justicia'} url={'https://www.youtube.com/embed/eA1YnySQ-NE?si=JEUyt5LU9AI5wKmc'}/>
+                        <VideoSyntax text={'El Reino de los Cielos'} url={'https://www.youtube.com/embed/UHwfyyGrCu0?si=-2FoPdPcT6JuYyjf'}/>
+                        <VideoSyntax text={'Jesús habla sobre el Reino de los cielos'} url={'https://www.youtube.com/embed/KbTdPnzP1GM?si=TWmgUPEUpX5z4Sju'}/>
+                        <VideoSyntax text={'Quien es el mayor en el Reino de los cielos'} url={'https://www.youtube.com/embed/IkHJbRgxlIM?si=hpolx9sDzgvfMOwJ'}/>                   
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'El Reino de los Cielos es AMOR'} url={'https://www.youtube.com/embed/UHwfyyGrCu0?si=evsUg6CT03K8m06P'}/>
+                        <VideoSyntax text={'Seamos como niños para entrar en el Reino de los Cielos'} url={'https://www.youtube.com/embed/-uXCSZ4_MOM?si=uW0f5hNS788EAKyh'}/>
+                        <VideoSyntax text={'Yo soy el pan de vida'} url={'https://www.youtube.com/embed/8vU4XN8KBkg?si=ZJjpZZPjjOItabde'}/>
+                        <VideoSyntax text={'Tuve hambre y me diste de comer'} url={'https://www.youtube.com/embed/IX6FukNtDgI?si=dtNME1CcMjLEwpS1'}/>
+                    </div>
+                    <div  className="video-contenedor-articulos">
+                        <VideoSyntax text={'Sin fe no se puede agradar a Dios'} url={'https://www.youtube.com/embed/5D4IjbxgvDo?si=z5YglcHhodo4xDIb'}/>
+                        <VideoSyntax text={'Perdona hasta 70 veces 7'} url={'https://www.youtube.com/embed/VWHjF-L6R3E?si=2DX0KF3nrttzO_Ig'}/>
+                    </div>
+                </div>
+                <div className="video-contenedor-articulos"></div>
                 <Footer />
             </div>
         </div>

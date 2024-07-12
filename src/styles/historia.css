@@ -46,20 +46,183 @@
 .img-20071 {
     width: 100%;
 }
+/* _________________________________________________________________________________________________________________ */
 
-
-@media (min-width:1200) {
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (max-width:1199) {
-    
+.image-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (max-width:800) {
-    
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@media (max-width:600 ) {
-    
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
+
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+.caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+.caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+    .image-memory-historia {
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+      
+    .image-wrapper-container-historia {
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh;
+    }
+}
+
+@media (max-width: 1199px) {
+    .image-memory-historia {
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+      
+    .image-wrapper-container-historia {
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .image-memory-historia {
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+      
+    .image-wrapper-container-historia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .image-memory-historia {
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+      
+    .image-wrapper-container-historia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+}
+

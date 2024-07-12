@@ -9,8 +9,8 @@ export default function ElMundo() {
     return(
         <div className="Home">
             <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <div className="page-container">   
+                <PrimalNav />             
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>

@@ -18,37 +18,213 @@ import Star from '../subcomponent/Star.jsx';
 import PrimalNav from '../components/primalNav/PrimalNav.jsx';
 import Footer from '../components/footer/Footer.jsx';
 import Carrousel from '../components/carrousel/Carrousel.jsx';
+import ElCelular from '../assets/imgIndex/ElCelular.png';
+import LetrasGloboPequeñasAzul from '../subcomponent/LetrasGloboPequeñasAzul.jsx';
+import LetrasGloboPequeñasRojo from '../subcomponent/LetrasGloboPequeñasRojo.jsx';
+import LetrasGloboPequeñasVerde from '../subcomponent/LetrasGloboPequeñasVerde.jsx';
+import LetrasGloboPequeñasAmarillo from '../subcomponent/LetrasGloboPequeñasAmarillo.jsx';
+import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
 
 export default function Home() {
   return (
     <div className='Home'>
-      <Star />
-      <PrimalNav />
+      <Star />           
       <div className='page-container'>
-        <div className='nav-buttons'>          
-          <div className='button-nav'><Carrousel carrousel={'reino'}/></div>
-          <div className='button-nav'><Carrousel carrousel={'creacion'}/></div>
-          <div className='button-nav'><Carrousel carrousel={'castigo'}/></div>
+      <PrimalNav /> 
+      <div className='xxxx' style={{width: '90%', margin: 'auto', display: 'flex', flexDirection: 'column'}}><LetrasGlobo texto={`EN MATEO 19:14: JESUS DIJO: `}/><LetrasGlobo texto={ 'DEJEN QUE LOS NIÑOS VENGAN A MI PORQUE EL REINO DE LOS CIELOS ES DE QUIENES SON COMO ELLOS'} /></div>      
+        <div className='nav-buttons'>
+          <Link to={'/videos-reino-de-los-cielos-inicio'}>
+            <div className='button-nav'><Carrousel carrousel={'reino'}/></div>
+            <div style={{margin: '20px'}}>
+              <LetrasGloboPequeñas texto = {'Reino de los cielos'} /> 
+            </div>             
+          </Link>
+          <Link to={'/videos-la-creacion'}>
+            <div className='button-nav'><Carrousel carrousel={'creacion'}/></div>
+            <div style={{margin: '20px'}}>
+              <LetrasGloboPequeñas texto = {'La creacion'} />
+            </div>
+          </Link>
+          <Link to={'/videos-el-castigo'}>
+            <div className='button-nav'><Carrousel carrousel={'castigo'}/></div>
+            <div style={{margin: '20px'}}>
+              <LetrasGloboPequeñas texto = {'El castigo'} />
+            </div>
+          </Link>                                       
         </div>
         <div className='nav-buttons'>
           <div className='button-nav'>
-            <iframe width="560" height="250" src="https://www.youtube.com/embed/9VKLxto5BDU?si=V0skUYm0q6daF9Dp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/9VKLxto5BDU?si=V0skUYm0q6daF9Dp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
           </div>
           <div className='button-nav'>
-            <iframe width="560" height="250" src="https://www.youtube.com/embed/bvvhpbwTr1o?si=4geUqJ5612PuNaN1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/bvvhpbwTr1o?si=4geUqJ5612PuNaN1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
           </div>
           <div className='button-nav'>
-            <iframe width="560" height="250" src="https://www.youtube.com/embed/Dsy9pBVWPhk?si=48K7VSXecUZqCo5a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/Dsy9pBVWPhk?si=48K7VSXecUZqCo5a" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
           </div>
         </div>
         <Nav />
-        <div className='content-home'>  
+        <div className='content-home'>
+          <div className='justify-index-x'>
+            <h3 className='h3-home'><LetrasGlobo texto={`EL CELULAR ES ADICTIVO Y ALTERA LA CONDUCTA DE LOS NIÑOS`}/></h3>
+            <div className=''>
+              <div className='content-index-justify'>
+                <div className='content-text-index-solo'>                  
+                  <Link className='no-decoration' to={'/el-celular'}>                    
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'descubre aqui: el celular es adictivo y altera la conducta '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />  
+                      <LetrasGloboPequeñasVerde texto={'2 '} />                                     
+                      <LetrasGloboPequeñasVerde texto={'timoteo '} />
+                      <LetrasGloboPequeñasVerde texto={'3: 16: '} />
+                      <LetrasGloboPequeñasAzul texto={'toda '} /> 
+                      <LetrasGloboPequeñasAzul texto={'escritura '} /> 
+                      <LetrasGloboPequeñasAzul texto={'esta '} /> 
+                      <LetrasGloboPequeñasAzul texto={'inspirada '} /> 
+                      <LetrasGloboPequeñasAzul texto={'por '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'es '} /> 
+                      <LetrasGloboPequeñasRojo texto={'util '} /> 
+                      <LetrasGloboPequeñasRojo texto={'para '} /> 
+                      <LetrasGloboPequeñasRojo texto={'enseñar '} /> 
+                      <LetrasGloboPequeñasRojo texto={'y '} /> 
+                      <LetrasGloboPequeñasRojo texto={'reprender, '} />  
+                      <LetrasGloboPequeñasAzul texto={'para '} /> 
+                      <LetrasGloboPequeñasAzul texto={'corregir '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'educar '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'una '} /> 
+                      <LetrasGloboPequeñasAzul texto={'vida '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} />                      
+                      <LetrasGloboPequeñasAzul texto={'rectitud. '} />
+                    </div>
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasVerde texto={'deuteronomio '} /> 
+                      <LetrasGloboPequeñasVerde texto={'11: 19: '} /> 
+                      <LetrasGloboPequeñasAzul texto={'instruyanen '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'sus '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hijos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hablandoles '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de ellas '} />
+                      <LetrasGloboPequeñasAzul texto={'tanto '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} />
+                      <LetrasGloboPequeñasAzul texto={'la '} />
+                      <LetrasGloboPequeñasAzul texto={'casa '} />
+                      <LetrasGloboPequeñasAzul texto={'como '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} />
+                      <LetrasGloboPequeñasAzul texto={'el '} />
+                      <LetrasGloboPequeñasAzul texto={'camino, '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'cuando '} />
+                      <LetrasGloboPequeñasAzul texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'acuesten, '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'cuando '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasAzul texto={'levanten. '} />
+                      <LetrasGloboPequeñasVerde texto={'escribanlas '} />
+                      <LetrasGloboPequeñasVerde texto={'en '} />
+                      <LetrasGloboPequeñasVerde texto={'los '} />
+                      <LetrasGloboPequeñasVerde texto={'postes '} />
+                      <LetrasGloboPequeñasVerde texto={'y '} />
+                      <LetrasGloboPequeñasVerde texto={'en '} />
+                      <LetrasGloboPequeñasVerde texto={'las '} />
+                      <LetrasGloboPequeñasVerde texto={'puertas '} />
+                      <LetrasGloboPequeñasVerde texto={'de '} />
+                      <LetrasGloboPequeñasVerde texto={'sus '} />
+                      <LetrasGloboPequeñasVerde texto={'casas. '} />                                                                                                                              
+                    </div>
+                  </Link>
+                </div>
+                <div className='content-text-index'>
+                  <Link to={'/videos-el-celular'}>
+                    <img className='img-index' src={ElCelular} alt="El Celular" />
+                  </Link>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL CELULAR" DE DIOS PARA LOS NIÑOS`}/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='line'></div>  
           <div className='justify-index-x'>
             <h3 className='h3-home'><LetrasGlobo texto={`PONTE "LA ARMADURA DE DIOS" PARA VENCER LA TENTACION Y LA CONDENACION`}/></h3>
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/la-armadura-de-dios'}>DESDE NIÑOS DEBEN ESTUDIAR “LA ARMADURA DE DIOS“. Dice en la Biblia Dios Habla Hoy, en 2da de Corintios 10: 4 Las armas que usamos no son las del mundo, sino que son poder de Dios capaz de destruir fortalezas. Y así destruimos las acusaciones 5 y toda altanería que pretenda impedir que se conozca a Dios. Todo pensamiento humano lo sometemos a Cristo, para que lo obedezca a él, 6 y estamos dispuestos a castigar toda desobediencia, una vez que ustedes obedezcan perfectamente. Dios Habla Hoy 1 Juan 2: 13 Padres, les escribo a ustedes porque han conocido al que ya existía desde el principio. Jóvenes, les escribo a ustedes porque han vencido al maligno. (Conoce más)…</Link>
+                  <Link className='no-decoration' to={'/la-armadura-de-dios'}>
+                    <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'ponte la armadura de dios para vencer las tentaciones'} />
+                    </div>  
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                      
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />
+                      <LetrasGloboPequeñasVerde texto={'1 '} />
+                      <LetrasGloboPequeñasVerde texto={'pedro '} />
+                      <LetrasGloboPequeñasVerde texto={'5:8: '} />
+                      <LetrasGloboPequeñasAzul texto={'sean '} /> 
+                      <LetrasGloboPequeñasAzul texto={'prudentes '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mantenganse '} /> 
+                      <LetrasGloboPequeñasAzul texto={'despiertos, '} />                       
+                      <LetrasGloboPequeñasAzul texto={'porque'} /> 
+                      <div style={{width: '10px'}}></div>
+                      <LetrasGloboPequeñasRojo texto={'su '} />
+                      <LetrasGloboPequeñasRojo texto={'enemigo '} />
+                      <LetrasGloboPequeñasRojo texto={'el '} />
+                      <LetrasGloboPequeñasRojo texto={'diablo,'} />
+                      <LetrasGloboPequeñasRojo texto={'como '} />
+                      <LetrasGloboPequeñasRojo texto={'un '} />
+                      <LetrasGloboPequeñasRojo texto={'leon '} />
+                      <LetrasGloboPequeñasRojo texto={'rugiente, '} />
+                      <LetrasGloboPequeñasRojo texto={'anda '} />
+                      <LetrasGloboPequeñasRojo texto={'buscando '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'quien '} />
+                      <LetrasGloboPequeñasRojo texto={'devorar.'} />
+                    </div>
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                      
+                      <LetrasGloboPequeñasVerde texto={'Santiago '} />
+                      <LetrasGloboPequeñasVerde texto={'4:7: '} />
+                      <LetrasGloboPequeñasAzul texto={'sometanse, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'pues, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios. '} /> 
+                      <LetrasGloboPequeñasRojo texto={'resistan '} />
+                      <LetrasGloboPequeñasRojo texto={'al '} />
+                      <LetrasGloboPequeñasRojo texto={'diablo, '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'este '} />
+                      <LetrasGloboPequeñasAzul texto={'huira '} />
+                      <LetrasGloboPequeñasAzul texto={'de '} />
+                      <LetrasGloboPequeñasAzul texto={'ustedes. '} />
+                    </div>       
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                      
+                      <LetrasGloboPequeñasVerde texto={'marcos '} />
+                      <LetrasGloboPequeñasVerde texto={'16:17: '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'estas '} /> 
+                      <LetrasGloboPequeñasAzul texto={'señales '} /> 
+                      <LetrasGloboPequeñasAzul texto={'acompañan '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'creen: '} /> 
+                      <LetrasGloboPequeñasRojo texto={'en '} />
+                      <LetrasGloboPequeñasRojo texto={'mi '} />
+                      <LetrasGloboPequeñasRojo texto={'nombre '} />
+                      <LetrasGloboPequeñasRojo texto={'expulsaran '} />
+                      <LetrasGloboPequeñasRojo texto={'demonios. '} />
+                    </div> 
+                  
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-la-armadura-de-dios'}>
@@ -65,7 +241,85 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/el-reino-de-los-cielos'}>1 corintios 6: 9-10 ¿No saben ustedes que los que cometen injusticias no tendrán parte en el reino de Dios? No se dejen engañar, pues en el reino de Dios no tendrán parte los que se entregan a la prostitución, ni los idólatras, ni los que cometen adulterio, ni los afeminados, ni los homosexuales, ni los que roban, ni los avaros, ni los borrachos, ni los maldicientes, ni los ladrones.</Link>
+                  <Link className='no-decoration' to={'/el-reino-de-los-cielos'}>
+                    <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'el reino de los cielos es real'} />
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>  
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                          
+                      <LetrasGloboPequeñasVerde texto={'1 '} />
+                      <LetrasGloboPequeñasVerde texto={'corintios '} />
+                      <LetrasGloboPequeñasVerde texto={'6: 9 - 10: '} />
+                      <LetrasGloboPequeñasAzul texto={'¿no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'saben '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ustedes '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'cometen '} />
+                      <LetrasGloboPequeñasRojo texto={'injusticias '} />
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'tendran '} />
+                      <LetrasGloboPequeñasRojo texto={'parte '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'reino '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios? '} /> 
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'dejen '} />
+                      <LetrasGloboPequeñasRojo texto={'engañar, '} />
+                      <LetrasGloboPequeñasAzul texto={'pues '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} />  
+                      <LetrasGloboPequeñasAzul texto={'el '} />
+                      <LetrasGloboPequeñasAzul texto={'reino '} />
+                      <LetrasGloboPequeñasAzul texto={'de '} />
+                      <LetrasGloboPequeñasAzul texto={'dios '} />  
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'tendran '} />
+                      <LetrasGloboPequeñasRojo texto={'parte '} />
+                      <LetrasGloboPequeñasRojo texto={'los '} />
+                      <LetrasGloboPequeñasRojo texto={'que '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'entregan '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'la '} />
+                      <LetrasGloboPequeñasRojo texto={'prostitucion, '} />       
+                      <LetrasGloboPequeñasRojo texto={'ni '} />    
+                      <LetrasGloboPequeñasRojo texto={'los '} />    
+                      <LetrasGloboPequeñasRojo texto={'idolatras, '} />    
+                      <LetrasGloboPequeñasRojo texto={'ni '} /> 
+                      <LetrasGloboPequeñasRojo texto={'los '} /> 
+                      <LetrasGloboPequeñasRojo texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'cometen '} /> 
+                      <LetrasGloboPequeñasRojo texto={'adulterio, '} />    
+                      <LetrasGloboPequeñasRojo texto={'ni '} />  
+                      <LetrasGloboPequeñasRojo texto={'los '} />  
+                      <LetrasGloboPequeñasRojo texto={'afeminados, '} />      
+                      <LetrasGloboPequeñasRojo texto={'ni '} /> 
+                      <LetrasGloboPequeñasRojo texto={'los '} /> 
+                      <LetrasGloboPequeñasRojo texto={'homosexuales, '} />   
+                      <LetrasGloboPequeñasRojo texto={'ni '} />  
+                      <LetrasGloboPequeñasRojo texto={'los '} />  
+                      <LetrasGloboPequeñasRojo texto={'que '} />  
+                      <LetrasGloboPequeñasRojo texto={'roban, '} />  
+                      <LetrasGloboPequeñasRojo texto={'ni '} /> 
+                      <LetrasGloboPequeñasRojo texto={'los '} /> 
+                      <LetrasGloboPequeñasRojo texto={'avaros, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'ni '} />
+                      <LetrasGloboPequeñasRojo texto={'los '} />  
+                      <LetrasGloboPequeñasRojo texto={'borrachos, '} />
+                      <LetrasGloboPequeñasRojo texto={'ni '} />
+                      <LetrasGloboPequeñasRojo texto={'los '} />
+                      <LetrasGloboPequeñasRojo texto={'maldicientes, '} />
+                      <LetrasGloboPequeñasRojo texto={'ni '} />
+                      <LetrasGloboPequeñasRojo texto={'los '} />
+                      <LetrasGloboPequeñasRojo texto={'ladrones. '} />
+                    </div> 
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-el-reino-de-los-cielos'}>
@@ -82,7 +336,65 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/el-amor'}>LA CULTURA DEL AMOR A LA PALABRA: QUE JESUCRISTO NOS ENSEÑO : Dice : El AMOR , señal de nuestra comunión con Dios en 1 Juan 4: 7 Queridos hermanos, debemos amarnos unos a otros, porque el amor viene de Dios. Todo el que ama es hijo de Dios y conoce a Dios. 8 el que no ama no ha conocido a Dios, porque Dios es amor. 9 Dios mostró su amor hacia nosotros al enviar a su Hijo único al mundo para que tengamos vida por él. 10 EL AMOR consiste en esto: no en que nosotros hayamos amado a Dios, sino en que él nos amó a nosotros y envió a su Hijo, para que, ofreciéndose en sacrificio, nuestros pecados quedaran perdonados.</Link>
+                  <Link className='no-decoration' to={'/el-amor'}>
+                    <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'el amor, el nuevo mandamiento para vivir en el reino de los cielos'} />
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>  
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                          
+                      <LetrasGloboPequeñasVerde texto={'juan '} />
+                      <LetrasGloboPequeñasVerde texto={'13: 34: '} />
+                      <LetrasGloboPequeñasAzul texto={'les '} /> 
+                      <LetrasGloboPequeñasAzul texto={'doy '} /> 
+                      <LetrasGloboPequeñasAzul texto={'este '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mandamiento '} /> 
+                      <LetrasGloboPequeñasAzul texto={'nuevo: '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'se '} /> 
+                      <LetrasGloboPequeñasAzul texto={'amen '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'unos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'otros. '} /> 
+                      <LetrasGloboPequeñasVerde texto={'asi '} />
+                      <LetrasGloboPequeñasVerde texto={'como '} />
+                      <LetrasGloboPequeñasVerde texto={'yo '} />
+                      <LetrasGloboPequeñasVerde texto={'los '} />
+                      <LetrasGloboPequeñasVerde texto={'amo '} />
+                      <LetrasGloboPequeñasVerde texto={'a '} />
+                      <LetrasGloboPequeñasVerde texto={'ustedes, '} />
+                      <LetrasGloboPequeñasAzul texto={'asi '} />
+                      <LetrasGloboPequeñasAzul texto={'deben '} />
+                      <LetrasGloboPequeñasAzul texto={'amarse '} />
+                      <LetrasGloboPequeñasAzul texto={'ustedes '} />
+                      <LetrasGloboPequeñasAzul texto={'los '} />
+                      <LetrasGloboPequeñasAzul texto={'unos '} />
+                      <LetrasGloboPequeñasAzul texto={'a '} />
+                      <LetrasGloboPequeñasAzul texto={'los '} />
+                      <LetrasGloboPequeñasAzul texto={'otros. '} />
+                      <LetrasGloboPequeñasAzul texto={'si '} />
+                      <LetrasGloboPequeñasAzul texto={'se '} />
+                      <LetrasGloboPequeñasAzul texto={'aman '} />
+                      <LetrasGloboPequeñasAzul texto={'los '} />
+                      <LetrasGloboPequeñasAzul texto={'unos '} />
+                      <LetrasGloboPequeñasAzul texto={'a '} />
+                      <LetrasGloboPequeñasAzul texto={'los '} />
+                      <LetrasGloboPequeñasAzul texto={'otros, '} />
+                      <LetrasGloboPequeñasAzul texto={'todo '} />
+                      <LetrasGloboPequeñasAzul texto={'el '} />
+                      <LetrasGloboPequeñasAzul texto={'mundo '} />
+                      <LetrasGloboPequeñasAzul texto={'se '} />
+                      <LetrasGloboPequeñasAzul texto={'dara '} />
+                      <LetrasGloboPequeñasAzul texto={'cuenta '} />
+                      <LetrasGloboPequeñasVerde texto={'que '} />
+                      <LetrasGloboPequeñasVerde texto={'son '} />
+                      <LetrasGloboPequeñasVerde texto={'discipulos '} />
+                      <LetrasGloboPequeñasVerde texto={'mios. '} />
+                    </div> 
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-el-amor'}>
@@ -99,7 +411,96 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/nacer-de-nuevo'}>Para vencer el pecado hay que apartarse de los placeres mundanos, arrepentirse, perdonar de corazón, recibir a JESUCRISTO para “VOLVER A NACER” para que EL ESPITITU DE CRISTO sea el que dirija su vida y ser una nueva persona. Dios Habla Hoy Romanos 8: 9 Pero ustedes ya no viven según esas inclinaciones, sino según el Espíritu, puesto que el Espíritu de Dios vive en ustedes. El que no tiene el Espíritu de Cristo, no es de Cristo. En Juan 3:3 Jesús le dijo:—Te aseguro que el que no nace de nuevo, no puede ver el reino de Dios.4 Nicodemo le preguntó:—¿Y cómo puede uno nacer cuando ya es viejo? ¿Acaso podrá entrar otra vez dentro de su madre, para volver a nacer?5 Jesús le contestó:—Te aseguro que el que no nace de agua y del Espíritu, no puede entrar en el reino de Dios.</Link>
+                  <Link className='no-decoration' to={'/nacer-de-nuevo'}>
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'tenemos '} />
+                      <LetrasGloboPequeñasAmarillo texto={'que '} />
+                      <LetrasGloboPequeñasAmarillo texto={'nacer '} />
+                      <LetrasGloboPequeñasAmarillo texto={'de '} />
+                      <LetrasGloboPequeñasAmarillo texto={'nuevo '} />
+                      <LetrasGloboPequeñasAmarillo texto={'para '} />
+                      <LetrasGloboPequeñasAmarillo texto={'ser '} />
+                      <LetrasGloboPequeñasAmarillo texto={'como '} />
+                      <LetrasGloboPequeñasAmarillo texto={'niños '} />
+                      <LetrasGloboPequeñasAmarillo texto={'y '} />
+                      <LetrasGloboPequeñasAmarillo texto={'vivir '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'reino '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'cielos '} /> 
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>  
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                          
+                      <LetrasGloboPequeñasVerde texto={'mateo '} />
+                      <LetrasGloboPequeñasVerde texto={'19: 14: '} />
+                      <LetrasGloboPequeñasAzul texto={'entonces '} /> 
+                      <LetrasGloboPequeñasAzul texto={'jesus '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dijo:  '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dejen '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que: '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'niños '} /> 
+                      <LetrasGloboPequeñasAzul texto={'vengan '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mi, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'se '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'impidan, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'reino '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'cielos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'es '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'quienes '} /> 
+                      <LetrasGloboPequeñasAzul texto={'son '} /> 
+                      <LetrasGloboPequeñasAzul texto={'como '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ellos. '} /> 
+                      <LetrasGloboPequeñasVerde texto={'romanos '} />
+                      <LetrasGloboPequeñasVerde texto={'8: 19: '} />
+                      <LetrasGloboPequeñasRojo texto={'pero '} />
+                      <LetrasGloboPequeñasRojo texto={'ustdes '} />
+                      <LetrasGloboPequeñasRojo texto={'ya '} />
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'viven '} />
+                      <LetrasGloboPequeñasRojo texto={'segun '} />
+                      <LetrasGloboPequeñasRojo texto={'esas '} />
+                      <LetrasGloboPequeñasRojo texto={'inclinaciones, '} />
+                      <LetrasGloboPequeñasAzul texto={'sino '} /> 
+                      <LetrasGloboPequeñasAzul texto={'segun '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'espiritu, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'puesto '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'espiritu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'vive '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ustdes. '} /> 
+                      <LetrasGloboPequeñasVerde texto={'el '} />
+                      <LetrasGloboPequeñasVerde texto={'que '} />
+                      <LetrasGloboPequeñasVerde texto={'no '} />
+                      <LetrasGloboPequeñasVerde texto={'tiene: '} />
+                      <LetrasGloboPequeñasVerde texto={'el: '} />
+                      <LetrasGloboPequeñasVerde texto={'espiritu '} />
+                      <LetrasGloboPequeñasVerde texto={'de '} />
+                      <LetrasGloboPequeñasVerde texto={'cristo, '} />
+                      <LetrasGloboPequeñasVerde texto={'no '} />
+                      <LetrasGloboPequeñasVerde texto={'es '} />
+                      <LetrasGloboPequeñasVerde texto={'de '} />
+                      <LetrasGloboPequeñasVerde texto={'cristo. '} />
+                    </div> 
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-nacer-de-nuevo'}>
@@ -116,7 +517,80 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/el-mundo-y-sus-tendencias'}>El ataque es contra los niños y niñas, los están mal influenciados, con la música, con las escenas homosexuales en caricaturas, los videojuegos, los tatuajes. el Halloween, no distinguen entre el bien y el mal . Esto es prohibido por DIOS y trae maldición: Levítico 19: 28» No te hagas cortes en el cuerpo por los muertos ni te hagas tatuajes en la piel. Yo soy el SEÑOR. 29» No deshonres a tu hija convirtiéndola en una prostituta, para que la tierra no se llene de prostitución y de perversidad.</Link>
+                  <Link className='no-decoration' to={'/el-mundo-y-sus-tendencias'}>
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'el mundo y sus tendencias rechazan la existencia de dios '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                                          
+                      <LetrasGloboPequeñasVerde texto={'romanos '} />
+                      <LetrasGloboPequeñasVerde texto={'1: 21: '} />
+                      <LetrasGloboPequeñasAzul texto={'pues '} /> 
+                      <LetrasGloboPequeñasAzul texto={'aunque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'han '} /> 
+                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'lo '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'honrrado '} />
+                      <LetrasGloboPequeñasRojo texto={'como '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'dios '} />
+                      <LetrasGloboPequeñasRojo texto={'ni '} />
+                      <LetrasGloboPequeñasRojo texto={'le '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'dado '} />
+                      <LetrasGloboPequeñasRojo texto={'las '} />
+                      <LetrasGloboPequeñasRojo texto={'gracias. '} />
+                      <LetrasGloboPequeñasRojo texto={'al '} />
+                      <LetrasGloboPequeñasRojo texto={'contrario, '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'terminado '} />
+                      <LetrasGloboPequeñasRojo texto={'pensando '} />
+                      <LetrasGloboPequeñasRojo texto={'puras '} />
+                      <LetrasGloboPequeñasRojo texto={'tonterias, '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'su '} />
+                      <LetrasGloboPequeñasRojo texto={'necia '} />
+                      <LetrasGloboPequeñasRojo texto={'mente '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'ha '} />
+                      <LetrasGloboPequeñasRojo texto={'quedado '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'oscuras. '} />
+                      <LetrasGloboPequeñasRojo texto={'decian '} />
+                      <LetrasGloboPequeñasRojo texto={'que '} />
+                      <LetrasGloboPequeñasRojo texto={'eran '} />
+                      <LetrasGloboPequeñasRojo texto={'sabios, '} />
+                      <LetrasGloboPequeñasRojo texto={'pero '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'hicieron '} />
+                      <LetrasGloboPequeñasRojo texto={'tontos; '} />
+                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'han '} /> 
+                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'gloria '} /> 
+                      <LetrasGloboPequeñasAzul texto={'del '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'inmortal '} /> 
+                      <LetrasGloboPequeñasRojo texto={'por '} />
+                      <LetrasGloboPequeñasRojo texto={'imagenes '} />
+                      <LetrasGloboPequeñasRojo texto={'del '} />
+                      <LetrasGloboPequeñasRojo texto={'hombre '} />
+                      <LetrasGloboPequeñasRojo texto={'mortal, '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'hasta '} />
+                      <LetrasGloboPequeñasRojo texto={'por '} />
+                      <LetrasGloboPequeñasRojo texto={'imagenes '} />
+                      <LetrasGloboPequeñasRojo texto={'de '} />
+                      <LetrasGloboPequeñasRojo texto={'aves, '} />
+                      <LetrasGloboPequeñasRojo texto={'cuadrupedos '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'reptiles. '} />                      
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-el-mundo-y-sus-tendencias'}>
@@ -133,7 +607,93 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/la-inmoralidad'}>Sin moral cívica la comunidad perece; sin moral personal su supervivencia carece de valor: En conclusión, después de analizarlo todo, solo las recomendaciones del CREADOR, transforman integralmente y hacen humanas las personas. “Pues, aunque han conocido a Dios, no lo han honrado como a Dios ni le han dado gracias  y los entrega a una mente reprobada”.</Link>
+                  <Link className='no-decoration' to={'/la-inmoralidad'}>
+                    <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'la inmoralidad rechaza la existencia de dios '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                                          
+                      <LetrasGloboPequeñasVerde texto={'romanos '} />
+                      <LetrasGloboPequeñasVerde texto={'1: 21: '} />
+                      <LetrasGloboPequeñasAzul texto={'pues '} /> 
+                      <LetrasGloboPequeñasAzul texto={'aunque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'han '} /> 
+                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'lo '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'honrrado '} />
+                      <LetrasGloboPequeñasRojo texto={'como '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'dios '} />
+                      <LetrasGloboPequeñasRojo texto={'ni '} />
+                      <LetrasGloboPequeñasRojo texto={'le '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'dado '} />
+                      <LetrasGloboPequeñasRojo texto={'las '} />
+                      <LetrasGloboPequeñasRojo texto={'gracias. '} />
+                      <LetrasGloboPequeñasRojo texto={'al '} />
+                      <LetrasGloboPequeñasRojo texto={'contrario, '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'terminado '} />
+                      <LetrasGloboPequeñasRojo texto={'pensando '} />
+                      <LetrasGloboPequeñasRojo texto={'puras '} />
+                      <LetrasGloboPequeñasRojo texto={'tonterias, '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'su '} />
+                      <LetrasGloboPequeñasRojo texto={'necia '} />
+                      <LetrasGloboPequeñasRojo texto={'mente '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'ha '} />
+                      <LetrasGloboPequeñasRojo texto={'quedado '} />
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'oscuras. '} />
+                      <LetrasGloboPequeñasRojo texto={'decian '} />
+                      <LetrasGloboPequeñasRojo texto={'que '} />
+                      <LetrasGloboPequeñasRojo texto={'eran '} />
+                      <LetrasGloboPequeñasRojo texto={'sabios, '} />
+                      <LetrasGloboPequeñasRojo texto={'pero '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'hicieron '} />
+                      <LetrasGloboPequeñasRojo texto={'tontos; '} />
+                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'han '} /> 
+                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'gloria '} /> 
+                      <LetrasGloboPequeñasAzul texto={'del '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'inmortal '} /> 
+                      <LetrasGloboPequeñasRojo texto={'por '} />
+                      <LetrasGloboPequeñasRojo texto={'imagenes '} />
+                      <LetrasGloboPequeñasRojo texto={'del '} />
+                      <LetrasGloboPequeñasRojo texto={'hombre '} />
+                      <LetrasGloboPequeñasRojo texto={'mortal, '} />
+                      <LetrasGloboPequeñasAzul texto={'por '} /> 
+                      <LetrasGloboPequeñasAzul texto={'eso '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'los '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ha '} /> 
+                      <LetrasGloboPequeñasAzul texto={'abandonado '} /> 
+                      <LetrasGloboPequeñasRojo texto={'a '} />
+                      <LetrasGloboPequeñasRojo texto={'los '} />
+                      <LetrasGloboPequeñasRojo texto={'impuros '} />
+                      <LetrasGloboPequeñasRojo texto={'deseos '} />
+                      <LetrasGloboPequeñasRojo texto={'que '} />
+                      <LetrasGloboPequeñasRojo texto={'hay '} />
+                      <LetrasGloboPequeñasRojo texto={'en '} />
+                      <LetrasGloboPequeñasRojo texto={'ellos, '} />
+                      <LetrasGloboPequeñasRojo texto={'y '} />
+                      <LetrasGloboPequeñasRojo texto={'han '} />
+                      <LetrasGloboPequeñasRojo texto={'cometido '} />
+                      <LetrasGloboPequeñasRojo texto={'unos '} />
+                      <LetrasGloboPequeñasRojo texto={'con '} />
+                      <LetrasGloboPequeñasRojo texto={'otros '} />
+                      <LetrasGloboPequeñasRojo texto={'acciones '} />
+                      <LetrasGloboPequeñasRojo texto={'vergonzosas. '} />                                         
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-la-inmoralidad'}>
@@ -150,7 +710,57 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/el-abuso'}>Todos los temas para prevenir el abuso y pornografía infantil : 1º como prevenir el maltrato infantil.- 2º como detectar un abuso sexual en los niños.- 3º ¿Cómo hablar con niños de esta generación, sobre sexualidad infantil? .- 4º Consecuencias del Abuso Físico y Psicológico Infantil .- 5º Abuso sexual en la infancia y adolescencia.- 6º Conoce los tipos de abuso infantil.- 7º Las cifras sobre violencia contra niños en Colombia dan vergüenza.- 8º Un menor es abusado en Colombia cada 22 minutos, según Medicina legal.- 9º Las tristes y desoladoras cifras del Bienestar Familiar sobre violencia contra menores en Colombia.- 10º El orgullo GAY para niños en el 2021 Fue INVASIVO.- 11 º Pornografía infantil: WhatsApp, el nuevo refugio de los pedófilos.- 12.- LA VERDAD SOBRE COMO SE ENCUBA LA PEDOFILIA Y CUALQUIER ADICCION INCONTROLABLE.</Link>
+                  <Link className='no-decoration' to={'/el-abuso'}>
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'el mundo y sus tendencias corrompen la inocencia de los niños y niñas '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                       
+                      <LetrasGloboPequeñasVerde texto={'levitico '} />
+                      <LetrasGloboPequeñasVerde texto={'19: 28: '} />
+                      <LetrasGloboPequeñasRojo texto={'no '} /> 
+                      <LetrasGloboPequeñasRojo texto={'se '} /> 
+                      <LetrasGloboPequeñasRojo texto={'hagan '} /> 
+                      <LetrasGloboPequeñasRojo texto={'heridas '} /> 
+                      <LetrasGloboPequeñasRojo texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'el '} /> 
+                      <LetrasGloboPequeñasRojo texto={'cuerpo '} /> 
+                      <LetrasGloboPequeñasRojo texto={'por '} /> 
+                      <LetrasGloboPequeñasRojo texto={'causa '} /> 
+                      <LetrasGloboPequeñasRojo texto={'de '} /> 
+                      <LetrasGloboPequeñasRojo texto={'un '} /> 
+                      <LetrasGloboPequeñasRojo texto={'muerto. '} /> 
+                      <LetrasGloboPequeñasRojo texto={'no '} /> 
+                      <LetrasGloboPequeñasRojo texto={'se '} /> 
+                      <LetrasGloboPequeñasRojo texto={'hagan '} /> 
+                      <LetrasGloboPequeñasRojo texto={'ningun '} /> 
+                      <LetrasGloboPequeñasRojo texto={'tipo '} /> 
+                      <LetrasGloboPequeñasRojo texto={'de '} /> 
+                      <LetrasGloboPequeñasRojo texto={'tatuaje. '} /> 
+                      <LetrasGloboPequeñasVerde texto={'yo '} /> 
+                      <LetrasGloboPequeñasVerde texto={'soy '} /> 
+                      <LetrasGloboPequeñasVerde texto={'el '} /> 
+                      <LetrasGloboPequeñasVerde texto={'señor. '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'deshonrres '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hija, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'convirtiendola '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'una '} /> 
+                      <LetrasGloboPequeñasRojo texto={'prostituta. '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'corrompas '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'oais '} /> 
+                      <LetrasGloboPequeñasAzul texto={'llenandolo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasRojo texto={'depravaciones. '} />                                       
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-el-abuso'}>
@@ -167,7 +777,104 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/la-idolatria'}>LAS MALDICIONES DE LA IDOLATRIA ENCUBAN TODA CLASE DE ABERRACIONES SEXUALES LA PEDOFILIA. LOS HIJOS NIETOS Y BISNIETOS, QUEDAN DESPROTEJIDOS DE DIOS. “ROMPAMOS ESTAS MALDICION”. La idolatría es fatal, hay 41 versículos en la BIBLIA CATOLICA que lo advierten , lo dice muy claro en Éxodo 20:4 »No te hagas ningún ídolo ni figura de lo que hay arriba en el cielo, ni de lo que hay abajo en la tierra, ni de lo que hay en el mar debajo de la tierra. 5 No te inclines delante de ellos ni les rindas culto, porque yo soy el Señor tu Dios, Dios celoso que castiga la maldad de los padres que me odian, en sus hijos, nietos y bisnietos. “Dios escucha las oraciones para romper estas maldiciones en mis Hijos”</Link>
+                  <Link className='no-decoration' to={'/la-idolatria'}>
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'maldiciones de la idolatria '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                       
+                      <LetrasGloboPequeñasVerde texto={'exodo '} />
+                      <LetrasGloboPequeñasVerde texto={'20: 4: '} />
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'te '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hagas '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ningun '} /> 
+                      <LetrasGloboPequeñasAzul texto={'idolo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'o '} /> 
+                      <LetrasGloboPequeñasAzul texto={'figura '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hay '} /> 
+                      <LetrasGloboPequeñasAzul texto={'arriba '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'cielo, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ni '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hay '} /> 
+                      <LetrasGloboPequeñasAzul texto={'abajo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tierra, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ni '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hay '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mar '} /> 
+                      <LetrasGloboPequeñasAzul texto={'debajo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'te '} /> 
+                      <LetrasGloboPequeñasAzul texto={'inclines '} /> 
+                      <LetrasGloboPequeñasAzul texto={'delante '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ellos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ni '} /> 
+                      <LetrasGloboPequeñasAzul texto={'les '} /> 
+                      <LetrasGloboPequeñasAzul texto={'rindas '} /> 
+                      <LetrasGloboPequeñasAzul texto={'culto, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'yo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'soy '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'señor '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
+                      <LetrasGloboPequeñasAzul texto={'Celoso. '} /> 
+                      <LetrasGloboPequeñasRojo texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'castiga '} /> 
+                      <LetrasGloboPequeñasRojo texto={'la '} /> 
+                      <LetrasGloboPequeñasRojo texto={'maldad '} /> 
+                      <LetrasGloboPequeñasRojo texto={'de '} /> 
+                      <LetrasGloboPequeñasRojo texto={'los '} /> 
+                      <LetrasGloboPequeñasRojo texto={'padres '} /> 
+                      <LetrasGloboPequeñasRojo texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'me '} /> 
+                      <LetrasGloboPequeñasRojo texto={'odian, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'sus'} /> 
+                      <LetrasGloboPequeñasRojo texto={'hijos, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'nietos '} /> 
+                      <LetrasGloboPequeñasRojo texto={'y '} /> 
+                      <LetrasGloboPequeñasRojo texto={'bisnietos; '} /> 
+                      <LetrasGloboPequeñasVerde texto={'pero '} /> 
+                      <LetrasGloboPequeñasVerde texto={'que '} /> 
+                      <LetrasGloboPequeñasVerde texto={'trato '} /> 
+                      <LetrasGloboPequeñasVerde texto={'con '} /> 
+                      <LetrasGloboPequeñasVerde texto={'amor '} /> 
+                      <LetrasGloboPequeñasVerde texto={'por '} /> 
+                      <LetrasGloboPequeñasVerde texto={'mil '} /> 
+                      <LetrasGloboPequeñasVerde texto={'generaciones '} /> 
+                      <LetrasGloboPequeñasVerde texto={'a '} /> 
+                      <LetrasGloboPequeñasVerde texto={'los '} /> 
+                      <LetrasGloboPequeñasVerde texto={'que '} /> 
+                      <LetrasGloboPequeñasVerde texto={'me '} /> 
+                      <LetrasGloboPequeñasVerde texto={'aman '} /> 
+                      <LetrasGloboPequeñasVerde texto={'y'} /> 
+                      <LetrasGloboPequeñasVerde texto={'cumplen '} /> 
+                      <LetrasGloboPequeñasVerde texto={'mis '} /> 
+                      <LetrasGloboPequeñasVerde texto={'mandamientos. '} />                                       
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-la-idolatria'}>
@@ -184,7 +891,75 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/satanas-es-real'}>SATANAS ES REAL. Apocalipsis 12 9 Y fue lanzado fuera el gran dragón, la serpiente antigua, que se llama diablo y Satanás, el cual engaña al mundo entero; fue arrojado a la tierra, y sus ángeles fueron arrojados con él. DIOS le permite probar a sus hijos. Job 1:6 Dios Habla Hoy 6 Un día en que debían presentarse ante el Señor sus servidores celestiales, se presentó también el ángel acusador entre ellos. 7 El Señor le preguntó: —¿De dónde vienes? Y el acusador contestó: (conoce más…)</Link>
+                  <Link className='no-decoration' to={'/satanas-es-real'}>
+                  <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'jesucristo vino a librarnos de satanas '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                       
+                      <LetrasGloboPequeñasVerde texto={'apocalipsis '} />
+                      <LetrasGloboPequeñasVerde texto={'12: 9: '} />
+                      <LetrasGloboPequeñasAzul texto={'asi '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'fue '} /> 
+                      <LetrasGloboPequeñasAzul texto={'expulsado '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'gran '} /> 
+                      <LetrasGloboPequeñasAzul texto={'dragon, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'aquella '} /> 
+                      <LetrasGloboPequeñasAzul texto={'serpiente '} /> 
+                      <LetrasGloboPequeñasAzul texto={'antigua '} /> 
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'se '} /> 
+                      <LetrasGloboPequeñasAzul texto={'llama '} /> 
+                      <LetrasGloboPequeñasRojo texto={'diablo '} /> 
+                      <LetrasGloboPequeñasRojo texto={'y '} /> 
+                      <LetrasGloboPequeñasRojo texto={'satanas, '} /> 
+                      <LetrasGloboPequeñasRojo texto={'y '} /> 
+                      <LetrasGloboPequeñasRojo texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'engaña '} /> 
+                      <LetrasGloboPequeñasRojo texto={'a '} /> 
+                      <LetrasGloboPequeñasRojo texto={'todo '} /> 
+                      <LetrasGloboPequeñasRojo texto={'el '} /> 
+                      <LetrasGloboPequeñasRojo texto={'mundo. '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'sus '} /> 
+                      <LetrasGloboPequeñasAzul texto={'angeles '} /> 
+                      <LetrasGloboPequeñasAzul texto={'fueron '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lanzados '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tierra. '} />
+                    </div>
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasVerde texto={'Juan '} />
+                      <LetrasGloboPequeñasVerde texto={'14: 30: '} />
+                      <LetrasGloboPequeñasAzul texto={'ya '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hablare '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mucho '} /> 
+                      <LetrasGloboPequeñasAzul texto={'con '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ustedes, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'viene '} />
+                      <LetrasGloboPequeñasRojo texto={'el '} /> 
+                      <LetrasGloboPequeñasRojo texto={'que '} /> 
+                      <LetrasGloboPequeñasRojo texto={'manda '} /> 
+                      <LetrasGloboPequeñasRojo texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'este '} /> 
+                      <LetrasGloboPequeñasRojo texto={'mundo. '} />  
+                      <LetrasGloboPequeñasAzul texto={'aunque '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tiene '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ningun '} /> 
+                      <LetrasGloboPequeñasAzul texto={'poder '} /> 
+                      <LetrasGloboPequeñasAzul texto={'sobre '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mi. '} />                                                              
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-satanas-es-real'}>
@@ -201,7 +976,101 @@ export default function Home() {
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
-                  <Link className='no-decoration' to={'/el-infierno'}>JESUCRISTO vino advertirnos de la condenación eterna en el infierno, Él dijo en Mateo 18: 8 »Por eso, si tu mano o tu pie te hacen caer en pecado, córtatelos y échalos lejos de ti; es mejor que entres en la vida manco o cojo, y no que con tus dos manos y tus dos pies seas arrojado al fuego eterno. 9 Y si tu ojo te hace caer en pecado, sácatelo y échalo lejos de ti; es mejor que entres en la vida con un solo ojo, y no que con tus dos ojos seas arrojado al fuego del infierno.</Link>
+                  <Link className='no-decoration' to={'/el-infierno'}>
+                    <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
+                      <LetrasGloboPequeñasAmarillo texto={'jesucristo anuncio el infierno como castigo eterno '} />                       
+                    </div> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                       
+                      <LetrasGloboPequeñasVerde texto={'mateo '} />
+                      <LetrasGloboPequeñasVerde texto={'18: 8: '} />
+                      <LetrasGloboPequeñasAzul texto={'por '} /> 
+                      <LetrasGloboPequeñasAzul texto={'eso, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'si '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mano '} /> 
+                      <LetrasGloboPequeñasAzul texto={'o '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'pie '} /> 
+                      <LetrasGloboPequeñasRojo texto={'te '} /> 
+                      <LetrasGloboPequeñasRojo texto={'hacen '} /> 
+                      <LetrasGloboPequeñasRojo texto={'caer '} /> 
+                      <LetrasGloboPequeñasRojo texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'pecado, '} />  
+                      <LetrasGloboPequeñasAzul texto={'cortatelos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'y '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hechalos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'lejos '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ti; '} /> 
+                      <LetrasGloboPequeñasAzul texto={'es '} /> 
+                      <LetrasGloboPequeñasAzul texto={'mejor '} />                      
+                      <LetrasGloboPequeñasAzul texto={'que '} /> 
+                      <LetrasGloboPequeñasAzul texto={'entres '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'vida '} /> 
+                      <LetrasGloboPequeñasAzul texto={'manco '} /> 
+                      <LetrasGloboPequeñasAzul texto={'o '} /> 
+                      <LetrasGloboPequeñasAzul texto={'cojo, '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'no '} />
+                      <LetrasGloboPequeñasAzul texto={'que '} />
+                      <LetrasGloboPequeñasAzul texto={'con '} />
+                      <LetrasGloboPequeñasAzul texto={'tus '} />
+                      <LetrasGloboPequeñasAzul texto={'dos '} />
+                      <LetrasGloboPequeñasAzul texto={'manos '} />
+                      <LetrasGloboPequeñasAzul texto={'o '} />
+                      <LetrasGloboPequeñasAzul texto={'tus '} />
+                      <LetrasGloboPequeñasAzul texto={'dos '} />
+                      <LetrasGloboPequeñasAzul texto={'seas '} />
+                      <LetrasGloboPequeñasRojo texto={'arrojado '} />
+                      <LetrasGloboPequeñasRojo texto={'al '} />
+                      <LetrasGloboPequeñasRojo texto={'fuego '} />
+                      <LetrasGloboPequeñasRojo texto={'eterno. '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'si '} />
+                      <LetrasGloboPequeñasAzul texto={'tu '} />
+                      <LetrasGloboPequeñasAzul texto={'ojo '} />
+                      <LetrasGloboPequeñasAzul texto={'te '} />
+                      <LetrasGloboPequeñasAzul texto={'hace '} />
+                      <LetrasGloboPequeñasAzul texto={'caer '} />
+                      <LetrasGloboPequeñasAzul texto={'en '} />
+                      <LetrasGloboPequeñasAzul texto={'pecado, '} />
+                      <LetrasGloboPequeñasAzul texto={'sacatelo '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'hechalo '} />
+                      <LetrasGloboPequeñasAzul texto={'lejos '} />
+                      <LetrasGloboPequeñasAzul texto={'de '} />
+                      <LetrasGloboPequeñasAzul texto={'ti; '} />
+                      <LetrasGloboPequeñasAzul texto={'es '} />
+                      <LetrasGloboPequeñasAzul texto={'mejor '} />
+                      <LetrasGloboPequeñasAzul texto={'que '} />
+                      <LetrasGloboPequeñasAzul texto={'entres '} />
+                      <LetrasGloboPequeñasAzul texto={'a '} />
+                      <LetrasGloboPequeñasAzul texto={'la '} />
+                      <LetrasGloboPequeñasAzul texto={'vida '} />
+                      <LetrasGloboPequeñasAzul texto={'con '} />
+                      <LetrasGloboPequeñasAzul texto={'un '} />
+                      <LetrasGloboPequeñasAzul texto={'solo '} />
+                      <LetrasGloboPequeñasAzul texto={'ojo, '} />
+                      <LetrasGloboPequeñasAzul texto={'y '} />
+                      <LetrasGloboPequeñasAzul texto={'no '} />
+                      <LetrasGloboPequeñasAzul texto={'que '} />
+                      <LetrasGloboPequeñasAzul texto={'con '} />
+                      <LetrasGloboPequeñasAzul texto={'tus '} />
+                      <LetrasGloboPequeñasAzul texto={'dos '} />
+                      <LetrasGloboPequeñasAzul texto={'ojos '} />
+                      <LetrasGloboPequeñasRojo texto={'seas '} /> 
+                      <LetrasGloboPequeñasRojo texto={'arrojado '} /> 
+                      <LetrasGloboPequeñasRojo texto={'al '} /> 
+                      <LetrasGloboPequeñasRojo texto={'fuego '} /> 
+                      <LetrasGloboPequeñasRojo texto={'del '} /> 
+                      <LetrasGloboPequeñasRojo texto={'infierno. '} />                                                                                    
+                    </div>
+                  </Link>
                 </div>
                 <div className='content-text-index'>
                   <Link to={'/videos-el-infierno'}>

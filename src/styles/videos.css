@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.video-contenedor-articulos {
+    width: 100%;
+    display: flex;
+}
+
+.video-margenes {
+    border: 5px solid gold;
+}
+
+.video-text {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    color: gold;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.video-text-container {
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .video-contenedor-articulos {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .video-margenes {
+        width: 23vw;
+        height: 12vw;
+    }
+}
+
+@media (max-width: 1199px) {
+    .video-contenedor-articulos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video-margenes {
+        width: 45vw;
+        height: 23vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .video-contenedor-articulos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .video-margenes {
+        width: 90vw;
+        height: 50vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-contenedor-articulos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .video-margenes {
+        width: 90vw;
+        height: 45vw;
+    }
+}

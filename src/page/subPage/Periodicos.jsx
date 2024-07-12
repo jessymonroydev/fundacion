@@ -4,25 +4,55 @@ import Star from "../../subcomponent/Star";
 import PrimalNav from "../../components/primalNav/PrimalNav";
 import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
+import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 
-export default function ElMundo() {
+export default function periodicos() {
     return(
         <div className="Home">
-            <Star />
-            <div className="page-container">
-                <PrimalNav />
+            <Star />            
+            <div className="page-container">  
+                <PrimalNav />              
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`ATAQUE A LOS NIÑOS CON EL MUNDO Y SUS TENDENCIAS, SEGUN LA BIBLIA`}/>
-                    </div>                    
-                </div>
-                <div style={{display:'flex', margin: 'auto', justifyContent: 'center', flexWrap: 'wrap', gap: '20px'}}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v09wFK269hE?si=R3MvphZGjXNv0N-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uSIYtNIAjKI?si=CeOG0UEcpn1PQSqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6AtfXkODi7U?si=aZ4xCj4b3RRq2Eig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RK55zFKMH8k?si=B2rA0iEmwWWaVw9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                        <LetrasGlobo texto={`periodicos`}/>
+                    </div> 
+                    <div>
+                        <div>
+                            <PageFlip texto={'El Rapto'} ruta={'periodico1'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 2º Edición'} ruta={'periodico2'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 3º Edición'} ruta={'periodico3'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 4º Edición'} ruta={'periodico4'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 6º Edición'} ruta={'periodico5'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 7º Edición'} ruta={'periodico6'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 8º Edición'} ruta={'periodico7'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'El Bautista 9º Edición'} ruta={'periodico8'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'Periodico-Ataques conta la niñes y adolescencia'} ruta={'periodico9'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'Periodico Halloween'} ruta={'periodico10'} />
+                        </div>
+                        <div>
+                            <PageFlip texto={'Periodico Nueva Jerusalen'} ruta={'periodico11'} />
+                        </div>
+                    </div>                   
+                </div>                
                 <Footer />
             </div>
         </div>

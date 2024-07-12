@@ -9,14 +9,15 @@ import '../styles/aNoDecorated.css';
 export default function Investiganos() {
     return(
         <div className="Home">
-            <Star />
-            <PrimalNav />
-            <div className="page-container">                
+            <Star />            
+            <div className="page-container">   
+                <PrimalNav />             
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
                         <LetrasGlobo texto={`INVESTIGANOS`}/>
                     </div> 
+                    <div style={{margin: 'auto'}} >2023</div>
                     <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} href="1o-personeria-Juridica-ICBF-2023.pdf" target="_blank" rel="noopener noreferrer">
                             1º Personería Jurídica  ICBF 2023
@@ -32,10 +33,7 @@ export default function Investiganos() {
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} href="5o-CERTIFICACION-RENTA-2022.pdf" target="_blank" rel="noopener noreferrer">
                             Certificación de Renta 2022
-                        </a>                                                                     
-                    </div>
-                    <div style={{margin: 'auto'}} >2023</div>
-                    <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
+                        </a>  
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} href="6o-CERTIFICADO-PENALES-ESAL-2023.pdf" target="_blank" rel="noopener noreferrer">
                             CERTIFICADOS PENALES-ESAL 2023
                         </a> 
@@ -50,8 +48,8 @@ export default function Investiganos() {
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="10o-CERTIFICADO-INGRESOS-CARGOS-ESAL-2023.pdf" target="_blank" rel="noopener noreferrer">
                             CERTIFICADO INGRESOS CARGOS ESAL 2023
-                        </a> 
-                    </div>
+                        </a>                                                                    
+                    </div>                    
                     <div style={{margin: 'auto'}} >2024</div>
                     <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="1° PERSONERIA JURIDICA ICBF.pdf" target="_blank" rel="noopener noreferrer">

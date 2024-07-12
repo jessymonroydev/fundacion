@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import LogoPage from '../../assets/LogoPage.png';
+import LogoPage from '../../assets/LogoPage1.png';
 import { FaYoutube, FaTwitter, FaFacebookSquare } from "react-icons/fa";
-import Burguer from '../../subcomponent/Burger';
 import '../../styles/primalNav.css';
 import { Link } from "react-router-dom";
+import RadioBrowser from '../radioBrowser/RadioBrowser.jsx';
 
 export default function PrimalNav() {
   const [switchState, setSwitchState] = useState('noVisible');
   const [conocenos, setConocenos] = useState('close');
+  const [menu, setMenu] = useState('niños');
   
-  let renderConocenos = null;
   let renderMenu = null;
 
   const handleMenu = (content) => {
@@ -20,6 +20,16 @@ export default function PrimalNav() {
     setConocenos(content)
   }
 
+  const handleRadio = (content) => {
+    setMenu(content)
+  }
+
+  if (menu === 'niños') {
+    renderMenu = <div><RadioBrowser estacion={'niños'} /></div>
+  } else if (menu === 'adultos') {
+    renderMenu = <div><RadioBrowser estacion={'adultos'} /></div>
+  }
+ 
   if (conocenos === 'open') {
     renderConocenos = <div 
       className="conocenos-new-menu"
@@ -46,7 +56,7 @@ export default function PrimalNav() {
     return(
       <div className="primal-nav">
         <div className='nav-index'>
-          <div><img className='LogoPage' src={LogoPage} alt=""/></div>
+          <Link to={'/'}><img className='LogoPage' src={LogoPage} alt=""/></Link>
           <div className='social-media'>
             <a className='social-media-button' href='https://www.youtube.com/channel/UCORJPp240Z14lc04mZ7BN4A' target='_blank'><FaYoutube /></a>
             <a className='social-media-button' href='https://twitter.com/fvanradio' target='_blank'><FaTwitter /></a>
@@ -54,28 +64,18 @@ export default function PrimalNav() {
           </div>
           <div className='social-media'>
             { /* Espacio para la radio <ReactPlayer url='https://tunein.com/radio/Adora-a-Dios-Kids-s241749/?lang=es' /> */ }
-            <div onClick={() => handleMenu(switchState === 'noVisible' ? 'visible' : 'noVisible')}><Burguer /></div>
+            <div className="menu-emisora" onClick={() => handleMenu(switchState === 'noVisible' ? 'visible' : 'noVisible')}>Emisoras</div>
           </div>
         </div>
-        <div className = 'menuContainer' style={{
-          position: 'absolute',
-          top: '100%',
-          right: 0,
-          width: switchState === 'visible' ? '100vw' : 0,
-          height: '100vh',
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
-          zIndex: -2,
-          overflow: 'hidden',
-          transition: 'width 0.3s ease-in-out',
-          }}
+        <div className ={switchState === 'visible' ? 'menuContainer visible' : 'menuContainer noVisible'}
         >
           <div className="menu-primal"
             style={{
               position: 'absolute',
               top: '0',
               right: 0,
-              width: switchState === 'visible' ? '80vw' : 0,
-              height: '89.5vh',
+              width: switchState === 'visible' ? '100%' : 0,
+              height: 'max-content',
               backgroundColor: '#0A0C18',
               zIndex: -2,
               overflow: 'hidden',
@@ -87,28 +87,12 @@ export default function PrimalNav() {
               overflowY: 'auto'
             }}
           >
-            <Link to={'/'} className="menu-button-primal" style={{textDecoration: 'none'}}>
-              <div>Home</div>
-            </Link>
-            <div 
-              className="menu-button-primal" 
-              onClick={() => handleConocenos(conocenos === 'close' ? 'open' : 'close')}
-            >
-              <div>Conócenos</div> 
+            <div className="button-radio-container">
+              <div className="button-radio" onClick={() => handleRadio('niños')}>Para Niños</div>
+              <div className="button-radio" onClick={() => handleRadio('adultos')}>Volerver a Nacer Radio</div>
             </div>
-            {renderConocenos}
-            <div className="menu-button-primal" >Proyectos</div>
-            <div className="menu-button-primal" >Contenido</div>
-            <div className="menu-button-primal" >Escuela para padres</div>
-            <div className="menu-button-primal" >Madres triunfadoras</div>
-            <div className="menu-button-primal" >Enfoque a la familia</div>
-            <div className="menu-button-primal" >Cómo educar</div>
-            <div className="menu-button-primal" >Folletos</div>
-            <div className="menu-button-primal" >Periódicos</div>
-            <div className="menu-button-primal" >Concursos</div>
-            <div className="menu-button-primal" >Investiganos</div>
-            <div className="menu-button-primal" >Únete</div>
-          </div>
+            {renderMenu}
+            </div>
         </div>
       </div>
     );
