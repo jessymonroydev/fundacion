@@ -23,6 +23,7 @@ import Img13 from '../assets/cancionesImg/Maldita-pornografia.jpg';
 import Img14 from '../assets/cancionesImg/Sabios-y-tontos.jpg';
 import Img15 from '../assets/cancionesImg/El-Reality.jpg';
 import Img16 from '../assets/cancionesImg/Dejate-Gobernar-por-El.jpg';
+import Img17 from '../assets/cancionesImg/FormatFactory-PicPDF-La-Verdad.jpg';
 
 
 import concursoCancionesImg from '../assets/concursoCanciones/Volantejovenes1y2-1024x357.jpg';
@@ -47,7 +48,7 @@ export default function ConcursoCanciones() {
                         </div>
                         <img style={{width: '100%', height: 'auto', marginTop: '4vh'}} src={concursoCancionesImg} alt="consurso canciones img" />
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>El Amor</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Dejate Gobernar</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -56,10 +57,10 @@ export default function ConcursoCanciones() {
                             <iframe className='video-margenes-canciones' src="https://www.youtube.com/embed/CZ2rPnhsss8?si=qtCJlmPZcikPz76A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div className="img-container-canciones">
-                            <img className="img-canciones" src={Img1} alt="Letra" />
+                            <img className="img-canciones" src={Img16} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Jesucristo El Creador</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>El reality verdadero</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -68,10 +69,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/qNcQAzXZ3u4?si=ynZ8clCnpVpRyzwt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img2} alt="Letra" />
+                            <img className="img-canciones" src={Img15} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Santo Santo Santo</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Sabios y tontos</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -80,10 +81,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/jzU8caC7wsU?si=hrCh9Fvms8huJScS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img3} alt="Letra" />
+                            <img className="img-canciones" src={Img14} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Dios sana a Colombia</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Maldita pornografía</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -92,10 +93,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/4fa604IFH28?si=gZTq_mC8_xylB-B-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img4} alt="Letra" />
+                            <img className="img-canciones" src={Img13} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>No encuentran la paz</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Vuelve Jesucristo</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -104,10 +105,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/1Ti83Llea8o?si=bafeK6HW3SoHDRgS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img5} alt="Letra" />
+                            <img className="img-canciones" src={Img12} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Volver a Nacer</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>El verdadero amor</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>                            
@@ -116,10 +117,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/OeQmOo_ypmk?si=zCPOimLYloq2tuF7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img6} alt="Letra" />
+                            <img className="img-canciones" src={Img11} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Jesucristo Mi refugio</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>La verdad</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -128,10 +129,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/_OsOhc8eVx4?si=bvYWsGHXMzFI8WVF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img7} alt="Letra" />
+                            <img className="img-canciones" src={Img10} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Permanecer a tu lado por siempre</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Vive para siempre</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -140,10 +141,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/mbuhRyECD7c?si=kqeKqQ548GIECRyA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img8} alt="Letra" />
+                            <img className="img-canciones" src={Img9} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Vive para Siempre</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Permanecer a tu lado por siempre</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>                            
@@ -152,10 +153,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/mziAEEt48oY?si=2o4OTmeGdit4hwNc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img9} alt="Letra" />
+                            <img className="img-canciones" src={Img8} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>La Verdad</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Jesucristo mi refugio</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -164,10 +165,10 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/V0TjSMb3hN8?si=FYWsFhi8FLNQolEF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img10} alt="Letra" />
+                            <img className="img-canciones" src={Img7} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>El Verdadero amor</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Nacer de nuevo</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
@@ -176,57 +177,57 @@ export default function ConcursoCanciones() {
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/yakRYSLkpIw?si=_uPLkUjRZZJsvnx-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img11} alt="Letra" />
+                            <img className="img-canciones" src={Img6} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Vuelve Jesucristo</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>No encuentran la paz</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/cTW0G7wRWBM?si=TRq9Y2zUXD43S9WP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img12} alt="Letra" />
+                            <img className="img-canciones" src={Img5} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Maldita pornografia</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Dios sana Colombia</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>                            
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/SsFe7Ugd9bE?si=0MljAViY6bQ5tjiy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img13} alt="Letra" />
+                            <img className="img-canciones" src={Img4} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Sabios y tontos</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Santo, Santo, Santo</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
-                            <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/VxcPq18ssaI?si=xFPVBB_ghvs874N0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
+                            <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/zw0qWiSeufQ?si=_a97P4WAxAcQ_5GE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img14} alt="Letra" />
+                            <img className="img-canciones" src={Img3} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>El Reality</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Jesucristo el creador</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/uhL22IeQ6O8?si=9CtJFrT4ROEKnEGV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img15} alt="Letra" />
+                            <img className="img-canciones" src={Img2} alt="Letra" />
                         </div>
                     </div>
-                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Dejate Gobernar por El</div>
+                    <div style={{color: 'gold', width: '100%', textAlign: 'center', fontSize: '1.2em'}}>Tener AMOR</div>
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
                             <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/FCiict9Pq6c?si=LT5i83YXf7g7MHz0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
-                            <img className="img-canciones" src={Img16} alt="Letra" />
+                            <img className="img-canciones" src={Img1} alt="Letra" />
                         </div>
                     </div>                                
                 </div>

@@ -326,7 +326,7 @@ export default function Home() {
                   <Link to={'/videos-el-reino-de-los-cielos'}>
                     <img className='img-index' src={ReinoDeLosCielos} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL REINO DE LOS CIELOS`}/></div>
                 </div>
               </div>
             </div>
@@ -401,7 +401,7 @@ export default function Home() {
                   <Link to={'/videos-el-amor'}>
                     <img className='img-index' src={ElAmor} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL AMOR"`}/></div>
                 </div>
               </div>
             </div>
@@ -507,7 +507,7 @@ export default function Home() {
                   <Link to={'/videos-nacer-de-nuevo'}>
                     <img className='img-index' src={NacerDeNuevo} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "NACER DE NUEVO"`}/></div>
                 </div>
               </div>
             </div>
@@ -597,7 +597,7 @@ export default function Home() {
                   <Link to={'/videos-el-mundo-y-sus-tendencias'}>
                     <img className='img-index' src={Tendencias} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL MUNDO Y SUS TENDENCIAS"`}/></div>
                 </div>
               </div>
             </div>
@@ -700,7 +700,7 @@ export default function Home() {
                   <Link to={'/videos-la-inmoralidad'}>
                     <img className='img-index' src={LaInmoralidad} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "LA INMORALIDAD"`}/></div>
                 </div>
               </div>
             </div>
@@ -767,7 +767,7 @@ export default function Home() {
                   <Link to={'/videos-el-abuso'}>
                     <img className='img-index' src={PrevenirElAbuso} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL ABUSO"`}/></div>
                 </div>
               </div>
             </div>
@@ -881,7 +881,7 @@ export default function Home() {
                   <Link to={'/videos-la-idolatria'}>
                     <img className='img-index' src={LaIdolatria} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "LA IDOLATRIA"`}/></div>
                 </div>
               </div>
             </div>
@@ -966,7 +966,7 @@ export default function Home() {
                   <Link to={'/videos-satanas-es-real'}>
                     <img className='img-index' src={Satanas} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "SANANAS ES REAL"`}/></div>
                 </div>
               </div>
             </div>
@@ -1077,7 +1077,7 @@ export default function Home() {
                   <Link to={'/videos-el-infierno'}>
                     <img className='img-index' src={ElInfierno} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE  LA ARMADURA DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL INFIERNO"`}/></div>
                 </div>
               </div>
             </div>
