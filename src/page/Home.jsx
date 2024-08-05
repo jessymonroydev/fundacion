@@ -26,6 +26,7 @@ import LetrasGloboPequeñasAmarillo from '../subcomponent/LetrasGloboPequeñasAm
 import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
 
 export default function Home() {
+
   return (
     <div className='Home'>
       <Star />           
@@ -35,19 +36,19 @@ export default function Home() {
         <div className='nav-buttons'>
           <Link to={'/videos-reino-de-los-cielos-inicio'}>
             <div className='button-nav'><Carrousel carrousel={'reino'}/></div>
-            <div style={{margin: '20px'}}>
+            <div style={{margin: '20px', display: 'flex', justifyContent: 'center', width: '100%'}}>
               <LetrasGloboPequeñas texto = {'Reino de los cielos'} /> 
             </div>             
           </Link>
           <Link to={'/videos-la-creacion'}>
             <div className='button-nav'><Carrousel carrousel={'creacion'}/></div>
-            <div style={{margin: '20px'}}>
+            <div style={{margin: '20px', display: 'flex', justifyContent: 'center', width: '100%'}}>
               <LetrasGloboPequeñas texto = {'La creacion'} />
             </div>
           </Link>
           <Link to={'/videos-el-castigo'}>
             <div className='button-nav'><Carrousel carrousel={'castigo'}/></div>
-            <div style={{margin: '20px'}}>
+            <div style={{margin: '20px', display: 'flex', justifyContent: 'center', width: '100%'}}>
               <LetrasGloboPequeñas texto = {'El castigo'} />
             </div>
           </Link>                                       

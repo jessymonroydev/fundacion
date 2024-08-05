@@ -17,7 +17,7 @@ export default function ElCelular() {
                 <div className="video-contenedor-articulos">
                     <VideoSyntax url={'https://www.youtube.com/embed/B9geaWgzm3s?si=Os7aok0QT5cGDkW4'} />
                     <VideoSyntax url={'https://www.youtube.com/embed/ES7Wub9M7Lo?si=8T9XFmsTlRXSGuDi'}/>
-                    <VideoSyntax url={'https://www.youtube.com/embed/D8h-urYyh7A?si=ezsDSA6xbVMOGJ8G'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/S4H7rlzcJgI?si=525ldgrIPKpBfWgA'}/>
                     <VideoSyntax url={'https://www.youtube.com/embed/OimQTfmrs2E?si=eLbfcz_nOoKu2oIV'}/>
                 </div>
                 <div className="content-page-armadura">

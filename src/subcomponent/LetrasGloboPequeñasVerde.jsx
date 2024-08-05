@@ -44,7 +44,7 @@ export default function LetrasGloboPequeñasVerde(props) {
           } else if (/\s/.test(palabra)) {
             return <div key={index} style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'transparent' }}></div>;
           } else {
-            return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '10px', height: '10px', color: 'white' }} key={index}><div style={{ fontSize: '1em', color: '#699c44', marginTop: '-5px' }}>{palabra}</div></div>;
+            return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '10px', height: '10px', color: 'white' }} key={index}><div style={{ fontSize: '1.5em', color: '#699c44', marginTop: '-5px' }}>{palabra}</div></div>;
           }
         })}
       </div>
@@ -64,7 +64,7 @@ export default function LetrasGloboPequeñasVerde(props) {
           grupos.push(<div key={index} style={{ display: 'flex', marginRight: '1px' }}>{grupoActual}</div>);
           grupoActual = [];
         }
-        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', position: 'relative' }}><div style={{ fontSize: '1em', position: 'absolute', top: '-4px', color: '#699c44', marginTop: '-5px' }}>{caracter}</div></div>);
+        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', position: 'relative' }}><div style={{ fontSize: '1.5em', position: 'absolute', top: '-13px', color: '#699c44', marginTop: '-5px' }}>{caracter}</div></div>);
       }
     });
 

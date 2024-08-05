@@ -79,9 +79,11 @@
 
   */
 
+  /* Barra de desplazamiento general */   
+
   @media (min-width: 1200px) {
     .nav {
-        width: 100vw;
+        width: 95vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -97,7 +99,7 @@
       .nav-menu {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 3px;
         border-radius: 12px;
         align-items: center;
         justify-content: center;
@@ -105,8 +107,8 @@
       }
     
       .gold-bar {
-        width: 7vw;
-        height: 35px;
+        width: 6vw;
+        height: 28px;
         background-color: #fdfba5;
         border: 5px solid #b57917;
         border-radius: 5px;
@@ -117,7 +119,7 @@
         align-items: center;
         color: #000000;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 0.7em;
         line-height: 0.8;
       }
       
@@ -214,6 +216,11 @@
         color: gold;
         padding-right: 20px;
         text-align: center;
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding-left: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
     
       .sub-menu-container:hover {
@@ -223,10 +230,9 @@
 
   @media (max-width: 1199px) {
     .nav {
-        width: 100vw;
+        width: 95vw;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
         font-family: "Poetsen One", sans-serif;
       }
@@ -238,7 +244,7 @@
       
       .nav-menu {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         gap: 10px;
         border-radius: 12px;
         align-items: center;
@@ -247,7 +253,7 @@
       }
     
       .gold-bar {
-        width: 10vw;
+        width: 6vw;
         height: 30px;
         background-color: #fdfba5;
         border: 5px solid #b57917;
@@ -259,7 +265,7 @@
         align-items: center;
         color: #000000;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 0.6;
         line-height: 0.8;
       }
       
@@ -359,6 +365,11 @@
         color: gold;
         padding-right: 20px;
         text-align: center;
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding-left: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
     
       .sub-menu-container:hover {
@@ -579,6 +590,11 @@
         color: gold;
         padding-right: 20px;
         text-align: center;
+        border: 2px solid rgba(255, 217, 0, 0.37);
+        border-radius: 30px;
+        padding-left: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
     
       .sub-menu-container:hover {
