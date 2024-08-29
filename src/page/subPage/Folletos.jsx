@@ -8,6 +8,7 @@ import '../../styles/videos.css';
 import '../../styles/folletos.css';
 import { Link } from "react-router-dom";
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
+import GoatCounter from "../../components/counter/GoatCounter.jsx";
 
 export default function EscuelaDePadres() {
     return(
@@ -23,7 +24,7 @@ export default function EscuelaDePadres() {
                     <div style={{width: '100%'}}>  
                         <FolletosRutas />
                     </div>                  
-                </div>                                
+                </div>                              
                 <Footer />
             </div>
         </div>

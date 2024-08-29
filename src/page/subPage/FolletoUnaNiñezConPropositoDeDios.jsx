@@ -23,7 +23,7 @@ export default function FolletoUnaNiñezConPropositoDeDios() {
                     </div>  
                     <div style={{width: '100%'}}>  
                     <iframe
-                        src="https://flipbookpdf.net/web/site/fe46f904dcbebf3c028804bce92c5ed17308f877202408.pdf.html"
+                        src="https://flipbookpdf.net/web/site/577b24a9a44afe57cc37283c07242246b5ac7c83202408.pdf.html"
                         width="100%"
                         height="600"
                         className="flip-book-3d"                        

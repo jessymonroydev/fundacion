@@ -1,42 +1,37 @@
-import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import React, { useEffect } from 'react';
 
-export default function GoatCounter() {
-  const [views, setViews] = useState(null);
-  const location = useLocation();
-
+const GoatCounter = () => {
   useEffect(() => {
-    const fetchStats = async () => {
-      const url = "https://fundacionvolveranacer.goatcounter.com/api/v0/stats/total";
-      const apiKey = "1th9qgte6s4821nnuwz78giigyaiq4ugq2b0ln9mor44sggqc4";
-
+    const fetchUserData = async () => {
       try {
-        const response = await fetch(url, {
-          method: "GET",
+        const response = await fetch('https://fundacionvolveranacer.goatcounter.com/api/v0/me', {
+          mode: 'no-cors',
           headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${apiKey}`,
-          },
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer 1th9qgte6s4821nnuwz78giigyaiq4ugq2b0ln9mor44sggqc4'
+          }
         });
 
         if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+          throw new Error('Error al obtener los datos del usuario');
         }
 
         const data = await response.json();
-        setViews(data); // Almacena los datos en el estado
-        console.log(`GoatCounter: Stats for ${location.pathname}`, data);
+        console.log(data);
       } catch (error) {
-        console.error("Fetch error:", error);
+        console.error(error);
       }
     };
 
-    fetchStats();
-  }, [location]);
+    fetchUserData();
+  }, []); // El array vacío asegura que esto se ejecute solo una vez cuando el componente se monte
 
   return (
     <div>
-      <h2>Visitas: {views ? views.total : "Cargando..."}</h2>
+      <h1>Mi Componente</h1>
+      {/* Otros elementos del componente */}
     </div>
   );
-}
+};
+
+export default GoatCounter;
