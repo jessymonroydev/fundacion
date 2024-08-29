@@ -204,7 +204,7 @@ export default function ConcursoCanciones() {
                     <div className="canciones-container">
                         <div className="canciones-video-container">
                             <div className="text-cancion">Canción</div>
-                            <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/zw0qWiSeufQ?si=_a97P4WAxAcQ_5GE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
+                            <iframe  className='video-margenes-canciones' src="https://www.youtube.com/embed/zw0qWiSeufQ?si=_a97P4WAxAcQ_5GES" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                         </div>
                         <div>
                             <img className="img-canciones" src={Img3} alt="Letra" />

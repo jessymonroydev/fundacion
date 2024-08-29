@@ -22,7 +22,13 @@ export default function FolletoLibretos() {
                         <LetrasGlobo texto={`folleto Libretos`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                        <PageFlip ruta={'folleto6'} />  
+                    <iframe
+                        src="https://flipbookpdf.net/web/site/6cf1d14545415f9ea9a5d3837d0b1dd4be0af2d5202408.pdf.html"
+                        width="100%"
+                        height="600"
+                        className="flip-book-3d"                        
+                        title="Flipbook PDF"
+                        ></iframe>  
                         <FolletosRutas />
                 </div>                  
                 </div>                                

@@ -22,7 +22,13 @@ export default function FolletoCursoParaCapacitadores() {
                         <LetrasGlobo texto={`folleto curso para capacitadores`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                        <PageFlip ruta={'folleto1'} />  
+                        <iframe
+                            src="https://flipbookpdf.net/web/site/ce4c2977ff681f7ef6c969b3c755478fb4938565202408.pdf.html"
+                            width="100%"
+                            height="600"
+                            className="flip-book-3d"                        
+                            title="Flipbook PDF"
+                        ></iframe> 
                         <FolletosRutas />
                 </div>                  
                 </div>                                

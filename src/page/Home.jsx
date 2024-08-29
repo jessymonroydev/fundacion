@@ -1072,7 +1072,7 @@ export default function Home() {
                       <LetrasGloboPequeñasRojo texto={'infierno. '} />                                                                                    
                     </div>
                   </Link>
-                </div>
+                </div>                
                 <div className='content-text-index'>
                   <Link to={'/videos-el-infierno'}>
                     <img className='img-index' src={ElInfierno} alt="Foto Uno" />

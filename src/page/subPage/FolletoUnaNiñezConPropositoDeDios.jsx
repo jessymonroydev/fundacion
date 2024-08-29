@@ -22,7 +22,13 @@ export default function FolletoUnaNiñezConPropositoDeDios() {
                         <LetrasGlobo texto={`folleto una ninez con proposito de dios`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                        <PageFlip ruta={'folleto7'} />  
+                    <iframe
+                        src="https://flipbookpdf.net/web/site/fe46f904dcbebf3c028804bce92c5ed17308f877202408.pdf.html"
+                        width="100%"
+                        height="600"
+                        className="flip-book-3d"                        
+                        title="Flipbook PDF"
+                        ></iframe>  
                         <FolletosRutas />
                 </div>                  
                 </div>                                

@@ -22,7 +22,13 @@ export default function FolletoLaPrevencion() {
                         <LetrasGlobo texto={`folleto la prevencion`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                        <PageFlip ruta={'folleto4'} />  
+                    <iframe
+                        src="https://flipbookpdf.net/web/site/331a2df2df702c61c22e97e4b963a581cf1a7c38202408.pdf.html"
+                        width="100%"
+                        height="600"
+                        className="flip-book-3d"                        
+                        title="Flipbook PDF"
+                        ></iframe> 
                         <FolletosRutas />
                 </div>                  
                 </div>                                

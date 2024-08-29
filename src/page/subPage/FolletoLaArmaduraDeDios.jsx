@@ -22,7 +22,13 @@ export default function FolletoLaArmaduraDeDios() {
                         <LetrasGlobo texto={`folleto la armadura de dios`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                        <PageFlip ruta={'folleto5'} />  
+                    <iframe
+                        src="https://flipbookpdf.net/web/site/78abfbed54facb717d7906589ff45755a0ea7119202408.pdf.html"
+                        width="100%"
+                        height="600"
+                        className="flip-book-3d"                        
+                        title="Flipbook PDF"
+                        ></iframe>  
                         <FolletosRutas />
                 </div>                  
                 </div>                                
