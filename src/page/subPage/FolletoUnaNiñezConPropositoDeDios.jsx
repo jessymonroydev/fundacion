@@ -9,6 +9,7 @@ import '../../styles/folletos.css';
 import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function FolletoUnaNiñezConPropositoDeDios() {
     return(
@@ -31,7 +32,8 @@ export default function FolletoUnaNiñezConPropositoDeDios() {
                         ></iframe>  
                         <FolletosRutas />
                 </div>                  
-                </div>                                
+                </div>   
+                <Counter />                                
                 <Footer />
             </div>
         </div>

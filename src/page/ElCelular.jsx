@@ -6,6 +6,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function ElCelular() {
     return(
@@ -98,6 +99,7 @@ export default function ElCelular() {
                         <div>Establecer horarios y límites claros, fomentar actividades al aire libre y en familia, establecer consecuencias claras, supervisar el contenido y dar ejemplo son consejos prácticos que pueden ayudar a prevenir la adicción al celular en niños.</div>
                     </div>                                       
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

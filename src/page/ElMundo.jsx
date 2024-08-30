@@ -7,6 +7,7 @@ import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/home.css';
 import '../styles/videos.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function ElMundo() {
     return(
@@ -142,7 +143,8 @@ export default function ElMundo() {
                     <div>
                         <strong style={{color: '#04acfc'}}>Encuentra la solución en volver a nacer.</strong>
                     </div>                    
-                </div>                
+                </div>   
+                <Counter />                
                 <Footer />
             </div>
         </div>

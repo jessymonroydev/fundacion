@@ -5,6 +5,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/aNoDecorated.css';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function Investiganos() {
     return(
@@ -84,6 +85,7 @@ export default function Investiganos() {
                         </a> 
                     </div>                                                                    
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

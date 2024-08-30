@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function TestimoniosExHomosexuales() {
     return(
@@ -63,6 +64,7 @@ export default function TestimoniosExHomosexuales() {
                     </div>                                     
                 </div>
                 <div className="video-contenedor-articulos"></div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

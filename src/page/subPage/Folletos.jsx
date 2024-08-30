@@ -6,11 +6,14 @@ import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import '../../styles/videos.css';
 import '../../styles/folletos.css';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
-import GoatCounter from "../../components/counter/GoatCounter.jsx";
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function EscuelaDePadres() {
+    const location = useLocation();
+    console.log(location);
+
     return(
         <div className="Home">
             <Star />            
@@ -24,7 +27,8 @@ export default function EscuelaDePadres() {
                     <div style={{width: '100%'}}>  
                         <FolletosRutas />
                     </div>                  
-                </div>                              
+                </div>
+                <Counter />                              
                 <Footer />
             </div>
         </div>

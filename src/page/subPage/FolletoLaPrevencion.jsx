@@ -9,6 +9,7 @@ import '../../styles/folletos.css';
 import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function FolletoLaPrevencion() {
     return(
@@ -22,16 +23,16 @@ export default function FolletoLaPrevencion() {
                         <LetrasGlobo texto={`folleto la prevencion`}/>
                     </div>  
                     <div style={{width: '100%'}}>  
-                    <iframe
-                        src="https://flipbookpdf.net/web/site/331a2df2df702c61c22e97e4b963a581cf1a7c38202408.pdf.html"
-                        width="100%"
-                        height="600"
-                        className="flip-book-3d"                        
-                        title="Flipbook PDF"
-                        ></iframe> 
+                    <iframe 
+                        src="https://online.publuu.com/639335/1425544/page/1?embed" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allow="clipboard-write; autoplay; fullscreen" 
+                        className="publuuflip flipflip"></iframe>                         
                         <FolletosRutas />
                 </div>                  
-                </div>                                
+                </div> 
+                <Counter />                                  
                 <Footer />
             </div>
         </div>

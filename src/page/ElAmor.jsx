@@ -6,6 +6,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function ElAmor() {
     return(
@@ -246,6 +247,7 @@ export default function ElAmor() {
                         <strong style={{color: '#63ca18'}}>Apocalipsis 3:19:</strong> <strong style={{color: '#04acfc'}}>A todos los que amo</strong>, yo los reprendo y los castigo; así que muestra tu fervor y arrepiéntete.
                     </div>                    
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

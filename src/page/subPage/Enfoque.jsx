@@ -4,6 +4,7 @@ import Star from "../../subcomponent/Star";
 import PrimalNav from "../../components/primalNav/PrimalNav";
 import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function ElMundo() {
     return(
@@ -23,6 +24,7 @@ export default function ElMundo() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6AtfXkODi7U?si=aZ4xCj4b3RRq2Eig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/RK55zFKMH8k?si=B2rA0iEmwWWaVw9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

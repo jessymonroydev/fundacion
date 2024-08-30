@@ -7,6 +7,7 @@ import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/home.css';
 import '../styles/videos.css';
 import '../styles/fundador.css';
+import Counter from "../components/counter/Counter.jsx";
 
 import FotoFamilia from '../assets/imgFundador/familia-2022.jpg';
 import Local from '../assets/imgFundador/sede-300x225.jpg';
@@ -264,7 +265,8 @@ export default function Fundador() {
                     <div>
                         <iframe  className='video-margenes-fundador-2' src="https://www.youtube.com/embed/F4NMNUR1ZJI?si=0oMW2lRXbHbcj3IN" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="no-referrer-when-downgrade" allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"></iframe>
                     </div>
-                </div>                
+                </div>  
+                <Counter />                 
                 <Footer />
             </div>
         </div>

@@ -7,6 +7,7 @@ import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import Canciones from "../../subcomponent/pageComponent/Canciones.jsx";
 import Memoria from "../../subcomponent/pageComponent/Memoria.jsx";
 import '../../styles/sub/switches.css';
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function ElMundo() {
     const [switchPage, setSwitchPage] = useState('canciones');
@@ -39,6 +40,7 @@ export default function ElMundo() {
                     </div> 
                     {renderSwitch}                   
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

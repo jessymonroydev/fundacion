@@ -6,6 +6,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/concursoCanciones.css';
+import Counter from "../components/counter/Counter.jsx";
 
 import Img1 from '../assets/cancionesImg/El-Amor.jpg';
 import Img2 from '../assets/cancionesImg/Jesucristo-El-Creador.jpg';
@@ -231,6 +232,7 @@ export default function ConcursoCanciones() {
                         </div>
                     </div>                                
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

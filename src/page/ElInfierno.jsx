@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/videos.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function Elinfierno() {
     return(
@@ -171,7 +172,8 @@ export default function Elinfierno() {
                     <div>
                         Escuchen mi canción en yo tuve “Déjate gobernar por EL” por “Cesar Méndez el bautista” Les deseo muchas bendiciones.
                     </div>                    
-                </div>                
+                </div>   
+                <Counter />                
                 <Footer />
             </div>
         </div>

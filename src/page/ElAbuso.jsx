@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/videos.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function ElAbuso() {
     return(
@@ -238,7 +239,8 @@ export default function ElAbuso() {
                     <div>
                         Realmente Dios nos dio la mano cuando le arrendamos hace un año a NEUROSPOR que trabaja con los niños por medio de las EPS.
                     </div>                    
-                </div>                
+                </div> 
+                <Counter />                  
                 <Footer />
             </div>
         </div>

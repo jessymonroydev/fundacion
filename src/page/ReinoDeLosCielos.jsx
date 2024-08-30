@@ -6,6 +6,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function ReinoDeLosCielos() {
     return(
@@ -197,6 +198,7 @@ export default function ReinoDeLosCielos() {
                         <strong style={{color: '#fbbf62'}}>Dios Habla Hoy</strong> <strong style={{color: '#63ca18'}}>Mateo 7: 11:</strong> Pues si ustedes, que son malos, saben dar cosas buenas a sus hijos, <strong style={{color: '#04acfc'}}>¡cuánto más su Padre que está en el cielo</strong> dará cosas buenas a quienes se las pidan!
                     </div>                    
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

@@ -7,6 +7,7 @@ import { CiCirclePlus } from "react-icons/ci";
 import '../styles/historia.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
+import Counter from "../components/counter/Counter.jsx";
 
 // 2003 img
 import año31 from '../assets/2003/20031.jpg';
@@ -1044,6 +1045,7 @@ export default function Historia() {
                         </tbody>
                     </table>
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

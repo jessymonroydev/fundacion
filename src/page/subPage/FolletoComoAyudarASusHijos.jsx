@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
 import '../../styles/flipBook3d.css';
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function FolletoComoAyudarATusHijos() {
     return(
@@ -22,17 +23,17 @@ export default function FolletoComoAyudarATusHijos() {
                     <div style={{margin:'auto', justifyContent: 'center'}}>
                         <LetrasGlobo texto={`folleto como ayudar a tus hijos`}/>
                     </div>
-                    <iframe
-                        src="https://flipbookpdf.net/web/site/fe9091968e8cdff9b9ede350ae6d171abbb5faa5202408.pdf.html"
-                        width="100%"
-                        height="600"
-                        className="flip-book-3d"                        
-                        title="Flipbook PDF"
-                        ></iframe>  
+                    <iframe 
+                        src="https://online.publuu.com/639335/1425534/page/1?embed" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allow="clipboard-write; autoplay; fullscreen" 
+                        className="publuuflip flipflip"></iframe> 
                     <div style={{width: '100%'}}>  
                         <FolletosRutas />
                 </div>                  
-                </div>                                
+                </div>   
+                <Counter />                                
                 <Footer />
             </div>
         </div>

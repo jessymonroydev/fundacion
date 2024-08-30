@@ -24,6 +24,7 @@ import LetrasGloboPequeñasRojo from '../subcomponent/LetrasGloboPequeñasRojo.j
 import LetrasGloboPequeñasVerde from '../subcomponent/LetrasGloboPequeñasVerde.jsx';
 import LetrasGloboPequeñasAmarillo from '../subcomponent/LetrasGloboPequeñasAmarillo.jsx';
 import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function Home() {
 
@@ -108,7 +109,7 @@ export default function Home() {
                     <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
                       <LetrasGloboPequeñasVerde texto={'deuteronomio '} /> 
                       <LetrasGloboPequeñasVerde texto={'11: 19: '} /> 
-                      <LetrasGloboPequeñasAzul texto={'instruyanen '} /> 
+                      <LetrasGloboPequeñasAzul texto={'instruyan '} /> 
                       <LetrasGloboPequeñasAzul texto={'a '} /> 
                       <LetrasGloboPequeñasAzul texto={'sus '} /> 
                       <LetrasGloboPequeñasAzul texto={'hijos '} /> 
@@ -291,7 +292,7 @@ export default function Home() {
                       <LetrasGloboPequeñasRojo texto={'prostitucion, '} />       
                       <LetrasGloboPequeñasRojo texto={'ni '} />    
                       <LetrasGloboPequeñasRojo texto={'los '} />    
-                      <LetrasGloboPequeñasRojo texto={'idolatras, '} />    
+                      <LetrasGloboPequeñasRojo texto={'idolatran, '} />    
                       <LetrasGloboPequeñasRojo texto={'ni '} /> 
                       <LetrasGloboPequeñasRojo texto={'los '} /> 
                       <LetrasGloboPequeñasRojo texto={'que '} /> 
@@ -468,7 +469,7 @@ export default function Home() {
                       <LetrasGloboPequeñasVerde texto={'romanos '} />
                       <LetrasGloboPequeñasVerde texto={'8: 19: '} />
                       <LetrasGloboPequeñasRojo texto={'pero '} />
-                      <LetrasGloboPequeñasRojo texto={'ustdes '} />
+                      <LetrasGloboPequeñasRojo texto={'ustedes '} />
                       <LetrasGloboPequeñasRojo texto={'ya '} />
                       <LetrasGloboPequeñasRojo texto={'no '} />
                       <LetrasGloboPequeñasRojo texto={'viven '} />
@@ -487,7 +488,7 @@ export default function Home() {
                       <LetrasGloboPequeñasAzul texto={'dios '} /> 
                       <LetrasGloboPequeñasAzul texto={'vive '} /> 
                       <LetrasGloboPequeñasAzul texto={'en '} /> 
-                      <LetrasGloboPequeñasAzul texto={'ustdes. '} /> 
+                      <LetrasGloboPequeñasAzul texto={'ustedes. '} /> 
                       <LetrasGloboPequeñasVerde texto={'el '} />
                       <LetrasGloboPequeñasVerde texto={'que '} />
                       <LetrasGloboPequeñasVerde texto={'no '} />
@@ -756,7 +757,7 @@ export default function Home() {
                       <LetrasGloboPequeñasAzul texto={'no '} /> 
                       <LetrasGloboPequeñasAzul texto={'corrompas '} /> 
                       <LetrasGloboPequeñasAzul texto={'el '} /> 
-                      <LetrasGloboPequeñasAzul texto={'oais '} /> 
+                      <LetrasGloboPequeñasAzul texto={'pais '} /> 
                       <LetrasGloboPequeñasAzul texto={'llenandolo '} /> 
                       <LetrasGloboPequeñasAzul texto={'de '} /> 
                       <LetrasGloboPequeñasRojo texto={'depravaciones. '} />                                       
@@ -822,6 +823,7 @@ export default function Home() {
                       <LetrasGloboPequeñasAzul texto={'debajo '} /> 
                       <LetrasGloboPequeñasAzul texto={'de '} /> 
                       <LetrasGloboPequeñasAzul texto={'la '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tierra. '} />
                       <LetrasGloboPequeñasAzul texto={'no '} /> 
                       <LetrasGloboPequeñasAzul texto={'te '} /> 
                       <LetrasGloboPequeñasAzul texto={'inclines '} /> 
@@ -1026,8 +1028,9 @@ export default function Home() {
                       <LetrasGloboPequeñasAzul texto={'o '} />
                       <LetrasGloboPequeñasAzul texto={'tus '} />
                       <LetrasGloboPequeñasAzul texto={'dos '} />
-                      <LetrasGloboPequeñasAzul texto={'seas '} />
-                      <LetrasGloboPequeñasRojo texto={'arrojado '} />
+                      <LetrasGloboPequeñasAzul texto={'pies '} />
+                      <LetrasGloboPequeñasAzul texto={'sean '} />
+                      <LetrasGloboPequeñasRojo texto={'arrojados '} />
                       <LetrasGloboPequeñasRojo texto={'al '} />
                       <LetrasGloboPequeñasRojo texto={'fuego '} />
                       <LetrasGloboPequeñasRojo texto={'eterno. '} />
@@ -1083,6 +1086,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Counter />   
         <Footer />
       </div>
     </div>

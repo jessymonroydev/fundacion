@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function LaInmoralidad() {
     return(
@@ -168,7 +169,8 @@ export default function LaInmoralidad() {
                     <div>
                         <strong style={{color: '#63ca18'}}>Hebreos 12:16:</strong> de que no (haya) <strong style={{color: 'red'}}>ninguna persona inmoral ni profana</strong> como Esaú, que vendió su primogenitura por una comida.
                     </div>                    
-                </div>                
+                </div>
+                <Counter />                   
                 <Footer />
             </div>
         </div>

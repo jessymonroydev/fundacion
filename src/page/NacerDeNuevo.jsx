@@ -7,6 +7,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import oracion from '../assets/variado/oracion.jpg';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function NacerDeNuevo() {
     return(
@@ -206,6 +207,7 @@ export default function NacerDeNuevo() {
                     </div> 
                     <div style={{fontSize: '1.7em'}}>Solo si permanecemos unidos a JESUCRISTO podemos cambiar por la cultura del AMOR.</div>                   
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/videos.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function SatanasEsReal() {
     return(
@@ -189,6 +190,7 @@ export default function SatanasEsReal() {
                         En el canal de la FUNDACION EN YOUTUBE y en esta página tengo una conferencia que debes escuchar: Descubre de quien eres Hijo . De DIOS o de satanás   https://www.youtube.com/watch?v=_swV10hJDgQ
                     </div>                    
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

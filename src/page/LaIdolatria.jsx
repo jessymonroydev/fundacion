@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
+import Counter from "../components/counter/Counter.jsx";
 
 export default function LaIdolatria() {
     return(
@@ -90,7 +91,8 @@ export default function LaIdolatria() {
                     <div>
                         <strong style={{color: '#63ca18'}}>Genesis 19:4:</strong> todavía no se habían acostado, cuando todos los hombres de la ciudad de Sodoma rodearon la casa y, <strong style={{color: 'red'}}>desde el más joven hasta el más viejo,</strong> empezaron a gritarle a Lot: —¿Dónde están los hombres que vinieron a tu casa esta noche? ¡Sácalos! ¡Queremos acostarnos con ellos!6 Entonces Lot salió a hablarles y, cerrando bien la puerta detrás de él,  les dijo:—Por favor, amigos míos, no vayan a hacer una cosa tan perversa.  Yo tengo dos hijas que todavía no han estado con ningún hombre; voy a sacarlas para que ustedes hagan con ellas lo que quieran, pero no les hagan nada a estos hombres, porque son mis invitados. (solo querían con los ángeles hacer la orgia) Pero ellos le contestaron: —¡Hazte a un lado! Sólo faltaba que un extranjero como tú nos quisiera mandar. ¡Pues ahora te vamos a tratar peor que a ellos! En seguida comenzaron a maltratar a Lot y se acercaron a la puerta para echarla abajo, 1 pero los visitantes de Lot alargaron la mano y los metieron dentro de la casa; luego cerraron la puerta, <strong style={{color: 'red'}}>e hicieron quedar ciegos a los hombres que estaban afuera.</strong> Y se cansaron de andar buscando la puerta. 12 entonces los visitantes (los Ángeles) le dijeron a Lot: —¿Tienes más familiares aquí? Toma a tus hijos, hijas y yernos, y todo lo que tengas en esta ciudad; sácalos y llévatelos lejos de aquí, porque vamos a destruir este lugar. Ya son muchas las quejas que el Señor ha tenido contra la gente de esta ciudad, y por eso nos ha enviado a destruirla. entonces Lot fue a ver a sus yernos, o sea, a los prometidos de sus hijas, y les dijo: <strong style={{color: '#04acfc'}}>—¡Levántense y váyanse de aquí, porque el Señor va a destruir esta ciudad!</strong>
                     </div>                    
-                </div>                
+                </div> 
+                <Counter />                  
                 <Footer />
             </div>
         </div>

@@ -9,6 +9,7 @@ import '../../styles/folletos.css';
 import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function FolletoJesucristo() {
     return(
@@ -22,16 +23,16 @@ export default function FolletoJesucristo() {
                         <LetrasGlobo texto={`Folleto Jesucristo`}/>
                     </div>                      
                     <div style={{width: '100%'}}>
-                    <iframe
-                        src="https://flipbookpdf.net/web/site/168e55ce118ba1742eb9873d742ad1642eb7ec54202408.pdf.html"
-                        width="100%"
-                        height="600"
-                        className="flip-book-3d"                        
-                        title="Flipbook PDF"
-                        ></iframe>   
+                    <iframe 
+                        src="https://online.publuu.com/639335/1425592/page/1?embed" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allow="clipboard-write; autoplay; fullscreen" 
+                        className="publuuflip flipflip"></iframe>                          
                         <FolletosRutas />
                 </div>                  
-                </div>                                
+                </div> 
+                <Counter />                                  
                 <Footer />
             </div>
         </div>

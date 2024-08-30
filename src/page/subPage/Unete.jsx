@@ -6,6 +6,7 @@ import PrimalNav from "../../components/primalNav/PrimalNav";
 import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import Unete from '../../assets/unete/Unete.jpg';
+import Counter from "../../components/counter/Counter.jsx";
 
 export default function ElMundo() {
     return(
@@ -17,6 +18,7 @@ export default function ElMundo() {
                 <div className="content-page-armadura">
                     <div className="unete-cont-1"><img className="imagen-unete-cont-1" src={Unete} alt="unete" /><div className="unete-position"><LetrasGlobo texto={`Unete a la Fundacion Volver a Nacer`}/></div></div>                    
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>

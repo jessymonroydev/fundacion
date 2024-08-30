@@ -5,6 +5,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
+import Counter from "../components/counter/Counter.jsx";
 
 export default function LaArmadura() {
     return(
@@ -294,6 +295,7 @@ export default function LaArmadura() {
                         También están alojadas en esta página en concurso  Recuerda anotar en tu Celular fundacionvolveranacer.org y volveranacerradio.com para que los compartas por whatsapp.
                     </div>
                 </div>
+                <Counter />   
                 <Footer />
             </div>
         </div>
