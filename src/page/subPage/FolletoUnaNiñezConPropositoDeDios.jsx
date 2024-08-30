@@ -28,7 +28,7 @@ export default function FolletoUnaNiñezConPropositoDeDios() {
                         scrolling="no" 
                         frameborder="0" 
                         allow="clipboard-write; autoplay; fullscreen" 
-                        className="publuuflip flipflip"></iframe>                           
+                        className="publuuflip flipflip"></iframe>                        
                         <FolletosRutas />
                 </div>                  
                 </div>   
