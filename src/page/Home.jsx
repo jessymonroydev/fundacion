@@ -33,7 +33,7 @@ export default function Home() {
       <Star />           
       <div className='page-container'>
       <PrimalNav /> 
-      <div className='xxxx' style={{width: '90%', margin: 'auto', display: 'flex', flexDirection: 'column'}}><LetrasGlobo texto={`EN MATEO 19:14: JESUS DIJO: `}/><LetrasGlobo texto={ 'DEJEN QUE LOS NIÑOS VENGAN A MI PORQUE EL REINO DE LOS CIELOS ES DE QUIENES SON COMO ELLOS'} /></div>      
+      <div className='xxxx' style={{width: '90%', margin: 'auto', display: 'flex', flexDirection: 'column'}}><LetrasGlobo texto={`EN MATEO 19:14: JESUS DIJO: DEJEN QUE LOS NIÑOS VENGAN A MI PORQUE EL REINO DE LOS CIELOS ES DE QUIENES SON COMO ELLOS`} /></div>      
         <div className='nav-buttons'>
           <Link to={'/videos-reino-de-los-cielos-inicio'}>
             <div className='button-nav'><Carrousel carrousel={'reino'}/></div>
