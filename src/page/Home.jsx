@@ -515,7 +515,7 @@ export default function Home() {
           </div>
           <div className='line'></div>
           <div className='justify-index-x'>
-            <h3 className='h3-home'><LetrasGlobo texto={`ATAQUE A LOS NIÑOS, EL MUNDO Y SUS TENDENCIAS, SEGUN LA BIBLIA`}/></h3>
+            <h3 className='h3-home'><LetrasGlobo texto={`el mundo y sus tendencias corrompen la inosencia de los niños y niñas`}/></h3>
             <div className=''>
               <div className='content-index-justify'>
                 <div className='content-text-index-solo'>                  
@@ -523,74 +523,50 @@ export default function Home() {
                   <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
                       <LetrasGloboPequeñasAmarillo texto={'el mundo y sus tendencias rechazan la existencia de dios '} />                       
                     </div> 
-                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>                                          
-                      <LetrasGloboPequeñasVerde texto={'romanos '} />
-                      <LetrasGloboPequeñasVerde texto={'1: 21: '} />
-                      <LetrasGloboPequeñasAzul texto={'pues '} /> 
-                      <LetrasGloboPequeñasAzul texto={'aunque '} /> 
-                      <LetrasGloboPequeñasAzul texto={'han '} /> 
-                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
-                      <LetrasGloboPequeñasAzul texto={'a '} /> 
-                      <LetrasGloboPequeñasAzul texto={'dios, '} /> 
-                      <LetrasGloboPequeñasRojo texto={'no '} />
-                      <LetrasGloboPequeñasRojo texto={'lo '} />
-                      <LetrasGloboPequeñasRojo texto={'han '} />
-                      <LetrasGloboPequeñasRojo texto={'honrrado '} />
-                      <LetrasGloboPequeñasRojo texto={'como '} />
-                      <LetrasGloboPequeñasRojo texto={'a '} />
-                      <LetrasGloboPequeñasRojo texto={'dios '} />
-                      <LetrasGloboPequeñasRojo texto={'ni '} />
-                      <LetrasGloboPequeñasRojo texto={'le '} />
-                      <LetrasGloboPequeñasRojo texto={'han '} />
-                      <LetrasGloboPequeñasRojo texto={'dado '} />
-                      <LetrasGloboPequeñasRojo texto={'las '} />
-                      <LetrasGloboPequeñasRojo texto={'gracias. '} />
-                      <LetrasGloboPequeñasRojo texto={'al '} />
-                      <LetrasGloboPequeñasRojo texto={'contrario, '} />
-                      <LetrasGloboPequeñasRojo texto={'han '} />
-                      <LetrasGloboPequeñasRojo texto={'terminado '} />
-                      <LetrasGloboPequeñasRojo texto={'pensando '} />
-                      <LetrasGloboPequeñasRojo texto={'puras '} />
-                      <LetrasGloboPequeñasRojo texto={'tonterias, '} />
-                      <LetrasGloboPequeñasRojo texto={'y '} />
-                      <LetrasGloboPequeñasRojo texto={'su '} />
-                      <LetrasGloboPequeñasRojo texto={'necia '} />
-                      <LetrasGloboPequeñasRojo texto={'mente '} />
-                      <LetrasGloboPequeñasRojo texto={'se '} />
-                      <LetrasGloboPequeñasRojo texto={'ha '} />
-                      <LetrasGloboPequeñasRojo texto={'quedado '} />
-                      <LetrasGloboPequeñasRojo texto={'a '} />
-                      <LetrasGloboPequeñasRojo texto={'oscuras. '} />
-                      <LetrasGloboPequeñasRojo texto={'decian '} />
-                      <LetrasGloboPequeñasRojo texto={'que '} />
-                      <LetrasGloboPequeñasRojo texto={'eran '} />
-                      <LetrasGloboPequeñasRojo texto={'sabios, '} />
-                      <LetrasGloboPequeñasRojo texto={'pero '} />
-                      <LetrasGloboPequeñasRojo texto={'se '} />
-                      <LetrasGloboPequeñasRojo texto={'hicieron '} />
-                      <LetrasGloboPequeñasRojo texto={'tontos; '} />
-                      <LetrasGloboPequeñasAzul texto={'porque '} /> 
-                      <LetrasGloboPequeñasAzul texto={'han '} /> 
-                      <LetrasGloboPequeñasAzul texto={'conocido '} /> 
-                      <LetrasGloboPequeñasAzul texto={'la '} /> 
-                      <LetrasGloboPequeñasAzul texto={'gloria '} /> 
-                      <LetrasGloboPequeñasAzul texto={'del '} /> 
-                      <LetrasGloboPequeñasAzul texto={'dios '} /> 
-                      <LetrasGloboPequeñasAzul texto={'inmortal '} /> 
+                    <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
+                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
+                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
+                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                        
+                      <LetrasGloboPequeñasVerde texto={'Levitico '} />
+                      <LetrasGloboPequeñasVerde texto={'19: 28: '} />
+                      <LetrasGloboPequeñasRojo texto={'no se'} />
+                      <LetrasGloboPequeñasRojo texto={'hagan '} />
+                      <LetrasGloboPequeñasRojo texto={'heridas '} />
+                      <LetrasGloboPequeñasRojo texto={'en '} />
+                      <LetrasGloboPequeñasRojo texto={'el '} />
+                      <LetrasGloboPequeñasRojo texto={'cuerpo '} />
                       <LetrasGloboPequeñasRojo texto={'por '} />
-                      <LetrasGloboPequeñasRojo texto={'imagenes '} />
-                      <LetrasGloboPequeñasRojo texto={'del '} />
-                      <LetrasGloboPequeñasRojo texto={'hombre '} />
-                      <LetrasGloboPequeñasRojo texto={'mortal, '} />
-                      <LetrasGloboPequeñasRojo texto={'y '} />
-                      <LetrasGloboPequeñasRojo texto={'hasta '} />
-                      <LetrasGloboPequeñasRojo texto={'por '} />
-                      <LetrasGloboPequeñasRojo texto={'imagenes '} />
+                      <LetrasGloboPequeñasRojo texto={'causa '} />
                       <LetrasGloboPequeñasRojo texto={'de '} />
-                      <LetrasGloboPequeñasRojo texto={'aves, '} />
-                      <LetrasGloboPequeñasRojo texto={'cuadrupedos '} />
-                      <LetrasGloboPequeñasRojo texto={'y '} />
-                      <LetrasGloboPequeñasRojo texto={'reptiles. '} />                      
+                      <LetrasGloboPequeñasRojo texto={'un '} />
+                      <LetrasGloboPequeñasRojo texto={'muerto. '} />
+                      <LetrasGloboPequeñasRojo texto={'no '} />
+                      <LetrasGloboPequeñasRojo texto={'se '} />
+                      <LetrasGloboPequeñasRojo texto={'hagan '} />
+                      <LetrasGloboPequeñasRojo texto={'ninguna '} />
+                      <LetrasGloboPequeñasRojo texto={'clase '} />
+                      <LetrasGloboPequeñasRojo texto={'de '} />
+                      <LetrasGloboPequeñasRojo texto={'tatuaje. '} />
+                      <LetrasGloboPequeñasAzul texto={'yo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'soy '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'señor. '} /> 
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'deshonrres, '} /> 
+                      <LetrasGloboPequeñasAzul texto={'a '} /> 
+                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
+                      <LetrasGloboPequeñasAzul texto={'hija, '} />
+                      <LetrasGloboPequeñasAzul texto={'convirtiendola '} /> 
+                      <LetrasGloboPequeñasAzul texto={'en '} /> 
+                      <LetrasGloboPequeñasRojo texto={'una '} />
+                      <LetrasGloboPequeñasRojo texto={'prostituta. '} />
+                      <LetrasGloboPequeñasAzul texto={'no '} /> 
+                      <LetrasGloboPequeñasAzul texto={'corrompas '} /> 
+                      <LetrasGloboPequeñasAzul texto={'el '} /> 
+                      <LetrasGloboPequeñasAzul texto={'pais '} /> 
+                      <LetrasGloboPequeñasAzul texto={'llenandolo '} /> 
+                      <LetrasGloboPequeñasAzul texto={'de '} /> 
+                      <LetrasGloboPequeñasRojo texto={'depravaciones. '} />                                           
                     </div>
                   </Link>
                 </div>
@@ -973,7 +949,7 @@ export default function Home() {
                   <Link to={'/videos-satanas-es-real'}>
                     <img className='img-index' src={Satanas} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE SANANAS ES REAL`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE SATANAS ES REAL`}/></div>
                 </div>
               </div>
             </div>

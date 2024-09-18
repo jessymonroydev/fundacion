@@ -115,7 +115,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuUno}
             className="sub-menu-container"
         >
-            <Link to={'/el-jardin-con-el-amor-de-dios'}> El jardín con el amor de Dios - Para preescolar<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div></Link>      
+            <Link to={'/el-jardin-con-el-amor-de-dios'}> El jardín con el amor de Dios - Para preescolar</Link><div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>      
         {subMenuVisibleUno && (
             <div className="desplegable-2" ref={subMenuRefUno}>
             <Link className="button-navN" to={'/folleto-curso-para-capacitadores'}>Folleto: Curso para Capacitadores</Link><br />
@@ -133,7 +133,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuDos}
             className="sub-menu-container"
         >
-            <Link to={'/una-ninez-con-el-proposito-de-dios'}>Una niñez con el propósito de Dios <div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div> </Link>     
+            <Link to={'/una-ninez-con-el-proposito-de-dios'}>Una niñez con el propósito de Dios</Link>  <div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>   
         {subMenuVisibleDos && (
             <div className="desplegable-2" ref={subMenuRefDos}>
             <Link className="button-navN"  to={'/folleto-una-ninez-con-el-proposito-de-dios'}>Folleto: una Niñez con el Propósito de Dios</Link><br />
@@ -151,7 +151,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuTres}
             className="sub-menu-container"
         >
-            <Link to={'/jovenes-constructores-de-paz-y-amor'}> Jóvenes constructores de paz y amor - de 4° a 11° grado<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div></Link>          
+            <Link to={'/jovenes-constructores-de-paz-y-amor'}> Jóvenes constructores de paz y amor - de 4° a 11° grado</Link><div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>          
         {subMenuVisibleTres && (
             <div className="desplegable-2" ref={subMenuRefTres}>
             <Link className="button-navN"  to={'/aprende-sobre-jesus'}>Aprende sobre Jesús</Link><br />
@@ -165,7 +165,7 @@ export default function Nav1200() {
             >
                 Jesús y la Identidad<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>           
             {subMenuVisibleCuatro && (
-                <div className="desplegable-2" ref={subMenuRefCuatro}>
+                <div className="desplegable-2" style={{marginBottom: '-40px'}} ref={subMenuRefCuatro}>
                 <Link className="button-navN"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link><br />            
                 <Link className="button-navN"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link><br />
                 <Link className="button-navN"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link><br />

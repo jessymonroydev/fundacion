@@ -15,7 +15,7 @@ export default function ElMundo() {
                 <Nav />
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>
-                        <LetrasGlobo texto={`ATAQUE A LOS NINOS CON EL MUNDO Y SUS TENDENCIAS, SEGUN LA BIBLIA`}/>
+                        <LetrasGlobo texto={`enfoque a la familia`}/>
                     </div>                    
                 </div>
                 <div style={{display:'flex', margin: 'auto', justifyContent: 'center', flexWrap: 'wrap', gap: '20px'}}>
