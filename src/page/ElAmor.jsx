@@ -19,6 +19,7 @@ export default function ElAmor() {
                     <VideoSyntax url={'https://www.youtube.com/embed/Z3i6FWAPtOk?si=osce5zRQMJBTA_Lp'} />
                     <VideoSyntax url={'https://www.youtube.com/embed/5I-ITq7TJ8I?si=0iuC7Hz8Kau5oNG8'}/>
                     <VideoSyntax url={'https://www.youtube.com/embed/T_ATPLMuwGw?si=oadPIP1IMWP5IRdG'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/iZfN_eGY_mc?si=nnz7dzwbKawLq7uS'}/>
                 </div>
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>

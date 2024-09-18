@@ -149,7 +149,7 @@ export default function Home() {
                   <Link to={'/videos-el-celular'}>
                     <img className='img-index' src={ElCelular} alt="El Celular" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL CELULAR" DE DIOS PARA LOS NIÑOS`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL CELULAR`}/></div>
                 </div>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function Home() {
                   <Link to={'/videos-el-amor'}>
                     <img className='img-index' src={ElAmor} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL AMOR"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL AMOR`}/></div>
                 </div>
               </div>
             </div>
@@ -508,7 +508,7 @@ export default function Home() {
                   <Link to={'/videos-nacer-de-nuevo'}>
                     <img className='img-index' src={NacerDeNuevo} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "NACER DE NUEVO"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE NACER DE NUEVO`}/></div>
                 </div>
               </div>
             </div>
@@ -598,7 +598,7 @@ export default function Home() {
                   <Link to={'/videos-el-mundo-y-sus-tendencias'}>
                     <img className='img-index' src={Tendencias} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL MUNDO Y SUS TENDENCIAS"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL MUNDO Y SUS TENDENCIAS`}/></div>
                 </div>
               </div>
             </div>
@@ -701,7 +701,7 @@ export default function Home() {
                   <Link to={'/videos-la-inmoralidad'}>
                     <img className='img-index' src={LaInmoralidad} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "LA INMORALIDAD"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE LA INMORALIDAD`}/></div>
                 </div>
               </div>
             </div>
@@ -714,53 +714,58 @@ export default function Home() {
                 <div className='content-text-index-solo'>                  
                   <Link className='no-decoration' to={'/el-abuso'}>
                   <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
-                      <LetrasGloboPequeñasAmarillo texto={'el mundo y sus tendencias corrompen la inocencia de los niños y niñas '} />                       
+                      <LetrasGloboPequeñasAmarillo texto={'todos los temas para prevenir el abuso y pornografia infantil '} />                       
                     </div> 
                     <div style={{display: 'inline-flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>   
-                      <LetrasGloboPequeñasAmarillo texto={'dios '} />
-                      <LetrasGloboPequeñasAmarillo texto={'habla '} />
-                      <LetrasGloboPequeñasAmarillo texto={'hoy '} />                                       
-                      <LetrasGloboPequeñasVerde texto={'levitico '} />
-                      <LetrasGloboPequeñasVerde texto={'19: 28: '} />
-                      <LetrasGloboPequeñasRojo texto={'no '} /> 
-                      <LetrasGloboPequeñasRojo texto={'se '} /> 
-                      <LetrasGloboPequeñasRojo texto={'hagan '} /> 
-                      <LetrasGloboPequeñasRojo texto={'heridas '} /> 
-                      <LetrasGloboPequeñasRojo texto={'en '} /> 
-                      <LetrasGloboPequeñasRojo texto={'el '} /> 
-                      <LetrasGloboPequeñasRojo texto={'cuerpo '} /> 
-                      <LetrasGloboPequeñasRojo texto={'por '} /> 
-                      <LetrasGloboPequeñasRojo texto={'causa '} /> 
-                      <LetrasGloboPequeñasRojo texto={'de '} /> 
-                      <LetrasGloboPequeñasRojo texto={'un '} /> 
-                      <LetrasGloboPequeñasRojo texto={'muerto. '} /> 
-                      <LetrasGloboPequeñasRojo texto={'no '} /> 
-                      <LetrasGloboPequeñasRojo texto={'se '} /> 
-                      <LetrasGloboPequeñasRojo texto={'hagan '} /> 
-                      <LetrasGloboPequeñasRojo texto={'ningun '} /> 
-                      <LetrasGloboPequeñasRojo texto={'tipo '} /> 
-                      <LetrasGloboPequeñasRojo texto={'de '} /> 
-                      <LetrasGloboPequeñasRojo texto={'tatuaje. '} /> 
-                      <LetrasGloboPequeñasVerde texto={'yo '} /> 
-                      <LetrasGloboPequeñasVerde texto={'soy '} /> 
-                      <LetrasGloboPequeñasVerde texto={'el '} /> 
-                      <LetrasGloboPequeñasVerde texto={'señor. '} /> 
-                      <LetrasGloboPequeñasAzul texto={'no '} /> 
-                      <LetrasGloboPequeñasAzul texto={'deshonrres '} /> 
-                      <LetrasGloboPequeñasAzul texto={'a '} /> 
-                      <LetrasGloboPequeñasAzul texto={'tu '} /> 
-                      <LetrasGloboPequeñasAzul texto={'hija, '} /> 
-                      <LetrasGloboPequeñasAzul texto={'convirtiendola '} /> 
-                      <LetrasGloboPequeñasAzul texto={'en '} /> 
-                      <LetrasGloboPequeñasRojo texto={'una '} /> 
-                      <LetrasGloboPequeñasRojo texto={'prostituta. '} /> 
-                      <LetrasGloboPequeñasAzul texto={'no '} /> 
-                      <LetrasGloboPequeñasAzul texto={'corrompas '} /> 
-                      <LetrasGloboPequeñasAzul texto={'el '} /> 
-                      <LetrasGloboPequeñasAzul texto={'pais '} /> 
-                      <LetrasGloboPequeñasAzul texto={'llenandolo '} /> 
-                      <LetrasGloboPequeñasAzul texto={'de '} /> 
-                      <LetrasGloboPequeñasRojo texto={'depravaciones. '} />                                       
+                      <LetrasGloboPequeñasAmarillo texto={'1: '} />
+                      <LetrasGloboPequeñasVerde texto={'como '} />
+                      <LetrasGloboPequeñasVerde texto={'prevenir '} />
+                      <LetrasGloboPequeñasVerde texto={'el '} />
+                      <LetrasGloboPequeñasVerde texto={'maltrato '} />
+                      <LetrasGloboPequeñasVerde texto={'infantil. '} />
+                      <LetrasGloboPequeñasAmarillo texto={'2: '} />
+                      <LetrasGloboPequeñasVerde texto={'como '} />
+                      <LetrasGloboPequeñasVerde texto={'detectar '} />
+                      <LetrasGloboPequeñasVerde texto={'un '} />
+                      <LetrasGloboPequeñasVerde texto={'abuso '} />
+                      <LetrasGloboPequeñasVerde texto={'sexual '} />
+                      <LetrasGloboPequeñasVerde texto={'en '} />
+                      <LetrasGloboPequeñasVerde texto={'los '} />
+                      <LetrasGloboPequeñasVerde texto={'niños. '} />
+                      <LetrasGloboPequeñasAmarillo texto={'3: '} /> 
+                      <LetrasGloboPequeñasVerde texto={'¿como '} />
+                      <LetrasGloboPequeñasVerde texto={'hablar '} />
+                      <LetrasGloboPequeñasVerde texto={'con '} />
+                      <LetrasGloboPequeñasVerde texto={'niños '} />
+                      <LetrasGloboPequeñasVerde texto={'de '} />
+                      <LetrasGloboPequeñasVerde texto={'esta '} />
+                      <LetrasGloboPequeñasVerde texto={'generacion, '} />
+                      <LetrasGloboPequeñasVerde texto={'sobre '} />
+                      <LetrasGloboPequeñasVerde texto={'sexualidad '} />
+                      <LetrasGloboPequeñasVerde texto={'infantil? '} />
+                      <LetrasGloboPequeñasAmarillo texto={'4: '} />
+                      <LetrasGloboPequeñasVerde texto={'consecuencias '} />
+                      <LetrasGloboPequeñasVerde texto={'del '} />
+                      <LetrasGloboPequeñasVerde texto={'abuso '} />
+                      <LetrasGloboPequeñasVerde texto={'fisico '} />
+                      <LetrasGloboPequeñasVerde texto={'y '} />
+                      <LetrasGloboPequeñasVerde texto={'psicologico '} />
+                      <LetrasGloboPequeñasVerde texto={'infantil. '} />
+                      <LetrasGloboPequeñasAmarillo texto={'5: '} />
+                      <LetrasGloboPequeñasVerde texto={'abuso '} />
+                      <LetrasGloboPequeñasVerde texto={'sexual '} />
+                      <LetrasGloboPequeñasVerde texto={'en '} />
+                      <LetrasGloboPequeñasVerde texto={'la '} />
+                      <LetrasGloboPequeñasVerde texto={'infancia '} />
+                      <LetrasGloboPequeñasVerde texto={'y '} />
+                      <LetrasGloboPequeñasVerde texto={'adolescencia. '} />
+                      <LetrasGloboPequeñasAmarillo texto={'6: '} />                                    
+                      <LetrasGloboPequeñasVerde texto={'conoce '} />
+                      <LetrasGloboPequeñasVerde texto={'los '} />
+                      <LetrasGloboPequeñasVerde texto={'tipos '} />
+                      <LetrasGloboPequeñasVerde texto={'de '} />
+                      <LetrasGloboPequeñasVerde texto={'abuso '} />
+                      <LetrasGloboPequeñasVerde texto={'infantil '} />                                                           
                     </div>
                   </Link>
                 </div>
@@ -768,7 +773,7 @@ export default function Home() {
                   <Link to={'/videos-el-abuso'}>
                     <img className='img-index' src={PrevenirElAbuso} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL ABUSO"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL ABUSO`}/></div>
                 </div>
               </div>
             </div>
@@ -883,7 +888,7 @@ export default function Home() {
                   <Link to={'/videos-la-idolatria'}>
                     <img className='img-index' src={LaIdolatria} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "LA IDOLATRIA"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE LA IDOLATRIA`}/></div>
                 </div>
               </div>
             </div>
@@ -968,7 +973,7 @@ export default function Home() {
                   <Link to={'/videos-satanas-es-real'}>
                     <img className='img-index' src={Satanas} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "SANANAS ES REAL"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE SANANAS ES REAL`}/></div>
                 </div>
               </div>
             </div>
@@ -1080,7 +1085,7 @@ export default function Home() {
                   <Link to={'/videos-el-infierno'}>
                     <img className='img-index' src={ElInfierno} alt="Foto Uno" />
                   </Link>
-                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE "EL INFIERNO"`}/></div>
+                  <div className='img-container-videos'><LetrasGloboPequeñas texto={`VIDEOS SOBRE EL INFIERNO`}/></div>
                 </div>
               </div>
             </div>

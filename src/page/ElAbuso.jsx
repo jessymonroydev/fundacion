@@ -19,6 +19,7 @@ export default function ElAbuso() {
                     <VideoSyntax url={'https://www.youtube.com/embed/2Oa_nq9c7Yg?si=iBgvWzKdvgck6H37'} />
                     <VideoSyntax url={'https://www.youtube.com/embed/UKu0XIhun78?si=1vvooPfADMTc_txl'}/>
                     <VideoSyntax url={'https://www.youtube.com/embed/pUgGAYAv64Q?si=lDRcINMv1JHjZ6Yr'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/g5iFtAmVsO8?si=p7iQfOhWMWp3aCRu'}/>
                 </div>
                 <div className="content-page-armadura">
                     <div className="content-home" style={{margin:'auto', justifyContent: 'center'}}>

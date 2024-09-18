@@ -34,6 +34,12 @@
         width: 23vw;
         height: 12vw;
     }
+
+    .flayer {
+        width: 45vw;
+        height: auto;
+        margin: auto;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -45,6 +51,12 @@
     .video-margenes {
         width: 45vw;
         height: 23vw;
+    }
+
+    .flayer {
+        width: 45vw;
+        height: auto;
+        margin: auto;
     }
 }
 
@@ -60,6 +72,12 @@
         width: 90vw;
         height: 50vw;
     }
+
+    .flayer {
+        width: 80vw;
+        height: auto;
+        margin: auto;
+    }
 }
 
 @media (max-width: 600px) {
@@ -73,5 +91,11 @@
     .video-margenes {
         width: 90vw;
         height: 45vw;
+    }
+
+    .flayer {
+        width: 100%;
+        height: auto;
+        margin: auto;
     }
 }

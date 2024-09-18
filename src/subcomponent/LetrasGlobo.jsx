@@ -37,7 +37,7 @@ export default function LetrasGlobo(props) {
 
   const reemplazarConImagenes = (texto) => {
     return (
-      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '5px', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '5px', justifyContent: 'center', color: '#b57917', fontSize: '0.7em', marginBottom: '-10px' }}>
         {texto.split(/\s+/).map((palabra, index) => (
           <div key={index} style={{ display: 'flex', marginRight: '5px' }}>
             {agruparLetras(palabra)}

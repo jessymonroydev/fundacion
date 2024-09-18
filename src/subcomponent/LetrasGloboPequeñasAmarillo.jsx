@@ -64,7 +64,7 @@ export default function LetrasGloboPequeñasAmarillo(props) {
           grupos.push(<div key={index} style={{ display: 'flex', marginRight: '1px' }}>{grupoActual}</div>);
           grupoActual = [];
         }
-        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', position: 'relative' }}><div style={{ fontSize: '1.3em', color: '#ffd700', position: 'absolute', top: '-4px', marginTop: '-5px'  }}>{caracter}</div></div>);
+        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px', position: 'relative' }}><div style={{ fontSize: '1.3em', color: '#ffd700', position: 'absolute', top: '-13px', marginTop: '-5px'  }}>{caracter}</div></div>);
       }
     });
 

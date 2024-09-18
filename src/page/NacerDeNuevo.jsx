@@ -20,6 +20,7 @@ export default function NacerDeNuevo() {
                     <VideoSyntax url={'https://www.youtube.com/embed/0XXavcXabYQ?si=jsEDbHhxKl29tJmn'} />
                     <VideoSyntax url={'https://www.youtube.com/embed/0kAToqf4Y7Y?si=LrZlHQY-fhIcFqGq'}/>
                     <VideoSyntax url={'https://www.youtube.com/embed/CB0t8ppvTfY?si=2pONEJVL-M6_wDdx'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/GVm5lPFkzeg?si=oLGa_L9FNKjStPOY'}/>                    
                 </div>
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>

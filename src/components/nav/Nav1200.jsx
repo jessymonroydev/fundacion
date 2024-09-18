@@ -115,7 +115,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuUno}
             className="sub-menu-container"
         >
-            El jardín con el amor de Dios - Para preescolar<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>      
+            <Link to={'/el-jardin-con-el-amor-de-dios'}> El jardín con el amor de Dios - Para preescolar<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div></Link>      
         {subMenuVisibleUno && (
             <div className="desplegable-2" ref={subMenuRefUno}>
             <Link className="button-navN" to={'/folleto-curso-para-capacitadores'}>Folleto: Curso para Capacitadores</Link><br />
@@ -133,7 +133,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuDos}
             className="sub-menu-container"
         >
-            Una niñez con el propósito de Dios <div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>      
+            <Link to={'/una-ninez-con-el-proposito-de-dios'}>Una niñez con el propósito de Dios <div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div> </Link>     
         {subMenuVisibleDos && (
             <div className="desplegable-2" ref={subMenuRefDos}>
             <Link className="button-navN"  to={'/folleto-una-ninez-con-el-proposito-de-dios'}>Folleto: una Niñez con el Propósito de Dios</Link><br />
@@ -151,7 +151,7 @@ export default function Nav1200() {
             onMouseEnter={toggleSubMenuTres}
             className="sub-menu-container"
         >
-            Jóvenes constructores de paz y amor - de 4° a 11° grado<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>          
+            <Link to={'/jovenes-constructores-de-paz-y-amor'}> Jóvenes constructores de paz y amor - de 4° a 11° grado<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div></Link>          
         {subMenuVisibleTres && (
             <div className="desplegable-2" ref={subMenuRefTres}>
             <Link className="button-navN"  to={'/aprende-sobre-jesus'}>Aprende sobre Jesús</Link><br />

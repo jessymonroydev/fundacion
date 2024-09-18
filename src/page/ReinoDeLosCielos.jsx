@@ -18,6 +18,8 @@ export default function ReinoDeLosCielos() {
                 <div className="video-contenedor-articulos">
                     <VideoSyntax url={'https://www.youtube.com/embed/Sv3qphmN4Zo?si=O0c9m-ry-DvPN7qg'} />
                     <VideoSyntax url={'https://www.youtube.com/embed/HZlegJPijcU?si=x67bFE74OMQYzlxw'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/jU0DE6A73F4?si=nxF5qMtU6UpwcYZz'}/>
+                    <VideoSyntax url={'https://www.youtube.com/embed/FhSiPlyUjUc?si=gMSba-MaEpw-knmH'}/>
                 </div>
                 <div className="content-page-armadura">
                     <div style={{margin:'auto', justifyContent: 'center'}}>

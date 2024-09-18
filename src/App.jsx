@@ -77,6 +77,9 @@ import Apadrinamiento from './page/Apadrinamiento'
 import Halloween from './page/Halloween'
 import Ouija from './page/Ouija'
 import CaricaturasPeligrosas from './page/CaricaturasPeligrosas'
+import Jardin from './page/JardinConElAmorDeDios'
+import UnaNinez from './page/UnaNiñezConElPropositoDeDios'
+import JovenesConstructores from './page/JovenesConstructoresDePaz'
 
 
 export default function App() {
@@ -160,6 +163,9 @@ export default function App() {
         <Route path='/halloween' element={<Halloween />} />
         <Route path='/ouija' element={<Ouija />} />
         <Route path='/caricaturas-peligrosas' element={<CaricaturasPeligrosas />} />
+        <Route path='/el-jardin-con-el-amor-de-dios' element={<Jardin />} />
+        <Route path='/una-ninez-con-el-proposito-de-dios' element={<UnaNinez />} />
+        <Route path='/jovenes-Constructores-de-Paz-y-Amor' element={<JovenesConstructores />} />
       </Routes>
     </BrowserRouter>
   )

@@ -43,6 +43,7 @@ export default function Nav700() {
         <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link> 
     </div>
     let renderProyectosSubUno = <div className='despliegue-sub-container' style={{ display: secondSubDesplegable === 'jardin' ? 'inherit' : 'none' }}>
+        <Link className="despliegue-sub-button-2" to={'/el-jardin-con-el-amor-de-dios'}>Pagina del proyecto</Link>
         <Link className="despliegue-sub-button-2" to={'/folleto-curso-para-capacitadores'}>Folleto: Curso para Capacitadores</Link>
         <Link className="despliegue-sub-button-2" to={'/folleto-como-ayudar-a-sus-hijos'}>Folleto: Cómo ayudar a tus Hijos</Link>
         <Link className="despliegue-sub-button-2" to={'/videos-que-promueven-valores'}>Videos: Canciones que Promueven los Valores</Link>
@@ -51,6 +52,7 @@ export default function Nav700() {
         <Link className="despliegue-sub-button-2" to={'/memorizando-versiculos'}>Videos: Canciones con Versículos para Memorizar</Link>
     </div>
     let renderProyectosSubDos = <div className='despliegue-sub-container' style={{ display: secondSubDesplegable === 'niños' ? 'inherit' : 'none' }}>
+        <Link className="despliegue-sub-button-2"  to={'/una-ninez-con-el-proposito-de-dios'}>Pagina del proyecto</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-una-ninez-con-el-proposito-de-dios'}>Folleto: una Niñez con el Propósito de Dios</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-como-ayudar-a-sus-hijos'}>Folleto: Cómo Ayudar a tus Hijos</Link>
         <Link className="despliegue-sub-button-2"  to={'/videos-una-ninez-con-el-proposito-de-dios'}>Videos: una Niñez con el Propósito de Dios</Link>
@@ -59,6 +61,7 @@ export default function Nav700() {
         <Link className="despliegue-sub-button-2"  to={'/videos-versiculos-para-memorizar'}>Videos: Versículos para Memorizar</Link> 
     </div>
     let renderProyectosSubTres = <div className='despliegue-sub-container' style={{ display: secondSubDesplegable === 'jovenes' ? 'inherit' : 'none' }}>
+        <Link className="despliegue-sub-button-2"  to={'/jovenes-constructores-de-paz-y-amor'}>Pagina del proyecto</Link>
         <Link className="despliegue-sub-button-2"  to={'/aprende-sobre-jesus'}>Aprende sobre Jesús</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-la-prevencion'}>Folleto: La Prevención</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-la-armadura-de-dios'}>Folleto: La Armadura de Dios</Link>

@@ -30,52 +30,47 @@ import Z from '../assets/letrasGlobo/Z.png';
 
 export default function LetrasGloboPequeñas(props) {
   const texto = props.texto;
-  
+
   const letras = {
     A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z
   };
 
   const reemplazarConImagenes = (texto) => {
     return (
-      <div style={{ display: 'inline-flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center',gap: '3px' }}>
-        {texto.split(/\b/).map((palabra, index) => {
-          if (/[\w\S]/.test(palabra)) {
-            return agruparLetras(palabra, index);
-          } else if (/\s/.test(palabra)) {
-            return <div key={index} style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'transparent' }}></div>;
-          } else {
-            return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '10px', height: '10px', color: 'white'}} key={index}><div style={{ fontSize: '1em' }}>{palabra}</div></div>;
-          }
-        })}
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '5px', justifyContent: 'center' }}>
+        {texto.split(/\s+/).map((palabra, index) => (
+          <div key={index} style={{ display: 'flex', marginRight: '5px' }}>
+            {agruparLetras(palabra)}
+          </div>
+        ))}
       </div>
     );
   };
-  
-  const agruparLetras = (palabra, index) => {
-    const letrasArray = palabra.split("");
-    let grupos = [];
-    let grupoActual = [];
-  
-    letrasArray.forEach((caracter, index) => {
-      if (/[a-zA-Z]/.test(caracter)) {
-        grupoActual.push(<img className='letras-globo-pequeñas' key={index} src={letras[caracter.toUpperCase()]} alt={caracter} style={{ marginRight: '1px' }} />);
+
+  const agruparLetras = (palabra) => {
+    return palabra.split('').map((caracter, index) => {
+      if (/[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]/.test(caracter)) { 
+        return (
+          <img
+            className="letras-globo-pequeñas"
+            key={index}
+            src={letras[caracter.toUpperCase()] || letras[caracter.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")]}
+            alt={caracter}
+            style={{ marginRight: '2px', color: '#b57917' }}
+          />
+        );
       } else {
-        if (grupoActual.length > 0) {
-          grupos.push(<div key={index} style={{ display: 'flex', marginRight: '1px' }}>{grupoActual}</div>);
-          grupoActual = [];
-        }
-        grupos.push(<div key={index} style={{ display: 'flex', alignItems: 'center', width: '10px', height: '10px',position: 'relative' }}><div style={{ fontSize: '0.8em', color: '#b57917',position: 'absolute', top: '-4px'}}>{caracter}</div></div>);
+        return (
+          <span
+            key={index}
+            className="caracter-especial" 
+          >
+            {caracter}
+          </span>
+        );
       }
     });
-  
-    if (grupoActual.length > 0) {
-      grupos.push(<div key={letrasArray.length} style={{ display: 'flex', marginRight: '1px' }}>{grupoActual}</div>);
-    }
-  
-    return grupos;
   };
-  
 
   return <div>{reemplazarConImagenes(texto)}</div>;
 }
-
