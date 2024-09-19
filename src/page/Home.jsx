@@ -25,6 +25,7 @@ import LetrasGloboPequeñasVerde from '../subcomponent/LetrasGloboPequeñasVerde
 import LetrasGloboPequeñasAmarillo from '../subcomponent/LetrasGloboPequeñasAmarillo.jsx';
 import VideoSyntax from '../subcomponent/VideoSyntax.jsx';
 import Counter from "../components/counter/Counter.jsx";
+import Counter2 from '../components/counter/Counter2.jsx';
 
 export default function Home() {
 
@@ -1067,7 +1068,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Counter />   
+        <Counter2 />   
         <Footer />
       </div>
     </div>
