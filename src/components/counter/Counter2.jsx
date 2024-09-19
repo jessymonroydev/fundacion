@@ -7,8 +7,8 @@ const Counter2 = () => {
 
   useEffect(() => {
     const getVisitCount = async () => {
-      const url = 'https://api.github.com/repos/jessymonroydev/counters/contents/count.json?ref=main';
-      const token = VITE_GIT_TOKEN; // Usa tu token aquí
+      const url = 'https://api.github.com/repos/jessymonroydev/counters/contents/count.json';
+      const token = import.meta.env.VITE_GIT_TOKEN; // Usa tu token aquí
 
       try {
         // Obtener el archivo JSON de GitHub
@@ -57,9 +57,9 @@ const Counter2 = () => {
   return (
     <div>
       {visitCount !== null ? (
-        <h1>Visitas totales: {visitCount}</h1>
+        <h1 style={{color: 'white', fontSize: '3em'}}>Visitas totales: {visitCount}</h1>
       ) : (
-        <h1>Cargando visitas...</h1>
+        <h1  style={{color: 'white', fontSize: '3em'}}>Cargando visitas...</h1>
       )}
     </div>
   );
