@@ -26,10 +26,10 @@ export default function VideosDePablitoElMisionero() {
                         <VideoSyntax text={'1. Daniel en el Foso de los Leones'} url={'https://drive.google.com/file/d/17Y7FftIeknNlPJ2VB4ytKII4MzO73y_c/preview'}/>
                         <VideoSyntax text={'2. Daniel en el Palacio del Rey'} url={'https://drive.google.com/file/d/1AtyCMd6eS-sjMdJW_rr17FxzIzOZbome/preview'}/>
                         <VideoSyntax text={'3. La Estatua de Oro'} url={'https://drive.google.com/file/d/18B0n4uZimlEpqvIYuITkyphAgRLGUHUF/preview'}/>
-                        ya<VideoSyntax text={'4. La Escritura en la Pared'} url={'https://www.youtube.com/embed/wvVXBV9iDvI?si=rfq5k5CZMRrG2f3Y'}/>
+                        <VideoSyntax text={'4. La Escritura en la Pared'} url={'https://www.youtube.com/embed/wvVXBV9iDvI?si=rfq5k5CZMRrG2f3Y'}/>
                      </div>
                     <div className="video-contenedor-articulos">
-                        <VideoSyntax text={'5. La Consagración del Rey David'} url={'hhttps://drive.google.com/file/d/1HqPzph7qbcIR_e4QNDUE67S9ZqTIJ2YW/preview'}/>
+                        <VideoSyntax text={'5. La Consagración del Rey David'} url={'https://drive.google.com/file/d/1HqPzph7qbcIR_e4QNDUE67S9ZqTIJ2YW/preview'}/>
                         <VideoSyntax text={'6. Saúl y los Espíritus Malignos'} url={'https://drive.google.com/file/d/1bQGbwSMFdhIGnc5SBFBMO5SVo52dy2RW/preview'}/>
                         <VideoSyntax text={'7. David y Goliat'} url={'https://drive.google.com/file/d/1m_4fww9qPA8XZBrEe5qcBiohmbNLMx7D/preview'}/>
                         <VideoSyntax text={'8. David Perdona a Saúl'} url={'https://drive.google.com/file/d/1GR9oYLh0quBfEI6YmRBgOMfnEUYTB_Hk/preview'}/>
