@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import '../../styles/concursoMemoria.css';
 import '../../styles/concursoCanciones.css';
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 import Img1 from '../../assets/paraColorearYMemorizar/2-Timoteo-3-1.jpg';
 import Img2 from '../../assets/paraColorearYMemorizar/3-Corintios-1.jpg';

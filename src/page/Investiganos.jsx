@@ -5,7 +5,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/aNoDecorated.css';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 export default function Investiganos() {
     return(

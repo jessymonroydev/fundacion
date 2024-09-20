@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import '../../styles/concursoMemoria.css';
 import '../../styles/concursoCanciones.css';
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 import Img1 from '../../assets/carteleraPatios/aNCLA.jpg';
 import Img2 from '../../assets/carteleraPatios/ANJEL-DE-SEGURIDAD.jpg';

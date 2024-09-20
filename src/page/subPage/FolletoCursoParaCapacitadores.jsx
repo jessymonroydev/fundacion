@@ -9,7 +9,7 @@ import '../../styles/folletos.css';
 import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 export default function FolletoCursoParaCapacitadores() {
     return(

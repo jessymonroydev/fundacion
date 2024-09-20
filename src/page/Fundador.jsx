@@ -7,7 +7,7 @@ import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/home.css';
 import '../styles/videos.css';
 import '../styles/fundador.css';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 import FotoFamilia from '../assets/imgFundador/familia-2022.jpg';
 import Local from '../assets/imgFundador/sede-300x225.jpg';

@@ -6,7 +6,7 @@ import PrimalNav from "../../components/primalNav/PrimalNav";
 import Footer from "../../components/footer/Footer";
 import LetrasGlobo from '../../subcomponent/LetrasGlobo.jsx';
 import Unete from '../../assets/unete/Unete.jpg';
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 export default function ElMundo() {
     return(

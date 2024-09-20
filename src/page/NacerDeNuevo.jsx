@@ -7,7 +7,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import oracion from '../assets/variado/oracion.jpg';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 export default function NacerDeNuevo() {
     return(

@@ -7,7 +7,7 @@ import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/home.css';
 import '../styles/videos.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 export default function ElMundo() {
     return(

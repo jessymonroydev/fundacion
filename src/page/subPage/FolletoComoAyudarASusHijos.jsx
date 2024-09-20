@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import PageFlip from '../../components/pageFlip/PageFlip.jsx';
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
 import '../../styles/flipBook3d.css';
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 export default function FolletoComoAyudarATusHijos() {
     return(

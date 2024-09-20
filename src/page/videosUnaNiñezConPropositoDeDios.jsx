@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 export default function VideosUnaNiñezConPropositoDeDios() {
     return(

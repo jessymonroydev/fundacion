@@ -5,7 +5,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 import JardinPdf from '../pdf/x/IE-la-union-2009.pdf';
 import '../styles/historia.css';
 import '../styles/videos.css';

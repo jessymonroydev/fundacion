@@ -5,7 +5,7 @@ import PrimalNav from "../components/primalNav/PrimalNav";
 import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 import '../styles/historia.css';
 import '../styles/videos.css';
 import flayer from '../assets/concursoCanciones/afiche-Concurso-con-moto-1024x670.jpg'

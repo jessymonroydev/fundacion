@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useLocation } from 'react-router-dom'; // Para obtener la ruta actual
 
 const Counter2 = () => {
   const [visitCount, setVisitCount] = useState(null);
-  const GIT_FLOWER = import.meta.env.VITE_SERVER_URL;
+  const location = useLocation(); // Obtener la ruta actual
+  const url = 'https://api.github.com/repos/jessymonroydev/counters/contents/count.json';
+  const token = import.meta.env.VITE_GIT_TOKEN; // Asegúrate de tener tu token en el archivo .env
 
   useEffect(() => {
     const getVisitCount = async () => {
-      const url = 'https://api.github.com/repos/jessymonroydev/counters/contents/count.json';
-      const token = import.meta.env.VITE_GIT_TOKEN; // Usa tu token aquí
-
       try {
-        // Obtener el archivo JSON de GitHub
+        // Obtener el archivo JSON desde GitHub
         const { data } = await axios.get(url, {
           headers: {
             Authorization: `token ${token}`,
@@ -20,13 +20,18 @@ const Counter2 = () => {
 
         // Decodificar el contenido (viene en base64)
         const content = JSON.parse(atob(data.content));
-        const updatedVisits = content.visits + 1;
+
+        // Verificar si la ruta actual existe en el archivo
+        const currentRoute = location.pathname;
+        const updatedVisits = content[currentRoute] ? content[currentRoute] + 1 : 1;
+
+        // Actualizar el estado local del contador
         setVisitCount(updatedVisits);
 
-        // Actualizar el archivo con el nuevo conteo
+        // Actualizar el objeto con la nueva entrada o incrementando la existente
         const updatedContent = {
           ...content,
-          visits: updatedVisits,
+          [currentRoute]: updatedVisits, // Crear o actualizar la entrada de la ruta
         };
 
         // Convertir el contenido actualizado a base64
@@ -36,7 +41,7 @@ const Counter2 = () => {
         await axios.put(
           url,
           {
-            message: 'Actualizar contador de visitas',
+            message: `Actualizar contador de visitas para la ruta ${currentRoute}`,
             content: newContentEncoded, // Contenido actualizado
             sha: data.sha, // SHA del archivo existente
           },
@@ -52,14 +57,14 @@ const Counter2 = () => {
     };
 
     getVisitCount();
-  }, []);
+  }, [location.pathname]); // Se actualiza cuando cambia la ruta
 
   return (
     <div>
       {visitCount !== null ? (
-        <h1 style={{color: 'white', fontSize: '3em'}}>Visitas totales: {visitCount}</h1>
+        <h1 style={{color: 'white', fontSize: '3em'}}>Visitas para esta ruta: {visitCount}</h1>
       ) : (
-        <h1  style={{color: 'white', fontSize: '3em'}}>Cargando visitas...</h1>
+        <h1 style={{color: 'white', fontSize: '3em'}}>Cargando visitas...</h1>
       )}
     </div>
   );

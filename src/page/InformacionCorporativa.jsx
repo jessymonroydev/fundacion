@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer";
 import LetrasGlobo from '../subcomponent/LetrasGlobo.jsx';
 import '../styles/aNoDecorated.css';
 import '../styles/informacionCorporativa.css';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 import img1 from '../assets/concursoCanciones/Volantejovenes1y2-1024x357.jpg';
 import img2 from '../assets/concursoCanciones/VOLANTE-JOVENES-TEXTO-PARA-FACEBOOK.png';

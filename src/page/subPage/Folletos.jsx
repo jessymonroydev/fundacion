@@ -8,7 +8,7 @@ import '../../styles/videos.css';
 import '../../styles/folletos.css';
 import { Link, useLocation } from "react-router-dom";
 import FolletosRutas from "../../components/folletosRutas/FolletosRutas.jsx";
-import Counter from "../../components/counter/Counter.jsx";
+import Counter from '../../components/counter/Counter2.jsx';
 
 export default function EscuelaDePadres() {
     const location = useLocation();

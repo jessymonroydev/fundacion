@@ -7,7 +7,7 @@ import { CiCirclePlus } from "react-icons/ci";
 import '../styles/historia.css';
 import VideoSyntax from "../subcomponent/VideoSyntax.jsx";
 import '../styles/videos.css';
-import Counter from "../components/counter/Counter.jsx";
+import Counter from '../components/counter/Counter2.jsx';
 
 // 2003 img
 import año31 from '../assets/2003/20031.jpg';
