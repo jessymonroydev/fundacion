@@ -105,7 +105,6 @@ export default function Nav700() {
 
     const desplegable = (
         <div className='desplegar-nav' style={{ display: desplegar === 'open' ? 'inherit' : 'none' }}>
-            <Link className='despliegue-button' to={'/'}>Inicio</Link>
             <div className='despliegue-button'  onClick={() => handleSubDesplegable('conocenos')}>Conocenos</div>
                 {renderConocenos}
             <div className='despliegue-button' onClick={() => handleSubDesplegable('proyectos')}>Proyectos</div>
@@ -128,6 +127,12 @@ export default function Nav700() {
 
     return (
         <div className='nav-800'>
+            <Link to={'/'}>
+            <div className='home-icon-container'>
+                <img className='home-icon' src={HomeIcon} alt="Home Icon" />
+                <div>Home</div>
+            </div>
+            </Link>
             <div className='desplegar' onClick={handleDesplegar}>
                 <Burger />
             </div>
