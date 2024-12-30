@@ -120,7 +120,7 @@ export default function Nav700() {
             <Link className='despliegue-button' to={'/periodicos'}>Periódicos</Link>
             <div className='despliegue-button' onClick={() => handleSubDesplegable('concursos')}>Concursos</div>
                 {renderConcursos}
-            <Link className='despliegue-button' to={'//investiganos'}>Investiganos</Link>
+            <Link className='despliegue-button' to={'/investiganos'}>Investiganos</Link>
             <Link className='despliegue-button' to={'/juegos-super-libro'}>Juegos del SuperLibro</Link>
         </div>
     );
