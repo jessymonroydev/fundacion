@@ -1,0 +1,70 @@
+.desplegar {
+    background-color: #0A0C18;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.desplegar-nav {
+    background-color: #0A0C18;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: gold;
+    align-items: center;
+    gap: 6px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.nav-800 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.despliegue-button {
+    border: 2px solid rgba(255, 217, 0, 0.233);
+    border-radius: 40px;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+}
+
+.despliegue-sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 6px;
+}
+
+.despliegue-sub-button {
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    border-radius: 40px;
+    width: 70%;
+    text-align: center;
+}
+
+.despliegue-sub-button-2 {
+    border: 2px solid rgba(255, 255, 255, 0.185);
+    border-radius: 40px;
+    width: 55%;
+    text-align: center;
+}
+
+.despliegue-sub-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 6px;
+}
+
+.despliegue-sub-button-3 {
+    border: 2px solid rgba(182, 214, 3, 0.466);
+    border-radius: 40px;
+    width: 55%;
+    text-align: center;
+}

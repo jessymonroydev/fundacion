@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.xxxx {
+  font-family: "Poetsen One", sans-serif;
+  color: #b57917;
+}
+
+p {
+  font-weight: bold;
+  color: #63ca18;
+}
+
+.video-container {
+  width: 49%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction : column;
+  align-items: center; 
+  gap: 20px;
+}
+
+.Home {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    background-color: #0A0C18;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+  .page-container {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 15vh;
+  }
+
+  .video {
+    width: inherit;
+    z-index: 999;
+    top: 0;
+    left: 0;
+  }
+
+  .content-home {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .content-page {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 1.4em;
+  }
+
+  .content-page-armadura {
+    width: 80vw;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 1.4em;
+  }
+
+  .content-text-index-solo:hover {
+    transform: scale(1.1);
+    color: #b57917;
+  }
+
+  .content-home h3 {
+    color: #b57917;
+  }
+
+  .h3-home {
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-index {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 10px solid gold;
+    box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+  }
+
+  .img-index:hover {
+    animation: vibrate 1s ease-in;
+  }
+
+  @keyframes vibrate {
+    0% {transform: rotate(3deg);}
+    5% {transform: rotate(-3deg);}
+    10% {transform: rotate(3deg);}
+    15% {transform: rotate(-3deg);}
+    20% {transform: rotate(3deg);}
+    25% {transform: rotate(-3deg);}
+    30% {transform: rotate(3deg);}
+    35% {transform: rotate(-3deg);}
+    40% {transform: rotate(3deg);}
+    45% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    55% {transform: rotate(-3deg);}
+    60% {transform: rotate(3deg);}
+    65% {transform: rotate(-3deg);}
+    70% {transform: rotate(3deg);}
+    75% {transform: rotate(-3deg);}
+    80% {transform: rotate(3deg);}
+    85% {transform: rotate(-3deg);}
+    90% {transform: rotate(3deg);}
+    95% {transform: rotate(-3deg);}
+    100% {transform: rotate(3deg);}
+}
+
+  .line {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: white;
+  }
+
+  
+
+  .copyright {
+    width: 100vw;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+  }
+
+  .justify-index-x {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-buttons {
+    display: flex;
+    margin-bottom: 5vw;
+  }
+  
+  /* Estilos para pantallas grandes (min-width: 1200px) */
+  @media (min-width: 1200px) {
+    .nav-buttons {
+      flex-direction: row;
+      gap: 5vw;
+    }
+
+    .button-nav {
+      width: 25vw;
+      margin: auto;
+      min-height: 10vh;
+      border: 6px solid gold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0A0C18;
+  }
+  
+  .button-nav:hover {
+      background-color: #6e161b;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .content-index-justify {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .content-text-index-solo {
+    width: 65%;
+    cursor: pointer;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    font-size: 0.8em
+  }
+
+  .content-text-index {
+    width: 25%;
+    text-align: center;
+  }
+
+  .img-container-videos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  }
+  
+  /* Estilos para pantallas medianas (max-width: 1199px) */
+  /* Actualmente vacío, pero puedes añadir estilos aquí si es necesario */
+  @media (max-width: 1199px) {
+    .nav-buttons {
+      flex-direction: row;
+      gap: 5vw;
+    }
+
+    .button-nav {
+      width: 25vw;
+      margin: auto;
+      min-height: 3vh;
+      border: 6px solid gold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0A0C18;
+  }
+  
+  .button-nav:hover {
+      background-color: #6e161b;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .content-index-justify {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .content-text-index-solo {
+    width: 40vw;
+    cursor: pointer;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    font-size: 0.8em
+  }
+
+  .content-text-index {
+    width: 50%;
+    text-align: center;
+  }
+
+  .img-container-videos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  }
+  
+  /* Estilos para pantallas pequeñas (max-width: 900px) */
+  /* Actualmente vacío, pero puedes añadir estilos aquí si es necesario */
+  @media (max-width: 800px) {
+    .nav-buttons {
+      flex-direction: column;
+      width: 100vw;
+      margin: auto;
+    }
+
+    .button-nav {
+      width: 70vw;
+      margin: auto;
+      min-height: 10vh;
+      border: 6px solid gold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0A0C18;
+      margin-bottom: 5vw;
+  }
+  
+  .button-nav:hover {
+      background-color: #6e161b;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .content-index-justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .content-text-index-solo {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    font-size: 0.8em
+  }
+
+  .content-text-index {
+    width: 95%;
+    text-align: center;
+  }
+
+  .img-container-videos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .img-index {
+    margin-bottom: 4vw;
+  }
+  }
+  
+  /* Estilos para pantallas muy pequeñas (max-width: 600px) */
+  @media (max-width: 600px) {
+    .nav-buttons {
+      flex-direction: column;
+      width: 100vw;
+      margin: auto;
+    }
+
+    .button-nav {
+      width: 90vw;
+      margin: auto;
+      min-height: 10vh;
+      border: 6px solid gold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(181, 121, 23, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0A0C18;
+  }
+  
+  .button-nav:hover {
+      background-color: #6e161b;
+  }
+
+  .footer {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 1.2em;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    background-color: #0A0C18;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .width-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .width-footer h3 {
+    color: #b57917;
+  }
+
+  .content-index-justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .content-text-index-solo {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    font-size: 0.8em
+  }
+
+  .content-text-index {
+    width: 95%;
+    text-align: center;
+  }
+
+  .img-container-videos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .img-index {
+    margin-bottom: 4vw;
+  }
+}
+
+  

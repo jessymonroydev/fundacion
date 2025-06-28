@@ -1,0 +1,16 @@
+.unete-cont-1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-unete-cont-1 {
+    width: 70%;
+    height: auto;
+}
+
+.unete-position {
+    position: absolute;
+    top: 20%;
+}

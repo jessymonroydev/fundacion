@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+    .flipflip {
+        border: none;
+        width: 100%;
+        height: 95vh;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 1199px) {
+    .flip-book-3d {
+        border: none;
+        width: 100%;
+        height: 95vh;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .flip-book-3d {
+        border: none;
+        width: 100%;
+        height: 70vh;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .flip-book-3d {
+        border: none;
+        width: 100%;
+        height: 70vh;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+}

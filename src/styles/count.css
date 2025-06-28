@@ -1,0 +1,13 @@
+.count {
+    border: 2px solid gold;
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    width: calc(max-content + 20px);
+    height: calc(max-content + 8px);
+    padding-right: 8px;
+    padding-left: 8px;
+}
