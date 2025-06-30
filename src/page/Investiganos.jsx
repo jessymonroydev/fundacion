@@ -96,7 +96,7 @@ export default function Investiganos() {
                             3° ACTA 2025
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="4° balanse general a dic  del 2024.pdf" target="_blank" rel="noopener noreferrer">
-                            4° BALANCE 2025
+                            4° BALANCE GENERAL A DIC 2024
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="5°  CERTIFICADO INGRESOS CARGOS ESAL 2025.pdf" target="_blank" rel="noopener noreferrer">
                             5° CERTIFICACIÓN DE INGRESOS Y CARGOS ESAL 2025
@@ -105,7 +105,7 @@ export default function Investiganos() {
                             6° CERTIFICADOS PENALES 2025
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="7° DECLARACION RENTA 2025 FUNDACION PRESENTADA.pdf" target="_blank" rel="noopener noreferrer">
-                            7° DECLARACIÓN DE RENTA 2025 FUNDACIÓN PRESENTADA 
+                            7° DECLARACIÓN DE RENTA 2025 
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="8° INFORME DE GESTION 2024.pdf" target="_blank" rel="noopener noreferrer">
                             8° informe de gestión 2025
