@@ -22,7 +22,7 @@ export default function periodicos() {
                         <div>
                             <div style={{color: 'gold', fontSize: '1.5'}}>El Rapto</div>
                             <iframe 
-                                src="https://online.publuu.com/639380/1425819/page/1?embed" 
+                                src="https://pdfhost.io/v/8yWrr2wFwN_Revista-El-Rapto" 
                                 scrolling="no" 
                                 frameborder="0" 
                                 allow="clipboard-write; autoplay; fullscreen" 
