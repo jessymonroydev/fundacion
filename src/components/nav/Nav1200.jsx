@@ -14,6 +14,7 @@ export default function Nav1200() {
 
     const conocenosRef = useRef(null);
     const proyectosRef = useRef(null);
+    const testimoniosRef = useRef(null);
     const contenidoRef = useRef(null);
     const comoEducarRef = useRef(null);
     const concursosRef = useRef(null);
@@ -27,6 +28,7 @@ export default function Nav1200() {
         if (
         (conocenosRef.current && !conocenosRef.current.contains(event.target)) &&
         (proyectosRef.current && !proyectosRef.current.contains(event.target)) &&
+        (testimoniosRef.current && !testimoniosRef.current.contains(event.target)) &&
         (contenidoRef.current && !contenidoRef.current.contains(event.target)) &&
         (comoEducarRef.current && !comoEducarRef.current.contains(event.target)) &&
         (concursosRef.current && !concursosRef.current.contains(event.target)) &&
@@ -108,6 +110,19 @@ export default function Nav1200() {
     </div>
     );
 
+    const testimonios = (
+    <div className="desplegable" ref={testimoniosRef}>
+        <Link className="button-navN"  to={'/testimonios-ex-drogadictos'}>Testimonios: Ex-Drogadictos</Link><br />            
+        <Link className="button-navN"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link><br />            
+        <Link className="button-navN"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link> 
+        <Link className="button-navN"  to={'/testimonios-ex-satanistas'}>Testimonios: Ex-Satanistas</Link>                  
+    </div>
+    );
+
     const proyectos = (
     <div className="desplegable" ref={proyectosRef}>
         <div>
@@ -159,22 +174,6 @@ export default function Nav1200() {
             <Link className="button-navN"  to={'/folleto-la-armadura-de-dios'}>Folleto: La Armadura de Dios</Link><br />
             <Link className="button-navN"  to={'/folleto-libretos'}>Folleto: Libretos (para pagar alfabetización)</Link><br />
             <Link className="button-navN"  to={'/folleto-jesucristo'}>Folleto: Jesucristo</Link><br />          
-            <div
-                onMouseEnter={toggleSubMenuCuatro}
-                className="sub-menu-container"
-            >
-                Jesús y la Identidad<div style={{position: 'absolute', right: '0', margin: 'auto', color: 'gold'}}><FaChevronRight /></div>           
-            {subMenuVisibleCuatro && (
-                <div className="desplegable-2" style={{marginBottom: '-40px'}} ref={subMenuRefCuatro}>
-                <Link className="button-navN"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link><br />            
-                <Link className="button-navN"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link><br />
-                <Link className="button-navN"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link><br />
-                <Link className="button-navN"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link><br />
-                <Link className="button-navN"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link><br />
-                <Link className="button-navN"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link>   
-                </div>
-            )}
-            </div>
             </div>
         )}
         </div>    
@@ -185,6 +184,7 @@ export default function Nav1200() {
     const contenido = (
     <div className="desplegable">
         <Link className="button-navN" to={'/biblia-infantil'}>Biblia Infantil</Link>
+        <Link className="button-navN" to={'/juegos-super-libro'}>Juegos del Super Libro</Link>
         <div>
         <div
             onMouseEnter={() => setSubMenuVisible(true)}
@@ -258,6 +258,16 @@ export default function Nav1200() {
                 {desplegable === 'proyectos' && proyectos}
                 </div>
                 <div
+                    className='gold-bar'
+                    onClick={() => toggleDesplegable('testimonios')}
+                    onMouseEnter={() => setDesplegable('testimonios')}
+                    onMouseLeave={() => setDesplegable('')}
+                    ref={testimoniosRef}
+                >
+                    <div>Testimonios</div>
+                    {desplegable === 'testimonios' && testimonios}
+                </div>
+                <div
                 className='gold-bar'
                 onClick={() => toggleDesplegable('contenido')}
                 onMouseEnter={() => setDesplegable('contenido')}
@@ -293,7 +303,6 @@ export default function Nav1200() {
                 {desplegable === 'concursos' && concursos}
                 </div>
                 <Link style={{textDecoration: 'none'}} to={'/investiganos'}><div className='gold-bar'>Investiganos</div></Link>
-                <Link style={{textDecoration: 'none'}} to={'/juegos-super-libro'}><div className='gold-bar'>Juegos del SuperLibro</div></Link>
             </div>
             </div>
         </div>

@@ -29,6 +29,8 @@ export default function TestimoniosExSicarios() {
                     </div>
                     <div className="video-contenedor-articulos">
                         <VideoSyntax text={'IMPACTANTE TESTIMONIO: Le Apodaban "La Maldad"'} url={'https://www.youtube.com/embed/pFOqqX2U_zo?si=A2vZeCFATVXbDuUR'}/>
+                        <VideoSyntax text={'IMPACTANTE TESTIMONIO: Ex-Gatillero de la Mara MS'} url={'https://www.youtube.com/embed/FTYGa3FwTs0?si=Om3MAnXoll0NKeUH'}/>
+                        <VideoSyntax text={'IMPACTANTE TESTIMONIO: De Las Pandillas A Predicador'} url={'https://www.youtube.com/embed/JsvLAWCH1lM?si=e8zvYmmq63-Iczw3'}/>
                     </div>                                                       
                 </div>
                 <div className="video-contenedor-articulos"></div>

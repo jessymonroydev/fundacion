@@ -22,16 +22,16 @@ export default function VideosLaCreacion() {
                 </div>
                 <div style={{width: '100%'}}>
                     <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'La Creación del Mundo para Niños'} url={'https://www.youtube.com/embed/8fulp-x-5iw?si=nGzonEqk0zXvfTYC'}/>
                         <VideoSyntax text={'DIOS DE LA CREACIÓN'} url={'https://www.youtube.com/embed/XSNV2kfgEgE?si=m8P_vwj5cK4WgDDl'}/>
                         <VideoSyntax text={'CANCIÓN DE LA CREACIÓ'} url={'https://www.youtube.com/embed/TlGaYOlcIE8?si=3c7eOktu3pba8FTb'}/>
-                        <VideoSyntax text={'LA FAMILIA'} url={'https://www.youtube.com/embed/grHMiOmyv-s?si=1qeTw6wDeRhiVbx1'}/>
                         <VideoSyntax text={'LA CREACIÓN'} url={'https://www.youtube.com/embed/bHVgAb7jb60?si=XnmYY5lXE6WFf2XR'}/>                   
                     </div>
                     <div  className="video-contenedor-articulos">
                         <VideoSyntax text={'ADÁN Y EVA'} url={'https://www.youtube.com/embed/FpDXCW_GEQI?si=3JydeWOkOX6zmCS4'}/>
                         <VideoSyntax text={'CAÍN Y ABEL'} url={'https://www.youtube.com/embed/BSUhz6L4qCw?si=NheqNzMaQu-Pgm9j'}/>
                         <VideoSyntax text={'HERMOSOS PECES DE ARRECIFE'} url={'https://www.youtube.com/embed/plIZUog5cvA?si=1lVue_RjqmuIcXyG'}/>
-                        <VideoSyntax text={'LOS PECES'} url={'https://www.youtube.com/embed/rkjbstXj79A?si=wQENWMbBmR92gvmz'}/>
+                        <VideoSyntax text={'RAZAS DE POLLOS MÁS HERMOSAS'} url={'https://www.youtube.com/embed/-0y4sN67LBY?si=KlAl459HoajyNFUx'}/>                                                                                                                 
                     </div>
                     <div  className="video-contenedor-articulos">
                         <VideoSyntax text={'NO SABÍAS DE LOS MAMÍFEROS'} url={'https://www.youtube.com/embed/n5spdK-6wk8?si=SqQlGduh3fAmP5hD'}/>
@@ -55,10 +55,7 @@ export default function VideosLaCreacion() {
                         <VideoSyntax text={'ANIMALES AL NATURAL AVES'} url={'https://www.youtube.com/embed/Y7dhsTy0PoM?si=zB8NXomnzCBpfVeF'}/>
                         <VideoSyntax text={'LAS AVES DE ÁFRICA'} url={'https://www.youtube.com/embed/4F7nOSgtFNQ?si=-la3MYAP8eJQD03_'}/>
                         <VideoSyntax text={'DIEZ CANTOS DE PÁJAROS'} url={'https://www.youtube.com/embed/WDGGbIsnLIw?si=SizWEKGtL1eVXUId'}/> 
-                        <VideoSyntax text={'LAS AVES MÁS BELLAS DEL MUNDO'} url={'https://www.youtube.com/embed/z6LihCuVk9w?si=HopA6Rt9U2vjdLAs'}/>                                                                 
-                    </div>
-                    <div  className="video-contenedor-articulos">
-                        <VideoSyntax text={'RAZAS DE POLLOS MÁS HERMOSAS'} url={'https://www.youtube.com/embed/-0y4sN67LBY?si=KlAl459HoajyNFUx'}/>                                                                                                                 
+                        <VideoSyntax text={'LAS AVES MÁS BELLAS DEL MUNDO'} url={'https://www.youtube.com/embed/4pag2O5tl8Y?si=k-SV2log3Ai8J30K'}/>                                                                 
                     </div>
                 </div>
                 <div className="video-contenedor-articulos"></div>

@@ -24,7 +24,7 @@ export default function TestimoniosExTransgenero() {
                     <div className="video-contenedor-articulos">
                         <VideoSyntax text={'Ideología de género. Transexuales arrepentidos: Usan a niños como ratones de laboratorio'} url={'https://www.youtube.com/embed/tBxtEb8Ceq4?si=PVMwpuE30IW7PTPq'}/>
                         <VideoSyntax text={'El TESTIMONIO de una chica TRANS ARREPENTIDA y muchas más'} url={'https://www.youtube.com/embed/i6jhzHbksog?si=ZckrZHptfUUo84oZ'}/>
-                        <VideoSyntax text={'Amelia, joven trans arrepentida: "O acatas lo que se dice o eres el enemigo del colectivo"'} url={'https://www.youtube.com/embed/i6jhzHbksog?si=hANWc6D1PYeZ5SKN'}/>
+                        <VideoSyntax text={'Ideología de género y posesión demoníaca explicado por un exorcista / Fray Claudio OFM Cap.'} url={'https://www.youtube.com/embed/0kisbgBDPyw?si=L-8xqMEQHJkNaexl'}/>
                         <VideoSyntax text={'joven trans arrepentido'} url={'https://www.youtube.com/embed/bX16_zGra_Y?si=ZtBTKU0-Ic4jbsqM'}/>
                     </div>
                     <div className="video-contenedor-articulos">
@@ -37,6 +37,11 @@ export default function TestimoniosExTransgenero() {
                         <VideoSyntax text={'Testimonio De ex-travesti Angel Morel (Evangelista)'} url={'https://www.youtube.com/embed/jlfHWSjfUEI?si=SZ-f8fvUmBQoVOeF'}/>
                         <VideoSyntax text={'Trans-sexual se hizo Cristiano'} url={'https://www.youtube.com/embed/3BgekLiyxzw?si=BQ_GKR_y1uNWVe8V'}/>
                         <VideoSyntax text={'Testimonio de ex-travestí que se convierte a Cristo'} url={'https://www.youtube.com/embed/pM1Asf_2bNI?si=mfN7oNsv1mNZ5nN9'}/>                        
+                        <VideoSyntax text={`IMPACTANTE TESTIMONIO: &quot;DESDE NIÑO QUERÍA SER MUJER&quot;`} url={'https://www.youtube.com/embed/lFAFdcTEjL4?si=kwtrJH6pdv2w7Let'}/>                        
+                    </div>  
+                    <div className="video-contenedor-articulos">
+                        <VideoSyntax text={'Este miss trans le entregó su vida a DIOS y cambió por completo.'} url={'https://www.youtube.com/embed/A1V86EOoIUE?si=Pwl2-nqZ-DMmH9Af'}/>
+                        <VideoSyntax text={'EX TRANS CRISTIANA CUENTA TODA LA VERDAD! QUERÍA SER UNA PASTORA TRANS, TENER SU IGLESIA Y CASARSE'} url={'https://www.youtube.com/embed/MBHFHWcY_NM?si=q62GtkFz9haVJrGu'}/>
                     </div>                                                      
                 </div>
                 <div className="video-contenedor-articulos"></div>

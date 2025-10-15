@@ -1006,6 +1006,19 @@ export default function Historia() {
                     <VideoSyntax text={''} url={'https://www.youtube.com/embed/Phq7zV2HJao?si=kmr1J44sgbX0Tmej'}/>                     
                 </div>
             </div>
+        )},
+        {title: "2024", content: (
+            <div>
+                <div className="video-contenedor-articulos">
+                    <VideoSyntax text={'UNIDADES RESIDENCIALES'} url={'https://www.youtube.com/embed/hBr9OIQiPJE?si=rOXgRfT4GflL5DMg'}/> 
+                    <VideoSyntax text={'GUARDERIAS PEQUEÑAS'} url={'https://www.youtube.com/embed/l7FqkjB7kB4?si=QJRy-Zrf1qkLZ9Ao'}/> 
+                    <VideoSyntax text={'CENTRO INFANTIL BUEN COMIENZO'} url={'https://www.youtube.com/embed/nb0bAWwvUfk?si=XUktFjoNzosHoO6O'}/> 
+                    <VideoSyntax text={'INSTITUCIONES EDUCATIVAS'} url={'https://www.youtube.com/embed/lBB2TWB0vG4?si=fzIjt2glpIE6obJ4'}/> 
+                </div>
+                <div className="video-contenedor-articulos">
+                    <VideoSyntax text={'NOTI NOTICIAS EL BAUTISTA EL CORRESPOSAL DE LA VERDAD ABSOLUTA'} url={'https://www.youtube.com/embed/IfJ22U2IOWs?si=39TVrlSkbZ83Zbow'}/> 
+                </div>
+            </div>
         )}
     ];
 

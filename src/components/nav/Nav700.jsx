@@ -25,23 +25,11 @@ export default function Nav700() {
         setSecondSubDesplagable(prevContent => prevContent === content ? '' : content);
     };
 
-    const handleTercerSubDesplegable = (content) => {
-        setTercer(prevContent => prevContent === content ? '' : content);
-    };
-
     let renderConocenos = <div className='despliegue-sub-container' style={{ display: subDesplegable === 'conocenos' ? 'inherit' : 'none' }}>
             <Link to={'/historia'} className='despliegue-sub-button'>Historia</Link>
             <Link to={'/informacion-corporativa'} className='despliegue-sub-button'>Información Corporativa</Link>
             <Link to={'/fundador'} className='despliegue-sub-button'>Fundador</Link>
         </div>;
-    let renderProyectosSubCuatro = <div className='despliegue-sub-container' style={{ display: tercer === 'identidad' ? 'inherit' : 'none' }}>
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link>          
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link>
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link>
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link>
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link>
-        <Link className="despliegue-sub-button-3"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link> 
-    </div>
     let renderProyectosSubUno = <div className='despliegue-sub-container' style={{ display: secondSubDesplegable === 'jardin' ? 'inherit' : 'none' }}>
         <Link className="despliegue-sub-button-2" to={'/el-jardin-con-el-amor-de-dios'}>Pagina del proyecto</Link>
         <Link className="despliegue-sub-button-2" to={'/folleto-curso-para-capacitadores'}>Folleto: Curso para Capacitadores</Link>
@@ -67,8 +55,6 @@ export default function Nav700() {
         <Link className="despliegue-sub-button-2"  to={'/folleto-la-armadura-de-dios'}>Folleto: La Armadura de Dios</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-libretos'}>Folleto: Libretos (para pagar alfabetización)</Link>
         <Link className="despliegue-sub-button-2"  to={'/folleto-jesucristo'}>Folleto: Jesucristo</Link>
-        <div  className="despliegue-sub-button-2"  onClick={() => handleTercerSubDesplegable('identidad')}>Jesús y la Identidad</div>
-        {renderProyectosSubCuatro}
     </div>
     let renderProyectos = <div className='despliegue-sub-container' style={{ display: subDesplegable === 'proyectos' ? 'inherit' : 'none' }}>
             <div className="despliegue-sub-button" onClick={() => handleSecondSubDesplegable('jardin')}>El jardín con el amor de Dios - Para preescolar</div>
@@ -78,6 +64,16 @@ export default function Nav700() {
             <div className="despliegue-sub-button" onClick={() => handleSecondSubDesplegable('jovenes')}>Jóvenes constructores de paz y amor - de 4° a 11° grado</div>
             {renderProyectosSubTres}
         </div>;
+    let renderTestimonios = <div className='despliegue-sub-container' style={{ display: subDesplegable === 'testimonios' ? 'inherit' : 'none' }}>
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-drogadictos'}>Testimonios: Ex-Drogadictos</Link>  
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link>           
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link>
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link>
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link>
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link>
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link> 
+            <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-satanistas'}>Testimonios: Ex-Satanistas</Link> 
+        </div>  
     let renderContenidoSub = <div className='despliegue-sub-container-2 ' style={{ display: secondSubDesplegable === 'material' ? 'inherit' : 'none' }}>
         <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link>           
         <Link className="despliegue-sub-button-2"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link>
@@ -88,6 +84,7 @@ export default function Nav700() {
     </div>
     let renderContenido = <div className='despliegue-sub-container' style={{ display: subDesplegable === 'contenido' ? 'inherit' : 'none' }}>
             <Link className='despliegue-sub-button' to={'/biblia-infantil'}>Biblia Infantil</Link>
+            <Link className='despliegue-sub-button' to={'/juegos-super-libro'}>Juegos del Super Libro</Link>
             <div className="despliegue-sub-button" onClick={() => handleSecondSubDesplegable('material')}>Material Didáctico para imprimir</div>
             {renderContenidoSub}
         </div>;
@@ -109,6 +106,8 @@ export default function Nav700() {
                 {renderConocenos}
             <div className='despliegue-button' onClick={() => handleSubDesplegable('proyectos')}>Proyectos</div>
                 {renderProyectos}
+            <div className='despliegue-button' onClick={() => handleSubDesplegable('testimonios')}>Testimonios</div>
+                {renderTestimonios}
             <div className='despliegue-button' onClick={() => handleSubDesplegable('contenido')}>Contenido</div>
                 {renderContenido}
             <Link className='despliegue-button' to={'/escuela-para-padres'}>Escuela para Padres</Link>

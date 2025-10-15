@@ -71,6 +71,8 @@ import TestimoniosExLesbianas from './page/TestimoniosExLesbianas'
 import TestimoniosExProstitutas from './page/TestimoniosExProstitutas'
 import TestimoniosExSicarios from './page/TestimoniosExSicarios'
 import TestimoniosExTransgenero from './page/TestimoniosExTransgenero'
+import TestimoniosExDrogadictos from './page/TestimoniosExDrogadictos'
+import TestimoniosExSatanistas from './page/TestimoniosExSatanistas'
 import Fundador from './page/Fundador'
 import InformacionCorporativa from './page/InformacionCorporativa'
 import Apadrinamiento from './page/Apadrinamiento'
@@ -157,6 +159,8 @@ export default function App() {
         <Route path='/testimonios-ex-prostitutas' element={<TestimoniosExProstitutas/>} />
         <Route path='/testimonios-ex-sicarios' element={<TestimoniosExSicarios/>} />
         <Route path='/testimonios-ex-transgenero' element={<TestimoniosExTransgenero/>} />
+        <Route path='/testimonios-ex-drogadictos' element={<TestimoniosExDrogadictos/>} />
+        <Route path='/testimonios-ex-satanistas' element={<TestimoniosExSatanistas/>} />
         <Route path='/fundador' element={<Fundador />} />
         <Route path='/informacion-corporativa' element={<InformacionCorporativa />} />
         <Route path='/apadrinamiento' element={<Apadrinamiento />} />
