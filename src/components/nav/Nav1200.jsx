@@ -113,13 +113,13 @@ export default function Nav1200() {
     const testimonios = (
     <div className="desplegable" ref={testimoniosRef}>
         <Link className="button-navN"  to={'/testimonios-ex-drogadictos'}>Testimonios: Ex-Drogadictos</Link><br />            
-        <Link className="button-navN"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link><br />            
-        <Link className="button-navN"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link><br />
-        <Link className="button-navN"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Transgéneros</Link><br />
-        <Link className="button-navN"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link><br />
-        <Link className="button-navN"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-homosexuales'}>Testimonios: Ex-Homosexuales</Link><br />
         <Link className="button-navN"  to={'/testimonios-ex-transgenero'}>Testimonios: Ex-Transgenero</Link> 
-        <Link className="button-navN"  to={'/testimonios-ex-satanistas'}>Testimonios: Ex-Satanistas</Link>                  
+        <Link className="button-navN"  to={'/testimonios-ex-lesbianas'}>Testimonios: Ex-Lesbianas</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-sicarios'}>Testimonios: Ex-Sicarios</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-satanistas'}>Testimonios: Ex-Satanistas</Link> 
+        <Link className="button-navN"  to={'/testimonios-ex-prostitutas'}>Testimonios: Ex-Prostitutas</Link><br />
+        <Link className="button-navN"  to={'/testimonios-ex-brujos'}>Testimonios: Ex-Brujos</Link><br />                 
     </div>
     );
 
