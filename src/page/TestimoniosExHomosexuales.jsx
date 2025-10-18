@@ -26,8 +26,7 @@ export default function TestimoniosExHomosexuales() {
                     </div> 
                     <div className=''>
                         <div className='content-index-justify'>
-                        <div className='content-text-index-solo'>                  
-                            <Link className='no-decoration' to={'/el-celular'}>                    
+                        <div className='content-text-index-solo'>                                  
                             <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '3vh', justifyContent: 'center'}}>
                                 <LetrasGloboPequeñasAmarillo texto={'descubre aqui: el celular es adictivo y altera la conducta '} />                       
                             </div> 
@@ -108,7 +107,6 @@ export default function TestimoniosExHomosexuales() {
                                 <LetrasGloboPequeñasRojo texto={'los '} /> 
                                 <LetrasGloboPequeñasRojo texto={'ladrones. '} />  
                                 </div>                      
-                            </Link>
                         </div>
                         </div>
                     </div>                   
