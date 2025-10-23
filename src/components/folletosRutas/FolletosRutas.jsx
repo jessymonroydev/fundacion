@@ -25,7 +25,7 @@ export default function FolletosRutas() {
                 <Link to={'https://fundacionvolveranacer.org/la-prevencion/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto4} alt="Folleto4" />
                 </Link>
-                <Link to={'/folleto-la-armadura-de-dios'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/folleto-la-armadura-de-dios/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto5} alt="Folleto5" />
                 </Link>
                 <Link to={'https://fundacionvolveranacer.org/libretos/'} className="img-container-folleto">
