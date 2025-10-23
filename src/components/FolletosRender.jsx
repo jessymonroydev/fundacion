@@ -1,5 +1,5 @@
 import React from "react";
-import "./";
+import "../../styles/ThreeDCanvas.css";
 
 const ThreeDCanvas = () => {
   return (
