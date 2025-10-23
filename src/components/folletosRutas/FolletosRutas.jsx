@@ -32,11 +32,6 @@ export default function FolletosRutas() {
                     <img className="img-folleto" src={Folleto6} alt="Folleto6" />
                 </Link>
             </div>
-            <div className="folleto-container">                    
-                <Link to={'/Folleto-una-ninez-con-el-proposito-de-dios'} className="img-container-folleto">
-                    <img className="img-folleto" src={Folleto7} alt="Folleto7" />
-                </Link>
-            </div>
         </div>
     );
 }
