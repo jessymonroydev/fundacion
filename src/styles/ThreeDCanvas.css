@@ -1,0 +1,25 @@
+.df-container div {
+  box-sizing: border-box !important;
+}
+
+.df-3dcanvas {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  transform-style: preserve-3d;
+}
+
+.df-page-content {
+  position: absolute;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.df-page-content-left {
+  transform-origin: left center;
+}
+
+.df-page-content-right {
+  transform-origin: right center;
+}
