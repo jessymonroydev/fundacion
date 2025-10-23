@@ -82,6 +82,7 @@ import CaricaturasPeligrosas from './page/CaricaturasPeligrosas'
 import Jardin from './page/JardinConElAmorDeDios'
 import UnaNinez from './page/UnaNiñezConElPropositoDeDios'
 import JovenesConstructores from './page/JovenesConstructoresDePaz'
+import New from './page/New'
 
 
 export default function App() {
@@ -170,6 +171,7 @@ export default function App() {
         <Route path='/el-jardin-con-el-amor-de-dios' element={<Jardin />} />
         <Route path='/una-ninez-con-el-proposito-de-dios' element={<UnaNinez />} />
         <Route path='/jovenes-Constructores-de-Paz-y-Amor' element={<JovenesConstructores />} />
+        <Route path='/new' element={<New />} />
       </Routes>
     </BrowserRouter>
   )
