@@ -1,4 +1,4 @@
-import React from 'react';
+     import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Folleto1 from '../../assets/imgFolletos/Curso-para-Capacitadores2redux_page-0001.jpg';
@@ -13,22 +13,22 @@ export default function FolletosRutas() {
     return(
         <div style={{width: '100%'}}>
             <div className="folleto-container">                    
-                <Link to={'/folleto-curso-para-capacitadores'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/curso-para-capacitadores/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto1} alt="Folleto1" />
                 </Link>
-                <Link to={'/folleto-como-ayudar-a-sus-hijos'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/como-ayudar-a-sus-hijos/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto2} alt="Folleto2" />
                 </Link>
-                <Link to={'/folleto-jesucristo'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/revista-jesucristo/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto3} alt="Folleto3" />
                 </Link>
-                <Link to={'/folleto-la-prevencion'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/la-prevencion/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto4} alt="Folleto4" />
                 </Link>
                 <Link to={'/folleto-la-armadura-de-dios'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto5} alt="Folleto5" />
                 </Link>
-                <Link to={'/folleto-libretos'} className="img-container-folleto">
+                <Link to={'https://fundacionvolveranacer.org/libretos/'} className="img-container-folleto">
                     <img className="img-folleto" src={Folleto6} alt="Folleto6" />
                 </Link>
             </div>
