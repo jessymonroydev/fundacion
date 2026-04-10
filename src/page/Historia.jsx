@@ -1022,6 +1022,12 @@ export default function Historia() {
         )},
         {title: "2025", content: (
             <div>
+                <div>Este año fue maravilloso como descubrimos la forma que nos abriera las puestas en los colegios,
+                    con nuestro proyecto: Memoriza dos versículos y te ganas la BIBLIA ILUSTRADA PARA NIÑOS.<br /><br />
+                    AL MOSTRARLES A Biblia todos eran motivados y se lo aprendías y todo el salón lo expresaba,
+                    con esto demostramos que es mejor acercarlos a DIOS CON SU PALABRA, y así evitar e celular y
+                    las redes sociales que los corrompen.<br /><br />
+                    También rifamos 2 carros de control remoto entre 40 Niños que memoricen 4 versículos</div>
                 <div className="video-contenedor-articulos">
                     <VideoSyntax text={'1°  GANAN BIBLIAS POR MEMORIZAR'} url={'https://www.youtube.com/embed/qAIZJlNPwCo?si=-9ZAsJ3R08KTyKvg'}/> 
                     <VideoSyntax text={'2° PREMIOS DE CARRO DE CONTROL REMOTO'} url={'https://www.youtube.com/embed/C6GYThTBAtU?si=EWPSD_goEPre_eNB'}/> 
