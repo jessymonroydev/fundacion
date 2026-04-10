@@ -86,29 +86,32 @@ export default function Investiganos() {
                     </div>
                     <div style={{margin: 'auto'}} >2025</div>
                     <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="1° PERSONERIA VOLVER A NACER.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/1° PERSONERIA VOLVER A NACER (1).pdf" target="_blank" rel="noopener noreferrer">
                             1° PERSONERIA JURIDICA ICBF 2025
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="2° ESAL 2025.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/2° ESAL 2025 (1).pdf" target="_blank" rel="noopener noreferrer">
                             2° ESAL 2025
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="2° ACTA 75 2025.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/2° ACTA 75 2025.pdf" target="_blank" rel="noopener noreferrer">
                             3° ACTA 2025
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="4° balanse general a dic  del 2024.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/4° balanse general a dic  del 2024 (1).pdf" target="_blank" rel="noopener noreferrer">
                             4° BALANCE GENERAL A DIC 2024
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="5°  CERTIFICADO INGRESOS CARGOS ESAL 2025.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/5°  CERTIFICADO INGRESOS CARGOS ESAL 2025.pdf" target="_blank" rel="noopener noreferrer">
                             5° CERTIFICACIÓN DE INGRESOS Y CARGOS ESAL 2025
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="6°CERTIFICADO PENALES ESAL 2025.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/6°CERTIFICADO PENALES ESAL 2025 (1).pdf" target="_blank" rel="noopener noreferrer">
                             6° CERTIFICADOS PENALES 2025
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="7° DECLARACION RENTA 2025 FUNDACION PRESENTADA.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/7° DECLARACION RENTA 2025 FUNDACION PRESENTADA (1).pdf" target="_blank" rel="noopener noreferrer">
                             7° DECLARACIÓN DE RENTA 2025 
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="8° INFORME DE GESTION 2024.pdf" target="_blank" rel="noopener noreferrer">
-                            8° informe de gestión 2025
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/8 ° informe de jestion del 2024 (1).pdf" target="_blank" rel="noopener noreferrer">
+                            8° Labor social
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/9° INFORME DE GESTION 2024 (1).pdf" target="_blank" rel="noopener noreferrer">
+                            9° informe de gestión 2025
                         </a> 
                     </div>                                                                     
                 </div>

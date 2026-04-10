@@ -1019,6 +1019,22 @@ export default function Historia() {
                     <VideoSyntax text={'NOTI NOTICIAS EL BAUTISTA EL CORRESPOSAL DE LA VERDAD ABSOLUTA'} url={'https://www.youtube.com/embed/IfJ22U2IOWs?si=39TVrlSkbZ83Zbow'}/> 
                 </div>
             </div>
+        )},
+        {title: "2025", content: (
+            <div>
+                <div className="video-contenedor-articulos">
+                    <VideoSyntax text={'1°  GANAN BIBLIAS POR MEMORIZAR'} url={'https://www.youtube.com/embed/qAIZJlNPwCo?si=-9ZAsJ3R08KTyKvg'}/> 
+                    <VideoSyntax text={'2° PREMIOS DE CARRO DE CONTROL REMOTO'} url={'https://www.youtube.com/embed/C6GYThTBAtU?si=EWPSD_goEPre_eNB'}/> 
+                    <VideoSyntax text={'3° DONACIÓN BIBLIA ILUSTRADA A LOS ANCIANOS'} url={'https://www.youtube.com/embed/i-iIyzxpOMs?si=5UlWQMBuB1DlL_Wy'}/> 
+                    <VideoSyntax text={'4° DONACION A MADRES ABANDONADAS Y RANSEXUALES '} url={'https://www.youtube.com/embed/tU4_M-JYRk4?si=F7D5M5DpRTlYX7Ic'}/> 
+                </div>
+                <div className="video-contenedor-articulos">
+                    <VideoSyntax text={'5° DONACION DE FOLLETO A LAS MADRES CON SUS HIJOS EN LA CÁRCEL DE LA CANDELAR'} url={'https://www.youtube.com/embed/fXaEot8HNOo?si=YD3zBWreV1HIGHyW'}/> 
+                    <VideoSyntax text={'6° ALABAN LOS HABITANTES DE CALLE CON MENSAJE DE SALVACION'} url={'https://www.youtube.com/embed/ZqoUcCuYg0g?si=xmKL2nuuRO45f3pT'}/> 
+                    <VideoSyntax text={'7° PREMIAMOS CON BIBLISD POR MEMORIZAE VERCICULOS '} url={'https://www.youtube.com/embed/njWk5lcGU6k?si=RiVr5-po4petF035'}/> 
+                    <VideoSyntax text={'8° GANAN PREMIOS POR MEMORIZAR VERCICULO'} url={'https://www.youtube.com/embed/aDOO63Y9c3s?si=jwOqGbV4tgFCLL-S'}/> 
+                </div>
+            </div>
         )}
     ];
 
