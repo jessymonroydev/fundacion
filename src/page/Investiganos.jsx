@@ -113,7 +113,37 @@ export default function Investiganos() {
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2025/9° INFORME DE GESTION 2024 (1).pdf" target="_blank" rel="noopener noreferrer">
                             9° informe de gestión 2025
                         </a> 
-                    </div>                                                                     
+                    </div> 
+                    <div style={{margin: 'auto'}} >2026</div>
+                    <div style={{display:'flex', flexWrap:'wrap', width:'100%', justifyContent: 'center', gap: '60px'}}>
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/ACTA FIRMADA 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            1° ACTA FIRMADA 2026
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/DECLARACION RENTA FUNDACION 2025 PRESENTADA (2).pdf" target="_blank" rel="noopener noreferrer">
+                            2° DECLARACIÓN DE RENTA FUNDACIÓN 2025
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/INFORME DE GESTION 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            3° INFORME DE GESTIÓN 2026
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/PRESENTACION ESAL 2026 FUNDACION VOLVER A NACER.pdf" target="_blank" rel="noopener noreferrer">
+                            4° PRESENTACIÓN ESAL 2026 FUNDACIÓN VOLVER A NACER
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/PERSONERIA JURIDICA) 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            5° PERSONERIA JURIDICA 2026
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/PERSONERIA JURIDICA) 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            6° ESTADOS FINANCIEROS A DIC 2025
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/CERTIFICADO PENALES ESAL 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            7° CERTIFICADOS PENALES ESAL 2026
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/CERTIFICADO INGRESOS CARGOS ESAL 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            8° CERTIFICADO INGRESOS CARGOS ESAL 2026
+                        </a> 
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/CERTIFICACION RENTA 2026.pdf" target="_blank" rel="noopener noreferrer">
+                            9° CERTIFICACIÓN RENTA 2026
+                        </a> 
+                    </div>                                                                      
                 </div>
                 <Counter />   
                 <Footer />
