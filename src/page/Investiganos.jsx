@@ -131,7 +131,7 @@ export default function Investiganos() {
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/PERSONERIA JURIDICA) 2026.pdf" target="_blank" rel="noopener noreferrer">
                             5° PERSONERIA JURIDICA 2026
                         </a> 
-                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/PERSONERIA JURIDICA) 2026.pdf" target="_blank" rel="noopener noreferrer">
+                        <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="ESTADOS FINANCIEROS A DIC 2025 FUNDACION.pdf" target="_blank" rel="noopener noreferrer">
                             6° ESTADOS FINANCIEROS A DIC 2025
                         </a> 
                         <a style={{textDecoration: 'none', color: '#04acfc', width:'350px', textAlign: 'center'}} className="aNO" href="/2026/CERTIFICADO PENALES ESAL 2026.pdf" target="_blank" rel="noopener noreferrer">
